@@ -13,6 +13,8 @@ public class CameraChange : MonoBehaviour
     [SerializeField] private Text LMBInstruction;
     [SerializeField] private AnxietyManager manager;
 
+    [SerializeField] private Canvas NormalUI;
+
     void Start()
     {
         if (!BedCamera || !PlayerCamera)
@@ -25,7 +27,7 @@ public class CameraChange : MonoBehaviour
             //keep the bed camera
             BedCamera.enabled = true;
             PlayerCamera.enabled = false;
-            
+
         }
     }
 
