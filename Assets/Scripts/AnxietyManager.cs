@@ -7,9 +7,15 @@ using UnityEngine.PostProcessing;
 public class AnxietyManager : MonoBehaviour
 {
     private int AnxietyMeter = 0;
-    
+
     [SerializeField] private PostProcessingProfile postProcProf;
-   
+    [SerializeField] BreathingExercise exercise;
+
+    /// <summary>
+    /// at what percentage does the exercise start
+    /// </summary>
+    [SerializeField] private int BreathingExerciseThreshold = 70;
+
 
     private void Update()
     {
@@ -18,13 +24,16 @@ public class AnxietyManager : MonoBehaviour
         var grayScale = postProcProf.colorGrading.settings;
 
         grayScale.basic.saturation = 1 - (AnxietyMeter / 100f);
-
-        vignette.intensity= AnxietyMeter / 200f;
-
-        //bloom.bloom.intensity = AnxietyMeter/100f;
-
+        
         postProcProf.colorGrading.settings = grayScale;
-       // postProcProf.vignette.settings = vignette;
+    }
+    
+    //reset the values to default, at least one of them
+    private void OnDestroy()
+    {
+        var grayScale = postProcProf.colorGrading.settings;
+        grayScale.basic.saturation = 1;
+        postProcProf.colorGrading.settings = grayScale;
     }
 
     public void IncreaseAnxiety(int level)
@@ -51,11 +60,18 @@ public class AnxietyManager : MonoBehaviour
 
     public void CheckAnxiety()
     {
-        if (AnxietyMeter >= 100)
+        if (AnxietyMeter > BreathingExerciseThreshold)
         {
-            Debug.Log("Changed scene");
-            SceneManager.LoadScene("EndScene");
+            if (AnxietyMeter >= 100)
+            {
+                Debug.Log("Changed scene");
+                SceneManager.LoadScene("EndScene");
+            }
+
+            exercise.StartPanicAttack();
+
         }
+
     }
 
 }

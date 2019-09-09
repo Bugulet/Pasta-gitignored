@@ -1297,6 +1297,7 @@ GameObject:
   m_Component:
   - component: {fileID: 915687391}
   - component: {fileID: 915687392}
+  - component: {fileID: 915687393}
   m_Layer: 0
   m_Name: Anxiety manager
   m_TagString: Untagged
@@ -1331,6 +1332,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   postProcProf: {fileID: 11400000, guid: afb7f37d5a67d65449bf3904ded8db25, type: 2}
+  exercise: {fileID: 915687393}
+  BreathingExerciseThreshold: 70
+--- !u!114 &915687393
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 915687390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13ca9082d8cc1334eb8a0f9631c2dbad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  circle: {fileID: 1211242954}
+  BreathInThreshold: 4
+  BreathHoldThreshold: 7
+  BreathOutThreshold: 8
 --- !u!1 &1022300368 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -1086071587266748984, guid: ab60fb81278ea534fa94f52c6f0629a5,
@@ -1426,6 +1445,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 66.77444, y: 97.291664, z: 23.293705}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1211242954 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4724700635731470825, guid: 23dbd0fc3449a8447b0dafa7b4326975,
+    type: 3}
+  m_PrefabInstance: {fileID: 1436598115}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1344c3c82d62a2a41a3576d8abb8e3ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1239135239
 GameObject:
   m_ObjectHideFlags: 0
@@ -1966,21 +1997,6 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 651313747636668814, guid: 23dbd0fc3449a8447b0dafa7b4326975,
-        type: 3}
-      propertyPath: m_RenderMode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 651313747636668814, guid: 23dbd0fc3449a8447b0dafa7b4326975,
-        type: 3}
-      propertyPath: m_Camera
-      value: 
-      objectReference: {fileID: 1023744701}
-    - target: {fileID: 651313747636668814, guid: 23dbd0fc3449a8447b0dafa7b4326975,
-        type: 3}
-      propertyPath: m_PlaneDistance
-      value: 0.5
-      objectReference: {fileID: 0}
     - target: {fileID: 3396784228212976929, guid: 23dbd0fc3449a8447b0dafa7b4326975,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2086,6 +2102,21 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 651313747636668814, guid: 23dbd0fc3449a8447b0dafa7b4326975,
+        type: 3}
+      propertyPath: m_RenderMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 651313747636668814, guid: 23dbd0fc3449a8447b0dafa7b4326975,
+        type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 1023744701}
+    - target: {fileID: 651313747636668814, guid: 23dbd0fc3449a8447b0dafa7b4326975,
+        type: 3}
+      propertyPath: m_PlaneDistance
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 2518290059133880664, guid: 23dbd0fc3449a8447b0dafa7b4326975,
         type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -2170,6 +2201,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_textInfo.pageCount
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1348782762650702672, guid: 23dbd0fc3449a8447b0dafa7b4326975,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4724700635731470825, guid: 23dbd0fc3449a8447b0dafa7b4326975,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 23dbd0fc3449a8447b0dafa7b4326975, type: 3}
@@ -2374,11 +2415,6 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 28005198246820569, guid: e2232815da2d7be4bb63974bb608447a,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 1537554872757748995, guid: e2232815da2d7be4bb63974bb608447a,
         type: 3}
       propertyPath: m_textInfo.characterCount
@@ -2403,6 +2439,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_textInfo.pageCount
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 28005198246820569, guid: e2232815da2d7be4bb63974bb608447a,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e2232815da2d7be4bb63974bb608447a, type: 3}
@@ -2877,11 +2918,6 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 28005198246820569, guid: e2232815da2d7be4bb63974bb608447a,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 1537554872757748995, guid: e2232815da2d7be4bb63974bb608447a,
         type: 3}
       propertyPath: m_textInfo.characterCount
@@ -2906,6 +2942,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_textInfo.pageCount
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 28005198246820569, guid: e2232815da2d7be4bb63974bb608447a,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e2232815da2d7be4bb63974bb608447a, type: 3}
