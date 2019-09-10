@@ -19,12 +19,17 @@ public class AnxietyManager : MonoBehaviour
 
     private void Update()
     {
+        
+    }
+
+    private void SetEffects()
+    {
         var vignette = postProcProf.vignette.settings;
         var bloom = postProcProf.bloom.settings;
         var grayScale = postProcProf.colorGrading.settings;
 
         grayScale.basic.saturation = 1 - (AnxietyMeter / 100f);
-        
+
         postProcProf.colorGrading.settings = grayScale;
     }
     
@@ -40,6 +45,8 @@ public class AnxietyManager : MonoBehaviour
     {
         AnxietyMeter += level;
 
+        SetEffects();
+
         CheckAnxiety();
 
         Debug.Log("INCREASED ANXIETY, LEVEL: " + AnxietyMeter);
@@ -48,6 +55,8 @@ public class AnxietyManager : MonoBehaviour
     public void DecreaseAnxiety(int level)
     {
         AnxietyMeter -= level;
+
+        SetEffects();
 
         Debug.Log("DECREASED ANXIETY, LEVEL: " + AnxietyMeter);
     }
