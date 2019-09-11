@@ -29,7 +29,7 @@ public class RaycastInterract : MonoBehaviour
                 
 
                 //check if interraction is started
-                if (Input.GetKeyDown(KeyCode.E))
+                if (Input.GetMouseButtonDown(0))
                 {
                     if(hit.collider.CompareTag("Interractible"))
                     {
