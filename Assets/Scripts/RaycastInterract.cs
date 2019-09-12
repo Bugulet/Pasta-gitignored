@@ -23,22 +23,27 @@ public class RaycastInterract : MonoBehaviour
         if (Physics.Raycast(transform.position,transform.forward, out hit,InterractionDistance))
         {
             //check if it is interractible
-            if (hit.collider.CompareTag("Interractible") || hit.collider.CompareTag("Bad Memory"))
+            if (hit.collider.CompareTag("Interractible") || hit.collider.CompareTag("Bad Memory") || hit.collider.CompareTag("InterractObjects"))
             {
                 MainUI.GetComponent<MainUIManager>().ChangeObjectName(hit.collider.name);
                 
 
                 //check if interraction is started
-                if (Input.GetKeyDown(KeyCode.E))
+                if (Input.GetMouseButtonDown(0))
                 {
                     if(hit.collider.CompareTag("Interractible"))
                     {
                         hit.collider.GetComponent<EnableText>().StartHint();
                     }
-                    else
+                    else if(hit.collider.CompareTag("Bad Memory"))
                     {
                         hit.collider.GetComponent<EnableText>().StartHint();
                         FindObjectOfType<AnxietyManager>().IncreaseAnxiety(AnxietyLevelIncrease);
+                    }
+                    else
+                    {
+                        Debug.Log("AAAAAAA");
+                        hit.collider.GetComponent<ChangeModel>().ChangeObject();
                     }
                     // Debug.Log("object: " + hit.collider.name + " hit at distance: "+hit.distance);
                 }
@@ -46,7 +51,7 @@ public class RaycastInterract : MonoBehaviour
         }
         
         //if the collider does not exist or is not interractible, set the UI tip to blank
-        if(hit.collider==null ||( !hit.collider.CompareTag("Interractible") && !hit.collider.CompareTag("Bad Memory")))
+        if(hit.collider==null ||( !hit.collider.CompareTag("Interractible") && !hit.collider.CompareTag("Bad Memory") && !hit.collider.CompareTag("InterractObjects")))
         {
             MainUI.GetComponent<MainUIManager>().ChangeObjectName("");
         }
