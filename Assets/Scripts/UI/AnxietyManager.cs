@@ -52,13 +52,13 @@ public class AnxietyManager : MonoBehaviour
         Debug.Log("INCREASED ANXIETY, LEVEL: " + AnxietyMeter);
     }
 
-    public void DecreaseAnxiety(int level)
+    public void SetAnxiety(int level)
     {
-        AnxietyMeter -= level;
+        AnxietyMeter = level;
 
         SetEffects();
 
-        Debug.Log("DECREASED ANXIETY, LEVEL: " + AnxietyMeter);
+        Debug.Log("SET ANXIETY, LEVEL: " + AnxietyMeter);
     }
 
     public int GetAnxiety()

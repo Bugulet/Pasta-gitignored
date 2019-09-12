@@ -57,7 +57,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 60
+  field of view: 109
   orthographic: 0
   orthographic size: 5
   m_Depth: 0
@@ -129,5 +129,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BedCamera: {fileID: 4922569653026562103}
   PlayerCamera: {fileID: 0}
-  BedCanvas: {fileID: 0}
+  PTSDMode: 0
+  RMBInstruction: {fileID: 0}
+  LMBInstruction: {fileID: 0}
+  manager: {fileID: 0}
   NormalUI: {fileID: 0}
