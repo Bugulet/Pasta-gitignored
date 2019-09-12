@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="AudioFile" id="{5324b341-5e89-4fe0-8e85-b634f3009acd}">
+        <property name="assetPath">
+            <value>SFX/fire-loop.mp3</value>
+        </property>
+        <property name="isStreaming">
+            <value>true</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>11.0249996</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>108.77387755102041</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{8b1652ac-4a73-4555-bce7-dba9a920375d}</destination>
+        </relationship>
+    </object>
+</objects>
