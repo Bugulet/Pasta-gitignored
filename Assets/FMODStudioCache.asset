@@ -1,5 +1,24 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8053507184231122474
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Music.bank
+  m_EditorClassIdentifier:
+  Path: C:\Users\angel\Documents\GitHub\Pasta-gitignored\Assets\FMOD\Footsteps\footsteps\Build\Desktop\Music.bank
+  lastModified: 637038119750308309
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 4315712
+  Exists: 1
 --- !u!114 &-7728199768036866563
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11,13 +30,17 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
   m_Name: bank:/Master Bank.strings.bank
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   Path: Assets\FMOD\Footsteps\footsteps\Build\Desktop\Master Bank.strings.bank
+<<<<<<< Updated upstream
+  lastModified: 637038119655510088
+=======
   lastModified: 637037316093958067
+>>>>>>> Stashed changes
   LoadResult: 0
   FileSizes:
   - Name: Desktop
-    Value: 824
+    Value: 920
   Exists: 1
 --- !u!114 &-7481797597897272554
 MonoBehaviour:
@@ -30,7 +53,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
   m_Name: bank:/Music.bank
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   Path: F:\Y2\Q1\Project\Pasta-gitignored\Assets\FMOD\Footsteps\footsteps\Build\Desktop\Music.bank
   lastModified: 637037299242906543
   LoadResult: 0
@@ -38,6 +61,7 @@ MonoBehaviour:
   - Name: Desktop
     Value: 2946720
   Exists: 0
+<<<<<<< Updated upstream
 --- !u!114 &-6947760169900185847
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49,7 +73,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
   m_Name: bank:/Master Bank.bank
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   Path: C:\Users\Gebruiker\Documents\GitHub\Pasta-gitignored\Assets\FMOD\Footsteps\footsteps\Build\Desktop\Master
     Bank.bank
   lastModified: 637037316093918090
@@ -58,6 +82,48 @@ MonoBehaviour:
   - Name: Desktop
     Value: 45632
   Exists: 1
+--- !u!114 &-5732366495543313640
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Music/Anxiety
+  m_EditorClassIdentifier:
+  Name: Anxiety
+  Min: 0
+  Max: 110
+  Default: 0
+  Exists: 1
+--- !u!114 &-5505012588963158306
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Triggers/Candles
+  m_EditorClassIdentifier:
+  Path: event:/Triggers/Candles
+  guid: 2dcc6ada57231a4a846ae3d9e878d7f3
+  Banks:
+  - {fileID: -8053507184231122474}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 108773
+=======
+>>>>>>> Stashed changes
 --- !u!114 &-5458878703514497267
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -69,7 +135,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
   m_Name: parameter:/Music/Anxiety
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   Name: Anxiety
   Min: 0
   Max: 110
@@ -86,19 +152,47 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
   m_Name: event:/Music/Music
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   Path: event:/Music/Music
   guid: 0d25d8898482ff41a398fab29731cc1a
   Banks:
-  - {fileID: -2476863494617801364}
+<<<<<<< Updated upstream
+  - {fileID: -8053507184231122474}
+=======
+  - {fileID: 7316688980340566820}
+>>>>>>> Stashed changes
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: 6287154743287442345}
+<<<<<<< Updated upstream
+  - {fileID: -5732366495543313640}
+=======
+  - {fileID: 6439144471151687630}
+>>>>>>> Stashed changes
   MinDistance: 0
   MaxDistance: 0
   Length: 284000
+--- !u!114 &-4257822422860890595
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master Bank.bank
+  m_EditorClassIdentifier:
+  Path: C:\Users\angel\Documents\GitHub\Pasta-gitignored\Assets\FMOD\Footsteps\footsteps\Build\Desktop\Master
+    Bank.bank
+  lastModified: 637038119655422650
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 49184
+  Exists: 1
 --- !u!114 &-4178921875997043620
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -110,7 +204,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
   m_Name: event:/Footsteps
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   Path: event:/Footsteps
   guid: 7815a170c22761488574a30bfb9e59bd
   Banks:
@@ -133,11 +227,15 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
   m_Name: event:/SFX/Footsteps
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   Path: event:/SFX/Footsteps
   guid: 7815a170c22761488574a30bfb9e59bd
   Banks:
-  - {fileID: -6947760169900185847}
+<<<<<<< Updated upstream
+  - {fileID: -4257822422860890595}
+=======
+  - {fileID: 4479424592186865093}
+>>>>>>> Stashed changes
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -156,7 +254,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
   m_Name: bank:/Music.bank
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   Path: C:\Users\angel\Documents\GitHub\Pasta-gitignored\Assets\FMOD\Footsteps\footsteps\Build\Desktop\Music.bank
   lastModified: 637037277981290656
   LoadResult: 0
@@ -175,7 +273,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
   m_Name: bank:/Music.bank
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   Path: C:\Users\Gebruiker\Documents\GitHub\Pasta-gitignored\Assets\FMOD\Footsteps\footsteps\Build\Desktop\Music.bank
   lastModified: 637037316096488755
   LoadResult: 0
@@ -194,7 +292,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
   m_Name: bank:/Master Bank.bank
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   Path: F:\Y2\Q1\Project\Pasta-gitignored\Assets\FMOD\Footsteps\footsteps\Build\Desktop\Master
     Bank.bank
   lastModified: 637037299242218509
@@ -203,6 +301,26 @@ MonoBehaviour:
   - Name: Desktop
     Value: 45632
   Exists: 0
+<<<<<<< Updated upstream
+--- !u!114 &-1793219493432386500
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Music/Anxiety
+  m_EditorClassIdentifier:
+  Name: Anxiety
+  Min: 0
+  Max: 110
+  Default: 0
+  Exists: 1
+=======
+>>>>>>> Stashed changes
 --- !u!114 &-1649135257809436728
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -214,7 +332,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
   m_Name: parameter:/Music/Anxiety
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   Name: Anxiety
   Min: 0
   Max: 110
@@ -231,7 +349,24 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
   m_Name: parameter:/Music/Anxiety
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
+  Name: Anxiety
+  Min: 0
+  Max: 110
+  Default: 0
+  Exists: 1
+--- !u!114 &-69674810169164890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Music/Anxiety
+  m_EditorClassIdentifier:
   Name: Anxiety
   Min: 0
   Max: 110
@@ -248,20 +383,57 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
   m_Name: FMODStudioCache
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   EditorBanks:
   - {fileID: -7728199768036866563}
-  - {fileID: -6947760169900185847}
-  - {fileID: -2476863494617801364}
+<<<<<<< Updated upstream
+  - {fileID: -4257822422860890595}
+  - {fileID: -8053507184231122474}
+=======
+  - {fileID: 4479424592186865093}
+  - {fileID: 7316688980340566820}
+>>>>>>> Stashed changes
   EditorEvents:
   - {fileID: -3451426533335836609}
   - {fileID: -4644244054169782466}
+  - {fileID: 878246086037563332}
+  - {fileID: -5505012588963158306}
   MasterBanks:
-  - {fileID: -6947760169900185847}
+<<<<<<< Updated upstream
+  - {fileID: -4257822422860890595}
+  StringsBanks:
+  - {fileID: -7728199768036866563}
+  stringsBankWriteTime: 637038119655510088
+=======
+  - {fileID: 4479424592186865093}
   StringsBanks:
   - {fileID: -7728199768036866563}
   stringsBankWriteTime: 637037316093958067
+>>>>>>> Stashed changes
   cacheVersion: 3
+--- !u!114 &878246086037563332
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Phone
+  m_EditorClassIdentifier:
+  Path: event:/SFX/Phone
+  guid: dbb974e25982fa4ca8081991bef652d9
+  Banks:
+  - {fileID: -4257822422860890595}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 589
 --- !u!114 &3183401806304669580
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -273,7 +445,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
   m_Name: bank:/Master Bank.bank
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   Path: C:\Users\angel\Documents\GitHub\Pasta-gitignored\Assets\FMOD\Footsteps\footsteps\Build\Desktop\Master
     Bank.bank
   lastModified: 637037277980000878
@@ -282,7 +454,43 @@ MonoBehaviour:
   - Name: Desktop
     Value: 45632
   Exists: 1
+<<<<<<< Updated upstream
 --- !u!114 &6287154743287442345
+=======
+--- !u!114 &4479424592186865093
+>>>>>>> Stashed changes
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+<<<<<<< Updated upstream
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Music/Anxiety
+  m_EditorClassIdentifier:
+  Name: Anxiety
+  Min: 0
+  Max: 110
+  Default: 0
+  Exists: 1
+--- !u!114 &8364576165892186522
+=======
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master Bank.bank
+  m_EditorClassIdentifier: 
+  Path: C:\Users\Gebruiker\Documents\GitHub\Pasta-gitignored\Assets\FMOD\Footsteps\footsteps\Build\Desktop\Master
+    Bank.bank
+  lastModified: 637037316093918090
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 45632
+  Exists: 1
+--- !u!114 &6439144471151687630
+>>>>>>> Stashed changes
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -293,11 +501,30 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
   m_Name: parameter:/Music/Anxiety
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   Name: Anxiety
   Min: 0
   Max: 110
   Default: 0
+  Exists: 1
+--- !u!114 &7316688980340566820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Music.bank
+  m_EditorClassIdentifier: 
+  Path: C:\Users\Gebruiker\Documents\GitHub\Pasta-gitignored\Assets\FMOD\Footsteps\footsteps\Build\Desktop\Music.bank
+  lastModified: 637037316096488755
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 2946720
   Exists: 1
 --- !u!114 &8364576165892186522
 MonoBehaviour:
@@ -315,4 +542,4 @@ MonoBehaviour:
   Min: 0
   Max: 110
   Default: 0
-  Exists: 1
+  Exists: 0
