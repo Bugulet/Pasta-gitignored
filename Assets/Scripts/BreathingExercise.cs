@@ -1,19 +1,16 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
-using TMPro;
 
 public class BreathingExercise : MonoBehaviour
 {
+    [SerializeField] private GameObject NormalUI;
     [SerializeField] private AnxietyManager manager;
-    [SerializeField] private RawImage circle;
-    [SerializeField] private TextMeshProUGUI instruction;
-    [SerializeField] private TextMeshProUGUI counter;
-    [SerializeField] private Image crosshair;
-    [SerializeField] private int BreathInThreshold = 3;
-    [SerializeField] private int BreathHoldThreshold = 3;
-    [SerializeField] private int BreathOutThreshold = 3;
+     private RawImage circle;
+     private TextMeshProUGUI instruction;
+     private TextMeshProUGUI counter;
+     private Image crosshair;
+    [SerializeField] private int ScoreThreshold = 3;
 
     private bool attackIsHappening = false;
     private bool activateAttack = false;
@@ -34,6 +31,10 @@ public class BreathingExercise : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        circle = NormalUI.transform.GetChild(0).GetComponent<RawImage>();
+        instruction = NormalUI.transform.GetChild(1).GetComponent<TextMeshProUGUI>();
+        counter = NormalUI.transform.GetChild(2).GetComponent<TextMeshProUGUI>();   
+        crosshair = NormalUI.transform.GetChild(3).GetComponent<Image>();
         //make sure its invisible at first
         instruction.alpha = 0;
         counter.alpha = 0;
@@ -57,6 +58,7 @@ public class BreathingExercise : MonoBehaviour
 
         if (attackIsHappening)
         {
+            instruction.SetText("Click when the circle is very big/small" +'\n'+(ScoreThreshold-score)+" points to go");
             crosshair.GetComponent<Image>().enabled = false;
             instruction.alpha = 255;
             counter.alpha = 255;
@@ -65,7 +67,7 @@ public class BreathingExercise : MonoBehaviour
             circle.GetComponent<RawImage>().enabled = true;
 
             circle.transform.localScale =  map(Mathf.Sin(Time.time), -1,1, 0.5f, circleScale) * Vector3.one;
-            Color c = new Color(1, map(Mathf.Sin(Time.time), -1, 1, 0, 1), 1 - map(Mathf.Sin(Time.time), -1,1,0,1));
+            Color c = new Color(1, map(Mathf.Sin(Time.time), -1, 1, 0.5f, 1), map(Mathf.Sin(Time.time), -1,1,0,1 ),0.5f);
             circle.GetComponent<RawImage>().color = c;
 
             if (Input.GetMouseButtonDown(0))
@@ -86,7 +88,7 @@ public class BreathingExercise : MonoBehaviour
                 counter.SetText(""+score);
             }
 
-            if (score > 4)
+            if (score >= ScoreThreshold)
             {
                 StopPanicAttack();
             }
