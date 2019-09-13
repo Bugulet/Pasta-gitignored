@@ -32,11 +32,11 @@ MonoBehaviour:
   m_Name: bank:/Master Bank.strings.bank
   m_EditorClassIdentifier: 
   Path: Assets\FMOD\Footsteps\footsteps\Build\Desktop\Master Bank.strings.bank
-  lastModified: 637039226880957652
+  lastModified: 637039731666478824
   LoadResult: 0
   FileSizes:
   - Name: Desktop
-    Value: 824
+    Value: 920
   Exists: 1
 --- !u!114 &-7481797597897272554
 MonoBehaviour:
@@ -57,6 +57,23 @@ MonoBehaviour:
   - Name: Desktop
     Value: 2946720
   Exists: 0
+--- !u!114 &-6149172227779177105
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Music/Anxiety
+  m_EditorClassIdentifier: 
+  Name: Anxiety
+  Min: 0
+  Max: 110
+  Default: 0
+  Exists: 1
 --- !u!114 &-5458878703514497267
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -89,12 +106,12 @@ MonoBehaviour:
   Path: event:/Music/Music
   guid: 0d25d8898482ff41a398fab29731cc1a
   Banks:
-  - {fileID: -8349049773338690768}
+  - {fileID: -4126491670802685241}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: -1549216457444220658}
+  - {fileID: -6149172227779177105}
   MinDistance: 0
   MaxDistance: 0
   Length: 284000
@@ -121,6 +138,25 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 2000
+--- !u!114 &-4126491670802685241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Music.bank
+  m_EditorClassIdentifier: 
+  Path: F:\Y2\Q1\Project\Pasta-gitignored\Assets\FMOD\Footsteps\footsteps\Build\Desktop\Music.bank
+  lastModified: 637039731667605814
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 4315712
+  Exists: 1
 --- !u!114 &-3451426533335836609
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -136,7 +172,7 @@ MonoBehaviour:
   Path: event:/SFX/Footsteps
   guid: 7815a170c22761488574a30bfb9e59bd
   Banks:
-  - {fileID: 6216015149327244921}
+  - {fileID: 437887352263485837}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -248,17 +284,85 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EditorBanks:
   - {fileID: -7728199768036866563}
-  - {fileID: 6216015149327244921}
-  - {fileID: -8349049773338690768}
+  - {fileID: 437887352263485837}
+  - {fileID: -4126491670802685241}
   EditorEvents:
   - {fileID: -3451426533335836609}
   - {fileID: -4644244054169782466}
+  - {fileID: 836736942768202973}
+  - {fileID: 2021257279629605836}
   MasterBanks:
-  - {fileID: 6216015149327244921}
+  - {fileID: 437887352263485837}
   StringsBanks:
   - {fileID: -7728199768036866563}
-  stringsBankWriteTime: 637039226880957652
+  stringsBankWriteTime: 637039731666478824
   cacheVersion: 3
+--- !u!114 &437887352263485837
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master Bank.bank
+  m_EditorClassIdentifier: 
+  Path: F:\Y2\Q1\Project\Pasta-gitignored\Assets\FMOD\Footsteps\footsteps\Build\Desktop\Master
+    Bank.bank
+  lastModified: 637039731666448900
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 49184
+  Exists: 1
+--- !u!114 &836736942768202973
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Phone
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Phone
+  guid: dbb974e25982fa4ca8081991bef652d9
+  Banks:
+  - {fileID: 437887352263485837}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 589
+--- !u!114 &2021257279629605836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Triggers/Candles
+  m_EditorClassIdentifier: 
+  Path: event:/Triggers/Candles
+  guid: 2dcc6ada57231a4a846ae3d9e878d7f3
+  Banks:
+  - {fileID: -4126491670802685241}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 108773
 --- !u!114 &3183401806304669580
 MonoBehaviour:
   m_ObjectHideFlags: 0
