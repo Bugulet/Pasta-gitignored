@@ -1,19 +1,16 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
-using TMPro;
 
 public class BreathingExercise : MonoBehaviour
 {
+    [SerializeField] private GameObject NormalUI;
     [SerializeField] private AnxietyManager manager;
-    [SerializeField] private RawImage circle;
-    [SerializeField] private TextMeshProUGUI instruction;
-    [SerializeField] private TextMeshProUGUI counter;
-    [SerializeField] private Image crosshair;
-    [SerializeField] private int BreathInThreshold = 3;
-    [SerializeField] private int BreathHoldThreshold = 3;
-    [SerializeField] private int BreathOutThreshold = 3;
+     private RawImage circle;
+     private TextMeshProUGUI instruction;
+     private TextMeshProUGUI counter;
+     private Image crosshair;
+    [SerializeField] private int ScoreThreshold = 3;
 
     private bool attackIsHappening = false;
     private bool activateAttack = false;
@@ -29,9 +26,15 @@ public class BreathingExercise : MonoBehaviour
     private float breathCounter = 0;
 
 
+    private int score=0;
+
     // Start is called before the first frame update
     void Start()
     {
+        circle = NormalUI.transform.GetChild(0).GetComponent<RawImage>();
+        instruction = NormalUI.transform.GetChild(1).GetComponent<TextMeshProUGUI>();
+        counter = NormalUI.transform.GetChild(2).GetComponent<TextMeshProUGUI>();   
+        crosshair = NormalUI.transform.GetChild(3).GetComponent<Image>();
         //make sure its invisible at first
         instruction.alpha = 0;
         counter.alpha = 0;
@@ -44,7 +47,6 @@ public class BreathingExercise : MonoBehaviour
     {
         if (activateAttack)
         {
-            
             instruction.alpha = 255;
             instruction.SetText("Press F to start the breathing exercise");
             if (Input.GetKeyDown(KeyCode.F))
@@ -56,6 +58,7 @@ public class BreathingExercise : MonoBehaviour
 
         if (attackIsHappening)
         {
+            instruction.SetText("Click when the circle is very big/small" +'\n'+(ScoreThreshold-score)+" points to go");
             crosshair.GetComponent<Image>().enabled = false;
             instruction.alpha = 255;
             counter.alpha = 255;
@@ -63,65 +66,93 @@ public class BreathingExercise : MonoBehaviour
             //set the circle to visible
             circle.GetComponent<RawImage>().enabled = true;
 
-            //breath in
-            if (breathingStage == 0)
+            circle.transform.localScale =  map(Mathf.Sin(Time.time), -1,1, 0.5f, circleScale) * Vector3.one;
+            Color c = new Color(1, map(Mathf.Sin(Time.time), -1, 1, 0.5f, 1), map(Mathf.Sin(Time.time), -1,1,0,1 ),0.5f);
+            circle.GetComponent<RawImage>().color = c;
+
+            if (Input.GetMouseButtonDown(0))
             {
-                instruction.SetText("Left click to breathe in" + '\n' + (3 - currentRepeats) + " more times to go");
-                if (Input.GetMouseButton(0))
+                if (Mathf.Sin(Time.time) < -0.5f)
                 {
-                    breathCounter += Time.deltaTime;
-                    circle.transform.localScale = map(breathCounter,0,BreathInThreshold,0.5f,circleScale) * Vector3.one;
-                    counter.SetText("" + (int)breathCounter);
-                    if (breathCounter > BreathInThreshold)
-                    {
-                        breathingStage++;
-                        breathCounter = 0;
-                        counter.SetText("" + (int)breathCounter);
-                    }
+                    score++;
                 }
+                else if (Mathf.Sin(Time.time) > 0.5f)
+                {
+                    score++;
+                }
+                else
+                {
+                    score = 0;
+                }
+
+                counter.SetText(""+score);
             }
 
-            //hold breath
-            if (breathingStage == 1)
+            if (score >= ScoreThreshold)
             {
-                instruction.SetText("Don't press anything to hold breath" + '\n' + (3 - currentRepeats) + " more times to go");
-                if (!Input.GetMouseButton(1) && !Input.GetMouseButton(0))
-                {
-                    breathCounter += Time.deltaTime;
-                    //circle.transform.localScale = BreathInThreshold * Vector3.one - breathCounter * Vector3.one;
-                    counter.SetText("" + (int)breathCounter);
-                    if (breathCounter > BreathHoldThreshold)
-                    {
-                        breathingStage++;
-                        breathCounter = 0;
-                        counter.SetText("" + (int)breathCounter);
-                    }
-                }
+                StopPanicAttack();
             }
+            
 
-            //breathe out
-            if (breathingStage == 2)
-            {
-                instruction.SetText("Right click to breathe out" + '\n' + (3 - currentRepeats) + " more times to go");
-                if (Input.GetMouseButton(1))
-                {
-                    breathCounter += Time.deltaTime;
-                    circle.transform.localScale =circleScale  * Vector3.one - map(breathCounter, 0, BreathOutThreshold,0, circleScale-0.5f) * Vector3.one;
-                    counter.SetText("" + (int)breathCounter);
-                    if (breathCounter > BreathOutThreshold)
-                    {
-                        breathingStage = 0;
-                        breathCounter = 0;
-                        currentRepeats++;
-                        counter.SetText("" + (int)breathCounter);
-                        //attack ends
-                        if (currentRepeats >= 3)
-                        {
-                            StopPanicAttack();
-                        }
-                    }
-                }
-            }
+            ////breath in
+            //if (breathingStage == 0)
+            //{
+            //    instruction.SetText("Left click to breathe in" + '\n' + (3 - currentRepeats) + " more times to go");
+            //    if (Input.GetMouseButton(0))
+            //    {
+            //        breathCounter += Time.deltaTime;
+            //        circle.transform.localScale = map(breathCounter,0,BreathInThreshold,0.5f,circleScale) * Vector3.one;
+            //        counter.SetText("" + (int)breathCounter);
+            //        if (breathCounter > BreathInThreshold)
+            //        {
+            //            breathingStage++;
+            //            breathCounter = 0;
+            //            counter.SetText("" + (int)breathCounter);
+            //        }
+            //    }
+            //}
+
+            ////hold breath
+            //if (breathingStage == 1)
+            //{
+            //    instruction.SetText("Don't press anything to hold breath" + '\n' + (3 - currentRepeats) + " more times to go");
+            //    if (!Input.GetMouseButton(1) && !Input.GetMouseButton(0))
+            //    {
+            //        breathCounter += Time.deltaTime;
+            //        //circle.transform.localScale = BreathInThreshold * Vector3.one - breathCounter * Vector3.one;
+            //        counter.SetText("" + (int)breathCounter);
+            //        if (breathCounter > BreathHoldThreshold)
+            //        {
+            //            breathingStage++;
+            //            breathCounter = 0;
+            //            counter.SetText("" + (int)breathCounter);
+            //        }
+            //    }
+            //}
+
+            ////breathe out
+            //if (breathingStage == 2)
+            //{
+            //    instruction.SetText("Right click to breathe out" + '\n' + (3 - currentRepeats) + " more times to go");
+            //    if (Input.GetMouseButton(1))
+            //    {
+            //        breathCounter += Time.deltaTime;
+            //        circle.transform.localScale =circleScale  * Vector3.one - map(breathCounter, 0, BreathOutThreshold,0, circleScale-0.5f) * Vector3.one;
+            //        counter.SetText("" + (int)breathCounter);
+            //        if (breathCounter > BreathOutThreshold)
+            //        {
+            //            breathingStage = 0;
+            //            breathCounter = 0;
+            //            currentRepeats++;
+            //            counter.SetText("" + (int)breathCounter);
+            //            //attack ends
+            //            if (currentRepeats >= 3)
+            //            {
+            //                StopPanicAttack();
+            //            }
+            //        }
+            //    }
+            //}
 
         }
     }
@@ -143,6 +174,8 @@ public class BreathingExercise : MonoBehaviour
         breathingStage = 0;
         breathCounter = 0;
         currentRepeats = 0;
+
+        score = 0;
 
         instruction.alpha = 0;
         counter.alpha = 0;
