@@ -9,22 +9,22 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Audio Scripts/Footsteps.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="24" column="51" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
+            <state relative-caret-position="150">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
               <folding>
-                <marker date="1568119778270" expanded="true" signature="6:92" ph="..." />
-                <marker date="1568119778270" expanded="true" signature="132:1115" ph="{...}" />
-                <marker date="1568119778270" expanded="true" signature="308:385" ph="{...}" />
-                <marker date="1568119778270" expanded="true" signature="411:815" ph="{...}" />
-                <marker date="1568119778270" expanded="true" signature="621:676" ph="{...}" />
-                <marker date="1568119778270" expanded="true" signature="753:809" ph="{...}" />
-                <marker date="1568119778270" expanded="true" signature="849:1039" ph="{...}" />
-                <marker date="1568119778270" expanded="true" signature="891:1033" ph="{...}" />
-                <marker date="1568119778270" expanded="true" signature="1069:1113" ph="{...}" />
+                <marker date="1568123801232" expanded="false" signature="6:92" ph="..." />
+                <marker date="1568123801232" expanded="true" signature="132:1115" ph="{...}" />
+                <marker date="1568123801232" expanded="true" signature="308:385" ph="{...}" />
+                <marker date="1568123801232" expanded="true" signature="411:815" ph="{...}" />
+                <marker date="1568123801232" expanded="true" signature="621:676" ph="{...}" />
+                <marker date="1568123801232" expanded="true" signature="753:809" ph="{...}" />
+                <marker date="1568123801232" expanded="true" signature="849:1039" ph="{...}" />
+                <marker date="1568123801232" expanded="true" signature="891:1033" ph="{...}" />
+                <marker date="1568123801232" expanded="true" signature="1069:1113" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -44,6 +44,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/Audio Scripts/Footsteps.cs" />
+        <option value="$PROJECT_DIR$/Assets/PanicMusic.cs" />
       </list>
     </option>
   </component>
@@ -63,10 +64,10 @@
         <option name="show-project-names" value="true" />
       </pane>
       <pane id="FileSystemExplorer" />
+      <pane id="AssemblyExplorer" />
       <pane id="SolutionExplorer">
         <option name="show-all-files" value="false" />
       </pane>
-      <pane id="AssemblyExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -121,11 +122,13 @@
       <option name="presentableId" value="Default" />
       <updated>1568116293233</updated>
       <workItem from="1568116315061" duration="4147000" />
+      <workItem from="1568393837042" duration="217000" />
+      <workItem from="1568394547297" duration="78000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4147000" />
+    <option name="totallyTimeSpent" value="4442000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -139,18 +142,9 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24949698" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25603217" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="NuGet" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Unity" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Unit Tests" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Performance Profiler" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -158,12 +152,21 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Errors In Solution" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Unit Tests Coverage" />
+      <window_info anchor="bottom" id="NuGet" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Performance Profiler" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Unity" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Unit Tests" order="13" />
+      <window_info anchor="bottom" id="Terminal" order="14" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="15" side_tool="true" visible="true" weight="0.328084" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="5" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,20 +206,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/PanicMusic.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Audio Scripts/Footsteps.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="24" column="51" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
+        <state relative-caret-position="150">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
           <folding>
-            <marker date="1568119778270" expanded="true" signature="6:92" ph="..." />
-            <marker date="1568119778270" expanded="true" signature="132:1115" ph="{...}" />
-            <marker date="1568119778270" expanded="true" signature="308:385" ph="{...}" />
-            <marker date="1568119778270" expanded="true" signature="411:815" ph="{...}" />
-            <marker date="1568119778270" expanded="true" signature="621:676" ph="{...}" />
-            <marker date="1568119778270" expanded="true" signature="753:809" ph="{...}" />
-            <marker date="1568119778270" expanded="true" signature="849:1039" ph="{...}" />
-            <marker date="1568119778270" expanded="true" signature="891:1033" ph="{...}" />
-            <marker date="1568119778270" expanded="true" signature="1069:1113" ph="{...}" />
+            <marker date="1568123801232" expanded="false" signature="6:92" ph="..." />
+            <marker date="1568123801232" expanded="true" signature="132:1115" ph="{...}" />
+            <marker date="1568123801232" expanded="true" signature="308:385" ph="{...}" />
+            <marker date="1568123801232" expanded="true" signature="411:815" ph="{...}" />
+            <marker date="1568123801232" expanded="true" signature="621:676" ph="{...}" />
+            <marker date="1568123801232" expanded="true" signature="753:809" ph="{...}" />
+            <marker date="1568123801232" expanded="true" signature="849:1039" ph="{...}" />
+            <marker date="1568123801232" expanded="true" signature="891:1033" ph="{...}" />
+            <marker date="1568123801232" expanded="true" signature="1069:1113" ph="{...}" />
           </folding>
         </state>
       </provider>
