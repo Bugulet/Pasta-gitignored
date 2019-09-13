@@ -19,6 +19,23 @@ MonoBehaviour:
   - Name: Desktop
     Value: 5145152
   Exists: 1
+--- !u!114 &-4766293362575291546
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Music/Anxiety
+  m_EditorClassIdentifier: 
+  Name: Anxiety
+  Min: 0
+  Max: 110
+  Default: 0
+  Exists: 1
 --- !u!114 &-3661899892910535131
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36,6 +53,45 @@ MonoBehaviour:
   Max: 110
   Default: 0
   Exists: 1
+--- !u!114 &-3124447179102554758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master Bank.bank
+  m_EditorClassIdentifier: 
+  Path: F:\Y2\Q1\Project\Pasta-gitignored\Assets\FMOD\Footsteps\footsteps\Build\Desktop\Master
+    Bank.bank
+  lastModified: 637039918510453326
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 59040
+  Exists: 1
+--- !u!114 &-541376539800660393
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Music.bank
+  m_EditorClassIdentifier: 
+  Path: F:\Y2\Q1\Project\Pasta-gitignored\Assets\FMOD\Footsteps\footsteps\Build\Desktop\Music.bank
+  lastModified: 637039918511390604
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 5145152
+  Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -50,8 +106,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EditorBanks:
   - {fileID: 6821751229740463069}
-  - {fileID: 2953832637449080611}
-  - {fileID: -5780546237618916552}
+  - {fileID: -3124447179102554758}
+  - {fileID: -541376539800660393}
   EditorEvents:
   - {fileID: 429894401555747438}
   - {fileID: 2105529962356782636}
@@ -59,10 +115,10 @@ MonoBehaviour:
   - {fileID: 959642089806030835}
   - {fileID: 8357287927335318230}
   MasterBanks:
-  - {fileID: 2953832637449080611}
+  - {fileID: -3124447179102554758}
   StringsBanks:
   - {fileID: 6821751229740463069}
-  stringsBankWriteTime: 637039816585678834
+  stringsBankWriteTime: 637039918510453326
   cacheVersion: 3
 --- !u!114 &429894401555747438
 MonoBehaviour:
@@ -79,7 +135,7 @@ MonoBehaviour:
   Path: event:/SFX/Footsteps
   guid: 7815a170c22761488574a30bfb9e59bd
   Banks:
-  - {fileID: 2953832637449080611}
+  - {fileID: -3124447179102554758}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -102,12 +158,12 @@ MonoBehaviour:
   Path: event:/Music/Music
   guid: 0d25d8898482ff41a398fab29731cc1a
   Banks:
-  - {fileID: -5780546237618916552}
+  - {fileID: -541376539800660393}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: -3661899892910535131}
+  - {fileID: -4766293362575291546}
   MinDistance: 0
   MaxDistance: 0
   Length: 366220
@@ -126,7 +182,7 @@ MonoBehaviour:
   Path: event:/SFX/Message_Get
   guid: dbb974e25982fa4ca8081991bef652d9
   Banks:
-  - {fileID: 2953832637449080611}
+  - {fileID: -3124447179102554758}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -149,7 +205,7 @@ MonoBehaviour:
   Path: event:/SFX/Message_Send
   guid: b3b5ec66612b204ca5407dca98418536
   Banks:
-  - {fileID: 2953832637449080611}
+  - {fileID: -3124447179102554758}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -190,7 +246,7 @@ MonoBehaviour:
   m_Name: bank:/Master Bank.strings.bank
   m_EditorClassIdentifier: 
   Path: Assets\FMOD\Footsteps\footsteps\Build\Desktop\Master Bank.strings.bank
-  lastModified: 637039816585678834
+  lastModified: 637039918510453326
   LoadResult: 0
   FileSizes:
   - Name: Desktop
@@ -211,7 +267,7 @@ MonoBehaviour:
   Path: event:/Triggers/Candles
   guid: 2dcc6ada57231a4a846ae3d9e878d7f3
   Banks:
-  - {fileID: -5780546237618916552}
+  - {fileID: -541376539800660393}
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
