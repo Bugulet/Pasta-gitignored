@@ -14,7 +14,7 @@ public class AnxietyManager : MonoBehaviour
     /// <summary>
     /// at what percentage does the exercise start
     /// </summary>
-    [SerializeField] private int BreathingExerciseThreshold = 70;
+    [SerializeField][Range(0,100)] private int BreathingExerciseThreshold = 70;
 
 
     private void Update()
