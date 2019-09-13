@@ -1,165 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-8485937830509876625
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/SFX/Phone
-  m_EditorClassIdentifier: 
-  Path: event:/SFX/Phone
-  guid: dbb974e25982fa4ca8081991bef652d9
-  Banks:
-  - {fileID: -1377968981312084957}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 589
---- !u!114 &-7617838038822192223
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Music/Music
-  m_EditorClassIdentifier: 
-  Path: event:/Music/Music
-  guid: 0d25d8898482ff41a398fab29731cc1a
-  Banks:
-  - {fileID: 6514875435353586908}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 0
-  Parameters:
-  - {fileID: 7532717303570183838}
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 284000
---- !u!114 &-6338668130916756673
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/SFX/Footsteps
-  m_EditorClassIdentifier: 
-  Path: event:/SFX/Footsteps
-  guid: 7815a170c22761488574a30bfb9e59bd
-  Banks:
-  - {fileID: -1377968981312084957}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 2000
---- !u!114 &-5784769045864875336
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master Bank.strings.bank
-  m_EditorClassIdentifier: 
-  Path: Assets\FMOD\Footsteps\footsteps\Build\Desktop\Master Bank.strings.bank
-  lastModified: 637039064474686326
-  LoadResult: 0
-  FileSizes:
-  - Name: Desktop
-    Value: 920
-  Exists: 1
---- !u!114 &-1377968981312084957
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master Bank.bank
-  m_EditorClassIdentifier: 
-  Path: C:\Users\Gebruiker\Documents\GitHub\Pasta-gitignored\Assets\FMOD\Footsteps\footsteps\Build\Desktop\Master
-    Bank.bank
-  lastModified: 637039064474586385
-  LoadResult: 0
-  FileSizes:
-  - Name: Desktop
-    Value: 49184
-  Exists: 1
---- !u!114 &-33024634188003474
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Triggers/Candles
-  m_EditorClassIdentifier: 
-  Path: event:/Triggers/Candles
-  guid: 2dcc6ada57231a4a846ae3d9e878d7f3
-  Banks:
-  - {fileID: 6514875435353586908}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 108773
---- !u!114 &11400000
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
-  m_Name: FMODStudioCache
-  m_EditorClassIdentifier: 
-  EditorBanks:
-  - {fileID: -5784769045864875336}
-  - {fileID: -1377968981312084957}
-  - {fileID: 6514875435353586908}
-  EditorEvents:
-  - {fileID: -6338668130916756673}
-  - {fileID: -8485937830509876625}
-  - {fileID: -7617838038822192223}
-  - {fileID: -33024634188003474}
-  MasterBanks:
-  - {fileID: -1377968981312084957}
-  StringsBanks:
-  - {fileID: -5784769045864875336}
-  stringsBankWriteTime: 637039064474686326
-  cacheVersion: 3
---- !u!114 &6514875435353586908
+--- !u!114 &-5780546237618916552
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -171,14 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
   m_Name: bank:/Music.bank
   m_EditorClassIdentifier: 
-  Path: C:\Users\Gebruiker\Documents\GitHub\Pasta-gitignored\Assets\FMOD\Footsteps\footsteps\Build\Desktop\Music.bank
-  lastModified: 637039064476065536
+  Path: C:\Users\angel\Documents\GitHub\Pasta-gitignored\Assets\FMOD\Footsteps\footsteps\Build\Desktop\Music.bank
+  lastModified: 637039816586187852
   LoadResult: 0
   FileSizes:
   - Name: Desktop
-    Value: 4315712
+    Value: 5145152
   Exists: 1
---- !u!114 &7532717303570183838
+--- !u!114 &-3661899892910535131
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -195,3 +36,186 @@ MonoBehaviour:
   Max: 110
   Default: 0
   Exists: 1
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: 6821751229740463069}
+  - {fileID: 2953832637449080611}
+  - {fileID: -5780546237618916552}
+  EditorEvents:
+  - {fileID: 429894401555747438}
+  - {fileID: 2105529962356782636}
+  - {fileID: 1847024834036497958}
+  - {fileID: 959642089806030835}
+  - {fileID: 8357287927335318230}
+  MasterBanks:
+  - {fileID: 2953832637449080611}
+  StringsBanks:
+  - {fileID: 6821751229740463069}
+  stringsBankWriteTime: 637039816585678834
+  cacheVersion: 3
+--- !u!114 &429894401555747438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Footsteps
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Footsteps
+  guid: 7815a170c22761488574a30bfb9e59bd
+  Banks:
+  - {fileID: 2953832637449080611}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2000
+--- !u!114 &959642089806030835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/Music
+  m_EditorClassIdentifier: 
+  Path: event:/Music/Music
+  guid: 0d25d8898482ff41a398fab29731cc1a
+  Banks:
+  - {fileID: -5780546237618916552}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -3661899892910535131}
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 366220
+--- !u!114 &1847024834036497958
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Message_Get
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Message_Get
+  guid: dbb974e25982fa4ca8081991bef652d9
+  Banks:
+  - {fileID: 2953832637449080611}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 589
+--- !u!114 &2105529962356782636
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Message_Send
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Message_Send
+  guid: b3b5ec66612b204ca5407dca98418536
+  Banks:
+  - {fileID: 2953832637449080611}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 835
+--- !u!114 &2953832637449080611
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master Bank.bank
+  m_EditorClassIdentifier: 
+  Path: C:\Users\angel\Documents\GitHub\Pasta-gitignored\Assets\FMOD\Footsteps\footsteps\Build\Desktop\Master
+    Bank.bank
+  lastModified: 637039816585668859
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 59040
+  Exists: 1
+--- !u!114 &6821751229740463069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master Bank.strings.bank
+  m_EditorClassIdentifier: 
+  Path: Assets\FMOD\Footsteps\footsteps\Build\Desktop\Master Bank.strings.bank
+  lastModified: 637039816585678834
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 972
+  Exists: 1
+--- !u!114 &8357287927335318230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Triggers/Candles
+  m_EditorClassIdentifier: 
+  Path: event:/Triggers/Candles
+  guid: 2dcc6ada57231a4a846ae3d9e878d7f3
+  Banks:
+  - {fileID: -5780546237618916552}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 108773
