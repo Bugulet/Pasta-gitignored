@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="AudioFile" id="{4fc9dde2-3927-4207-aaaf-3ec26064d1b1}">
+        <property name="assetPath">
+            <value>newsreport-2EQ.wav</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>7.3375056689342406</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{8b1652ac-4a73-4555-bce7-dba9a920375d}</destination>
+        </relationship>
+    </object>
+</objects>

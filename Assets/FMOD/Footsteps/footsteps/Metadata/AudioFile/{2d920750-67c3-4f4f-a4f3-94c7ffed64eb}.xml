@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.01.10.00">
     <object class="AudioFile" id="{2d920750-67c3-4f4f-a4f3-94c7ffed64eb}">
         <property name="assetPath">
-            <value>Ear Ringing SFX.mp3</value>
+            <value>Music/Ear Ringing SFX.mp3</value>
         </property>
         <property name="isStreaming">
             <value>true</value>
