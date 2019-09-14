@@ -28,7 +28,10 @@ public class BreathingExercise : MonoBehaviour
 
     private int score=0;
 
-    // Start is called before the first frame update
+    // Audio
+    private FMOD.Studio.EventInstance _breathing;
+    private bool _breathingAudioPlaying = false;
+    
     void Start()
     {
         circle = NormalUI.transform.GetChild(0).GetComponent<RawImage>();
@@ -40,6 +43,8 @@ public class BreathingExercise : MonoBehaviour
         counter.alpha = 0;
         circle.GetComponent<RawImage>().enabled = false;
         circle.transform.localScale = Vector3.one*0.5f;
+        
+        _breathing = FMODUnity.RuntimeManager.CreateInstance("event:/SFX/Breathing");
     }
 
     // Update is called once per frame
@@ -58,6 +63,15 @@ public class BreathingExercise : MonoBehaviour
 
         if (attackIsHappening)
         {
+            if (_breathingAudioPlaying == false)
+            {
+                _breathing.start();
+                _breathingAudioPlaying = true;
+            }
+        }
+        
+        if (attackIsHappening)
+        {
             instruction.SetText("Click when the circle is very big/small" +'\n'+(ScoreThreshold-score)+" points to go");
             crosshair.GetComponent<Image>().enabled = false;
             instruction.alpha = 255;
@@ -69,15 +83,17 @@ public class BreathingExercise : MonoBehaviour
             circle.transform.localScale =  map(Mathf.Sin(Time.time), -1,1, 0.5f, circleScale) * Vector3.one;
             Color c = new Color(1, map(Mathf.Sin(Time.time), -1, 1, 0.5f, 1), map(Mathf.Sin(Time.time), -1,1,0,1 ),0.5f);
             circle.GetComponent<RawImage>().color = c;
-
+            
             if (Input.GetMouseButtonDown(0))
             {
                 if (Mathf.Sin(Time.time) < -0.5f)
                 {
+                    _breathing.setParameterValue("state", 1.0f); // To breathe in
                     score++;
                 }
                 else if (Mathf.Sin(Time.time) > 0.5f)
                 {
+                    _breathing.setParameterValue("state", 0.0f); // To breathe out
                     score++;
                 }
                 else

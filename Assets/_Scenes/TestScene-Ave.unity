@@ -5805,16 +5805,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1930844459}
     m_Modifications:
-    - target: {fileID: 4948035971549341294, guid: 37d76638bd63f3346a5426b1d8939544,
-        type: 3}
-      propertyPath: breathingScript
-      value: 
-      objectReference: {fileID: 386671910}
     - target: {fileID: 3692085849970129988, guid: 37d76638bd63f3346a5426b1d8939544,
         type: 3}
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 4948035971549341294, guid: 37d76638bd63f3346a5426b1d8939544,
+        type: 3}
+      propertyPath: breathingScript
+      value: 
+      objectReference: {fileID: 386671910}
     - target: {fileID: 3692085848995171942, guid: 37d76638bd63f3346a5426b1d8939544,
         type: 3}
       propertyPath: m_Enabled
@@ -5940,6 +5940,11 @@ PrefabInstance:
       propertyPath: anxiety
       value: 
       objectReference: {fileID: 386671911}
+    - target: {fileID: 8892563891513007574, guid: 37d76638bd63f3346a5426b1d8939544,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 8077998274094119804, guid: 37d76638bd63f3346a5426b1d8939544, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 37d76638bd63f3346a5426b1d8939544, type: 3}

@@ -149,7 +149,7 @@
     </object>
     <object class="SingleSound" id="{76978504-c3ea-4afb-a0de-cf48343af011}">
         <property name="start">
-            <value>2.8882966029178978</value>
+            <value>4.25</value>
         </property>
         <property name="length">
             <value>2.0021315192743763</value>
@@ -177,7 +177,7 @@
     </object>
     <object class="NamedMarker" id="{a264594d-1a31-4729-9c68-06a4e015d820}">
         <property name="position">
-            <value>2.8882966029178978</value>
+            <value>4.25</value>
         </property>
         <property name="name">
             <value>Breathing In</value>
@@ -205,7 +205,7 @@
     </object>
     <object class="SustainPoint" id="{314220e3-be74-43dc-88ae-56f382da7119}">
         <property name="position">
-            <value>2.4430323877978863</value>
+            <value>3.75</value>
         </property>
         <relationship name="timeline">
             <destination>{4963bd98-f5d6-4438-8b8a-8cdb7ebdaede}</destination>
@@ -219,7 +219,7 @@
             <value>1.5</value>
         </property>
         <property name="length">
-            <value>0.94303238779788634</value>
+            <value>2.25</value>
         </property>
         <relationship name="triggerConditions">
             <destination>{54c356ff-2bd7-4d47-bb80-1814e7da0d53}</destination>
@@ -236,10 +236,10 @@
     </object>
     <object class="TransitionRegion" id="{3213cb9a-41e3-41c5-9998-c461e5752d97}">
         <property name="position">
-            <value>4.8904281221922741</value>
+            <value>6.2521315192743767</value>
         </property>
         <property name="length">
-            <value>1.6095718778077264</value>
+            <value>3.1228684807256237</value>
         </property>
         <relationship name="triggerConditions">
             <destination>{f62701b2-64a3-4560-ace3-46eaff803b00}</destination>
@@ -256,7 +256,7 @@
     </object>
     <object class="SustainPoint" id="{bdb7e4d1-e26e-49c1-90d1-16949888b470}">
         <property name="position">
-            <value>6.5</value>
+            <value>9.375</value>
         </property>
         <relationship name="timeline">
             <destination>{4963bd98-f5d6-4438-8b8a-8cdb7ebdaede}</destination>

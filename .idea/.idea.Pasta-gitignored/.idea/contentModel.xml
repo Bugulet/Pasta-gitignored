@@ -326,7 +326,6 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="Audio Scripts" t="Include">
-            <e p="Breathing.cs" t="Include" />
             <e p="Footsteps.cs" t="Include" />
             <e p="Music.cs" t="Include" />
           </e>
