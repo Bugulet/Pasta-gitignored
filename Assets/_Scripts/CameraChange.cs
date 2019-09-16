@@ -7,8 +7,7 @@ public class CameraChange : MonoBehaviour
 {
     [SerializeField] private Camera BedCamera;
     [SerializeField] private Camera PlayerCamera;
-
-    [SerializeField] private bool PTSDMode = false;
+    
     [SerializeField] private Text RMBInstruction;
     [SerializeField] private Text LMBInstruction;
     [SerializeField] private AnxietyManager manager;
@@ -55,19 +54,10 @@ public class CameraChange : MonoBehaviour
 
         if (Input.GetMouseButtonDown(0) && !PlayerCamera.enabled)
         {
-            if (!PTSDMode)
-            {
-                //change camera
-                BedCamera.enabled = false;
-                PlayerCamera.enabled = true;
-                
-            }
-            else
-            {
+
                 RMBInstruction.text = "Press right click to snooze...";
                 LMBInstruction.fontSize = LMBInstruction.fontSize - 4;
                 PTSDCount++;
-            }
         }
 
         
