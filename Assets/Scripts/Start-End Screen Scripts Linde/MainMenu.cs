@@ -5,16 +5,18 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
+    
     public void StartGame()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene("_Game");
         //SceneManager.LoadScene("level"); //out of the 2 options, this one is better
-        Debug.Log("START");
+        Debug.Log("Start loaded");
     }
 
-    public void CreditsRoll()
+    public void Credits()
     {
-        Debug.Log("CREDITS");
+        SceneManager.LoadScene("Credits");
+        Debug.Log("Credits Loaded");
     }
     public void QuitGame()
     {
