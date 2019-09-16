@@ -63,7 +63,7 @@ public class AnxietyManager : MonoBehaviour
 
     public int GetAnxiety()
     {
-        Debug.Log("ANXIETY LEVEL: " + AnxietyMeter);
+        //Debug.Log("ANXIETY LEVEL: " + AnxietyMeter);
         return AnxietyMeter;
     }
 

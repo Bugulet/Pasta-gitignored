@@ -5,46 +5,64 @@ using TMPro;
 
 public class AnxietyCounter : MonoBehaviour
 {
-
+    [Header("Starting time")]
     [SerializeField] private int StartingHour = 9;
     [SerializeField] private int StartingMinute = 0;
-    [SerializeField] private int UpdateRate = 1;
 
-    private int currentHour;
-    private int currentMinute;
-    private TextMeshProUGUI text;
+
+    [Header("Other data")]
+    [Tooltip("How many minutess are added per second")]
+    [SerializeField] private int UpdateRate = 1;
+    
+    private GameTime time;
+    private PhoneManager phoneManager;
+
+    [Tooltip("The text element on the normal UI")]
+    [SerializeField] private TextMeshProUGUI TimeText;
     
 
     private void OnEnable()
     {
-        //get the component
-        text = GetComponent<TextMeshProUGUI>();
+        time = new GameTime();
+        time.minutes = 0;
+        time.hour = 0;
+        phoneManager = FindObjectOfType<PhoneManager>();
 
         //invoke the repeating
         InvokeRepeating("UpdateTime", 0f, UpdateRate);
 
-        currentHour = StartingHour;
-        currentMinute = StartingMinute;
+        time.hour = StartingHour;
+        time.minutes = StartingMinute;
     }
 
     private void UpdateTime()
     {
-        currentMinute++;
-        if (currentMinute >= 60)
+        time.minutes++;
+        if (time.minutes >= 60)
         {
-            currentHour++;
-            currentMinute = 0;
+            time.hour++;
+            time.minutes = 0;
         }
         //set the UI
-        if(currentMinute%15==0)
-        if(currentMinute<10)
-        {
-            text.SetText(currentHour + ":0" + currentMinute);
+        //if(time.minutes%15==0)
+        if(time.minutes<10)
+        {   
+            TimeText.SetText(time.hour + ":0" + time.minutes);
         }
         else
         {
-            text.SetText(currentHour + ":" + currentMinute);
+            TimeText.SetText(time.hour + ":" + time.minutes);
         }
+
+        //Debug.Log(time.tring());
+
+        //checks if a message needs to be sent
+        phoneManager.CheckTimes();
+    }
+
+    public GameTime GetTime()
+    {
+        return time;
     }
 
 }

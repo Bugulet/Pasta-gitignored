@@ -5,14 +5,29 @@ using UnityEngine.UI;
 
 public class CameraChange : MonoBehaviour
 {
+
+    [Header("Game cameras")]
+    [Space]
+
+
     [SerializeField] private Camera BedCamera;
+    
     [SerializeField] private Camera PlayerCamera;
     
-    [SerializeField] private Text RMBInstruction;
-    [SerializeField] private Text LMBInstruction;
-    [SerializeField] private AnxietyManager manager;
+
+    private Text RMBInstruction;
+    private Text LMBInstruction;
+
+    [Header("Game UIs")]
+    [Space]
 
     [SerializeField] private Canvas NormalUI;
+    [SerializeField] private Canvas BedUI;
+
+    [Header("Anxiety manager")]
+    [Space]
+
+    [SerializeField] private AnxietyManager manager;
 
     void Start()
     {
@@ -25,8 +40,14 @@ public class CameraChange : MonoBehaviour
             Cursor.lockState = CursorLockMode.Locked;
             //keep the bed camera
             BedCamera.enabled = true;
-            PlayerCamera.enabled = false;
+            BedUI.enabled = true;
 
+            PlayerCamera.enabled = false;
+            NormalUI.enabled = false;
+
+            LMBInstruction = BedUI.transform.GetChild(0).GetComponent<Text>();
+
+            RMBInstruction = BedUI.transform.GetChild(1).GetComponent<Text>();
         }
     }
 
@@ -41,8 +62,10 @@ public class CameraChange : MonoBehaviour
             {
                 //change camera
                 BedCamera.enabled = false;
+                BedUI.enabled = false;
                 PlayerCamera.enabled = true;
-                
+                NormalUI.enabled = true;
+
             }
 
             if (Input.GetMouseButtonDown(1) && !PlayerCamera.enabled)
@@ -55,11 +78,11 @@ public class CameraChange : MonoBehaviour
         if (Input.GetMouseButtonDown(0) && !PlayerCamera.enabled)
         {
 
-                RMBInstruction.text = "Press right click to snooze...";
-                LMBInstruction.fontSize = LMBInstruction.fontSize - 4;
-                PTSDCount++;
+            RMBInstruction.text = "Press right click to snooze...";
+            LMBInstruction.fontSize = LMBInstruction.fontSize - 4;
+            PTSDCount++;
         }
 
-        
+
     }
 }
