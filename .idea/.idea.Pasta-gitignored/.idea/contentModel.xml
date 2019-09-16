@@ -23,11 +23,21 @@
                   <e p="{e06bd946-d71d-4ee7-9778-f94041de7a1d}.xml" t="Include" />
                 </e>
                 <e p="AudioFile" t="Include">
+                  <e p="{08589ee8-3964-4737-804d-11531e7e60ce}.xml" t="Include" />
+                  <e p="{15974d1c-ca88-480d-bb02-38061a4c74c0}.xml" t="Include" />
                   <e p="{16db5776-27e0-4aa4-8b56-8fc3301bb18b}.xml" t="Include" />
+                  <e p="{1bd8997f-f075-45a2-b0f3-e3f65410c103}.xml" t="Include" />
+                  <e p="{20529a5e-34fd-4628-82ca-75d7b6150995}.xml" t="Include" />
                   <e p="{24f75c67-4933-4192-a0a3-7c8d48ef7c47}.xml" t="Include" />
                   <e p="{28553919-91ec-4e2d-9c8a-27b3da3fdfc1}.xml" t="Include" />
+                  <e p="{2d920750-67c3-4f4f-a4f3-94c7ffed64eb}.xml" t="Include" />
                   <e p="{329b7442-f577-41a8-ac39-426a1ac2835c}.xml" t="Include" />
+                  <e p="{334406d7-44d4-41f8-bfe2-6400a2c69395}.xml" t="Include" />
+                  <e p="{3a74ee47-295d-43f6-bce2-90aa639a492a}.xml" t="Include" />
+                  <e p="{44dfb5b0-3b9a-41a4-a52d-3f3f827b1d20}.xml" t="Include" />
+                  <e p="{4fc9dde2-3927-4207-aaaf-3ec26064d1b1}.xml" t="Include" />
                   <e p="{70aec263-7440-4548-a344-02fb9f22e0e5}.xml" t="Include" />
+                  <e p="{9054bc11-04c9-45d7-be4a-1788d736e67e}.xml" t="Include" />
                   <e p="{be700119-897e-4dbb-811e-9058a1948e5c}.xml" t="Include" />
                   <e p="{c1f68c09-4eae-4d99-911f-9d851b425e33}.xml" t="Include" />
                   <e p="{c8304dc6-4cb3-4559-bae6-53cb9e438be3}.xml" t="Include" />
@@ -48,17 +58,25 @@
                   <e p="{be2bdecc-12b5-4ec5-807c-81f0fda4ef31}.xml" t="Include" />
                 </e>
                 <e p="Event" t="Include">
+                  <e p="{638211ac-c543-46a4-aab7-0300783c46c2}.xml" t="Include" />
+                  <e p="{66ecb5b3-2b61-4c20-a540-7dca98418536}.xml" t="Include" />
                   <e p="{70a11578-27c2-4861-8574-a30bfb9e59bd}.xml" t="Include" />
                   <e p="{89d8250d-8284-41ff-a398-fab29731cc1a}.xml" t="Include" />
+                  <e p="{d1380d9c-c124-46c4-a004-1f7c6c1f2555}.xml" t="Include" />
+                  <e p="{da6acc2d-2357-4a1a-846a-e3d9e878d7f3}.xml" t="Include" />
+                  <e p="{e274b9db-8259-4cfa-a808-1991bef652d9}.xml" t="Include" />
+                  <e p="{e7713f50-063d-473a-a029-74771f9005e4}.xml" t="Include" />
                 </e>
                 <e p="EventFolder" t="Include">
                   <e p="{073bbb61-7226-4e95-bc67-0bd3a61c0df9}.xml" t="Include" />
                   <e p="{4a2ef935-7533-4550-a3ab-47c70d7ccc5b}.xml" t="Include" />
+                  <e p="{b67ef9cd-0eb2-4574-a990-540de73fbaae}.xml" t="Include" />
                   <e p="{bd9d3682-85f1-4ea0-8dbc-cb1cdc7a8bf8}.xml" t="Include" />
                 </e>
                 <e p="Master.xml" t="Include" />
                 <e p="Mixer.xml" t="Include" />
                 <e p="ParameterPreset" t="Include">
+                  <e p="{2a2cdcf8-db63-4d38-a046-2e220b3846bb}.xml" t="Include" />
                   <e p="{aac4f1cd-fe88-4552-bcdb-0f745bf8596c}.xml" t="Include" />
                 </e>
                 <e p="ParameterPresetFolder" t="Include">
@@ -307,19 +325,26 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
-          <e p="AnxietyCounter.cs" t="Include" />
-          <e p="AnxietyFeedback.cs" t="Include" />
-          <e p="AnxietyManager.cs" t="Include" />
           <e p="Audio Scripts" t="Include">
             <e p="Footsteps.cs" t="Include" />
+            <e p="Music.cs" t="Include" />
           </e>
           <e p="BreathingExercise.cs" t="Include" />
           <e p="CameraChange.cs" t="Include" />
+          <e p="ChangeModel.cs" t="Include" />
           <e p="EnableText.cs" t="Include" />
           <e p="LookatMouse.cs" t="Include" />
           <e p="MainUIManager.cs" t="Include" />
           <e p="PlayerMovement.cs" t="Include" />
           <e p="RaycastInterract.cs" t="Include" />
+          <e p="Start-End Screen Scripts Linde" t="Include">
+            <e p="EndMenu.cs" t="Include" />
+            <e p="MainMenu.cs" t="Include" />
+          </e>
+          <e p="UI" t="Include">
+            <e p="AnxietyCounter.cs" t="Include" />
+            <e p="AnxietyManager.cs" t="Include" />
+          </e>
         </e>
         <e p="TextMesh Pro" t="Include">
           <e p="Fonts" t="Include">
