@@ -14,8 +14,11 @@ public class EnableText : MonoBehaviour
 
     private void Start()
     {
-        message = hintText.text;
-        hintText.enabled = false;
+        if (hintText != null)
+        {
+            message = hintText.text;
+            hintText.enabled = false;
+        }
     }
 
     public void StartHint()
@@ -37,28 +40,32 @@ public class EnableText : MonoBehaviour
 
     private void Update()
     {
-        if (IsInside)
+        if (hintText != null)
         {
-            if (!message.Equals(hintText.text)){
-                hintText.SetText(message.Substring(0, messageIterator++));
-            }
-            else
+            if (IsInside)
             {
-                if (totalTime >= waitTime)
+                if (!message.Equals(hintText.text))
                 {
-                    DeleteHint();
+                    hintText.SetText(message.Substring(0, messageIterator++));
                 }
                 else
                 {
-                    totalTime += Time.deltaTime;
+                    if (totalTime >= waitTime)
+                    {
+                        DeleteHint();
+                    }
+                    else
+                    {
+                        totalTime += Time.deltaTime;
+                    }
                 }
             }
-        }
-        else
-        {
-            if (hintText.text.Length > 0)
+            else
             {
-                hintText.SetText(message.Substring(0, messageIterator--));
+                if (hintText.text.Length > 0)
+                {
+                    hintText.SetText(message.Substring(0, messageIterator--));
+                }
             }
         }
     }
