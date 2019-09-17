@@ -12,7 +12,7 @@ public class LookatMouse : MonoBehaviour
 
     private void Start()
     {
-        Player = this.transform.parent.gameObject;
+        //Player = this.transform.parent.gameObject;
     }
     void Update()
     {
