@@ -5504,5 +5504,30 @@ PrefabInstance:
       propertyPath: hintText
       value: 
       objectReference: {fileID: 160046873}
+    - target: {fileID: 5623412702874720947, guid: c0671ba8c1a57764e85b7488cc377828,
+        type: 3}
+      propertyPath: m_TagString
+      value: Bad Memory
+      objectReference: {fileID: 0}
+    - target: {fileID: 939572913157417590, guid: c0671ba8c1a57764e85b7488cc377828,
+        type: 3}
+      propertyPath: m_TagString
+      value: Bad Memory
+      objectReference: {fileID: 0}
+    - target: {fileID: 508395618866404279, guid: c0671ba8c1a57764e85b7488cc377828,
+        type: 3}
+      propertyPath: m_TagString
+      value: Bad Memory
+      objectReference: {fileID: 0}
+    - target: {fileID: 4968065427762470689, guid: c0671ba8c1a57764e85b7488cc377828,
+        type: 3}
+      propertyPath: m_TagString
+      value: Bad Memory
+      objectReference: {fileID: 0}
+    - target: {fileID: 9058787408489599947, guid: c0671ba8c1a57764e85b7488cc377828,
+        type: 3}
+      propertyPath: m_TagString
+      value: Bad Memory
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c0671ba8c1a57764e85b7488cc377828, type: 3}
