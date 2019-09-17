@@ -6276,7 +6276,7 @@ GameObject:
   - component: {fileID: 6662673535750684263}
   - component: {fileID: 4784273426195921641}
   - component: {fileID: 8750517748071711637}
-  - component: {fileID: 1195223477266060270}
+  - component: {fileID: 1840272215344724777}
   m_Layer: 0
   m_Name: hallway_door
   m_TagString: Untagged
@@ -6292,7 +6292,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8564451262993250288}
   m_LocalRotation: {x: -0, y: -0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 5.544182, y: 2.0300007, z: -11.221701}
+  m_LocalPosition: {x: 5.544182, y: 2.0300007, z: -11.169}
   m_LocalScale: {x: 3.9004407, y: 1.3678055, z: 1.1823894}
   m_Children: []
   m_Father: {fileID: 6191602474208780460}
@@ -6344,8 +6344,8 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &1195223477266060270
-BoxCollider:
+--- !u!64 &1840272215344724777
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -6354,9 +6354,10 @@ BoxCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.09239867, y: 2.9352767, z: 1.6717436}
-  m_Center: {x: -0.017967148, y: 0, z: -0.83587325}
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: -8380311175621613173, guid: b9dc2efa4e035ff4f996130882048acb, type: 3}
 --- !u!1 &8608069457863779421
 GameObject:
   m_ObjectHideFlags: 0

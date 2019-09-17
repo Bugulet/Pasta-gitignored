@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\angel\.Rider2019.1\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\angel\.Rider2019.1\system\resharper-host\local\Transient\ReSharperHost\v191\SolutionCaches\_Pasta-gitignored.340017903.00" t="ExcludeRecursive" />
+    <e p="C:\Users\angel\.Rider2019.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\angel\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_Pasta-gitignored.340017903.00" t="ExcludeRecursive" />
     <e p="C:\Users\angel\Documents\GitHub\Pasta-gitignored" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
@@ -339,8 +339,10 @@
           <e p="RaycastInterract.cs" t="Include" />
           <e p="Start-End Screen Scripts Linde" t="Include">
             <e p="EndMenu.cs" t="Include" />
+            <e p="LeaveCredits.cs" t="Include" />
             <e p="MainMenu.cs" t="Include" />
           </e>
+          <e p="TrackPlayerText.cs" t="Include" />
           <e p="UI" t="Include">
             <e p="AnxietyCounter.cs" t="Include" />
             <e p="AnxietyManager.cs" t="Include" />
