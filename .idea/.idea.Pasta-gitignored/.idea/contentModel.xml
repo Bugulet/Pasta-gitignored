@@ -9,6 +9,33 @@
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="_Scripts" t="Include">
+          <e p="Audio Scripts" t="Include">
+            <e p="Footsteps.cs" t="Include" />
+            <e p="Music.cs" t="Include" />
+          </e>
+          <e p="BreathingExercise.cs" t="Include" />
+          <e p="CameraChange.cs" t="Include" />
+          <e p="ChangeModel.cs" t="Include" />
+          <e p="EnableText.cs" t="Include" />
+          <e p="LookatMouse.cs" t="Include" />
+          <e p="MainUIManager.cs" t="Include" />
+          <e p="PhoneEnable.cs" t="Include" />
+          <e p="PhoneManager.cs" t="Include" />
+          <e p="PlayerMovement.cs" t="Include" />
+          <e p="RaycastInterract.cs" t="Include" />
+          <e p="Start-End Screen Scripts Linde" t="Include">
+            <e p="EndMenu.cs" t="Include" />
+            <e p="LeaveCredits.cs" t="Include" />
+            <e p="MainMenu.cs" t="Include" />
+          </e>
+          <e p="Time.cs" t="Include" />
+          <e p="TrackPlayerText.cs" t="Include" />
+          <e p="UI" t="Include">
+            <e p="AnxietyCounter.cs" t="Include" />
+            <e p="AnxietyManager.cs" t="Include" />
+          </e>
+        </e>
         <e p="Editor" t="Include">
           <e p="FMODMigrationUtil.cs" t="Include" />
         </e>
@@ -27,7 +54,6 @@
                   <e p="{15974d1c-ca88-480d-bb02-38061a4c74c0}.xml" t="Include" />
                   <e p="{16db5776-27e0-4aa4-8b56-8fc3301bb18b}.xml" t="Include" />
                   <e p="{1bd8997f-f075-45a2-b0f3-e3f65410c103}.xml" t="Include" />
-                  <e p="{20529a5e-34fd-4628-82ca-75d7b6150995}.xml" t="Include" />
                   <e p="{24f75c67-4933-4192-a0a3-7c8d48ef7c47}.xml" t="Include" />
                   <e p="{28553919-91ec-4e2d-9c8a-27b3da3fdfc1}.xml" t="Include" />
                   <e p="{2d920750-67c3-4f4f-a4f3-94c7ffed64eb}.xml" t="Include" />
@@ -58,7 +84,6 @@
                   <e p="{be2bdecc-12b5-4ec5-807c-81f0fda4ef31}.xml" t="Include" />
                 </e>
                 <e p="Event" t="Include">
-                  <e p="{638211ac-c543-46a4-aab7-0300783c46c2}.xml" t="Include" />
                   <e p="{66ecb5b3-2b61-4c20-a540-7dca98418536}.xml" t="Include" />
                   <e p="{70a11578-27c2-4861-8574-a30bfb9e59bd}.xml" t="Include" />
                   <e p="{89d8250d-8284-41ff-a398-fab29731cc1a}.xml" t="Include" />
@@ -322,30 +347,6 @@
           <e p="Scripts" t="Include">
             <e p="FmodResonanceAudio.cs" t="Include" />
             <e p="FmodResonanceAudioRoom.cs" t="Include" />
-          </e>
-        </e>
-        <e p="Scripts" t="Include">
-          <e p="Audio Scripts" t="Include">
-            <e p="Footsteps.cs" t="Include" />
-            <e p="Music.cs" t="Include" />
-          </e>
-          <e p="BreathingExercise.cs" t="Include" />
-          <e p="CameraChange.cs" t="Include" />
-          <e p="ChangeModel.cs" t="Include" />
-          <e p="EnableText.cs" t="Include" />
-          <e p="LookatMouse.cs" t="Include" />
-          <e p="MainUIManager.cs" t="Include" />
-          <e p="PlayerMovement.cs" t="Include" />
-          <e p="RaycastInterract.cs" t="Include" />
-          <e p="Start-End Screen Scripts Linde" t="Include">
-            <e p="EndMenu.cs" t="Include" />
-            <e p="LeaveCredits.cs" t="Include" />
-            <e p="MainMenu.cs" t="Include" />
-          </e>
-          <e p="TrackPlayerText.cs" t="Include" />
-          <e p="UI" t="Include">
-            <e p="AnxietyCounter.cs" t="Include" />
-            <e p="AnxietyManager.cs" t="Include" />
           </e>
         </e>
         <e p="TextMesh Pro" t="Include">

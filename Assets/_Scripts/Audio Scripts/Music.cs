@@ -17,13 +17,13 @@ public class Music : MonoBehaviour
 
     private void Update()
     {
-        if (anxiety.GetAnxiety() >= 90)
+        if (anxiety.GetAnxiety() >= 70)
         {
             _music.setParameterValue("Anxiety", 90.0f);
         }
-        else if (anxiety.GetAnxiety() <= 89)
+        else if (anxiety.GetAnxiety() <= 69)
         { 
-            _music.setParameterValue("Anxiety", 89.0f);
+            _music.setParameterValue("Anxiety", 20.0f);
         }
     }
 }

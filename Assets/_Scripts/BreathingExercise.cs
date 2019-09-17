@@ -52,8 +52,17 @@ public class BreathingExercise : MonoBehaviour
     {
         if (activateAttack)
         {
+            if (_breathingAudioPlaying == false)
+            {
+                _breathing.start();
+                _breathing.setParameterValue("state", 0.5f); // Failed at breathing
+                _breathingAudioPlaying = true;
+            }
+            
             instruction.alpha = 255;
             instruction.SetText("Press F to start the breathing exercise");
+            
+            
             if (Input.GetKeyDown(KeyCode.F))
             {
                 attackIsHappening = true;
@@ -98,7 +107,9 @@ public class BreathingExercise : MonoBehaviour
                 }
                 else
                 {
+                    _breathing.setParameterValue("state", 0.5f); // Failed at breathing
                     score = 0;
+                    FailPanicAttack();
                 }
 
                 counter.SetText(""+score);
@@ -201,6 +212,25 @@ public class BreathingExercise : MonoBehaviour
         crosshair.GetComponent<Image>().enabled = true ;
 
         manager.SetAnxiety(20);
+
+    }
+    
+    public void FailPanicAttack()
+    {
+        activateAttack = true;
+        attackIsHappening = false;
+        breathingStage = 0;
+        breathCounter = 0;
+        currentRepeats = 0;
+
+        score = 0;
+
+        instruction.alpha = 0;
+        counter.alpha = 0;
+        circle.GetComponent<RawImage>().enabled = false;
+        circle.transform.localScale = Vector3.zero;
+
+        crosshair.GetComponent<Image>().enabled = true ;
 
     }
 

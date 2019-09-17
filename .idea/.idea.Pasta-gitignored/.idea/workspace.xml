@@ -1,32 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="afc7159b-2fe2-4cc9-9c07-0f9a26409c92" name="Default Changelist" comment="" />
+    <list default="true" id="afc7159b-2fe2-4cc9-9c07-0f9a26409c92" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Pasta-gitignored/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Pasta-gitignored/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Pasta-gitignored/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Pasta-gitignored/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FMOD/Footsteps/footsteps/.cache/{08589ee8-3964-4737-804d-11531e7e60ce}.pdc" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FMOD/Footsteps/footsteps/.cache/{08589ee8-3964-4737-804d-11531e7e60ce}.pdc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FMOD/Footsteps/footsteps/.cache/{2d920750-67c3-4f4f-a4f3-94c7ffed64eb}.pdc" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FMOD/Footsteps/footsteps/.cache/{2d920750-67c3-4f4f-a4f3-94c7ffed64eb}.pdc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FMOD/Footsteps/footsteps/Build/Desktop/Master Bank.bank" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FMOD/Footsteps/footsteps/Build/Desktop/Master Bank.bank" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FMOD/Footsteps/footsteps/Build/Desktop/Music.bank" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FMOD/Footsteps/footsteps/Build/Desktop/Music.bank" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FMOD/Footsteps/footsteps/Metadata/Event/{89d8250d-8284-41ff-a398-fab29731cc1a}.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FMOD/Footsteps/footsteps/Metadata/Event/{89d8250d-8284-41ff-a398-fab29731cc1a}.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FMOD/Footsteps/footsteps/Metadata/Event/{e274b9db-8259-4cfa-a808-1991bef652d9}.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FMOD/Footsteps/footsteps/Metadata/Event/{e274b9db-8259-4cfa-a808-1991bef652d9}.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FMOD/Footsteps/footsteps/Metadata/Event/{e7713f50-063d-473a-a029-74771f9005e4}.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FMOD/Footsteps/footsteps/Metadata/Event/{e7713f50-063d-473a-a029-74771f9005e4}.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FMODStudioCache.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FMODStudioCache.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fonts/bodoni SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fonts/bodoni SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fonts/mvboli SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fonts/mvboli SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Animations/Credits.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Animations/Credits.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Master Bank.bank" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/Master Bank.bank" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Music.bank" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/Music.bank" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Game Manager.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefabs/Game Manager.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Normal UI.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefabs/Normal UI.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefabs/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Prefabs.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefabs/Prefabs.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Credits.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/Credits.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Materials/New Render Texture.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Materials/New Render Texture.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Sebi Testing.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/Sebi Testing.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/TestScene-Ave.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/TestScene-Ave.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/_Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/_Game.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/_Main_Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/_Main_Menu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Audio Scripts/Music.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Audio Scripts/Music.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/BreathingExercise.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/BreathingExercise.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/CameraChange.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/CameraChange.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/PhoneManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/PhoneManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fmod_editor.log" beforeDir="false" afterPath="$PROJECT_DIR$/fmod_editor.log" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>attackIsHappening</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BreathingExercise.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Start-End Screen Scripts Linde/LeaveCredits.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TrackPlayerText.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/AnxietyManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnableText.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Audio Scripts/Music.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Audio Scripts/Footsteps.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Start-End Screen Scripts Linde/MainMenu.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/CameraChange.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Audio Scripts/Music.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/EnableText.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/MainUIManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Fonts/bodoni SDF.asset" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/PhoneManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/BreathingExercise.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -40,11 +66,16 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Start-End Screen Scripts Linde/MainMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Start-End Screen Scripts Linde/LeaveCredits.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TrackPlayerText.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/CameraChange.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/BreathingExercise.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/Audio Scripts/Music.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/PhoneManager.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectId" id="1Qun4D4lE1wJjm2jUetHhfpOKuI" />
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
@@ -101,6 +132,8 @@
       <workItem from="1568480848446" duration="7804000" />
       <workItem from="1568489413634" duration="1140000" />
       <workItem from="1568629161240" duration="4235000" />
+      <workItem from="1568710447418" duration="4433000" />
+      <workItem from="1568722079391" duration="705000" />
     </task>
     <servers />
   </component>
@@ -114,7 +147,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

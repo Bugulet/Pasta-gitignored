@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -15,8 +16,8 @@ public class CameraChange : MonoBehaviour
     [SerializeField] private Camera PlayerCamera;
     
 
-    private Text RMBInstruction;
-    private Text LMBInstruction;
+    [SerializeField] private TextMeshPro RMBInstruction;
+    [SerializeField] private TextMeshPro LMBInstruction;
 
     [Header("Game UIs")]
     [Space]
@@ -45,9 +46,11 @@ public class CameraChange : MonoBehaviour
             PlayerCamera.enabled = false;
             NormalUI.enabled = false;
 
-            LMBInstruction = BedUI.transform.GetChild(0).GetComponent<Text>();
+            //LMBInstruction = BedUI.transform.GetChild(0).GetComponent<TextMeshPro>();
 
-            RMBInstruction = BedUI.transform.GetChild(1).GetComponent<Text>();
+            //RMBInstruction = BedUI.transform.GetChild(1).GetComponent<TextMeshPro>();
+            //RMBInstruction =RMBInstruction. GetComponent<TextMeshPro>();
+            //LMBInstruction =LMBInstruction. GetComponent<TextMeshPro>();
         }
     }
 
@@ -63,6 +66,9 @@ public class CameraChange : MonoBehaviour
                 //change camera
                 BedCamera.enabled = false;
                 BedUI.enabled = false;
+                RMBInstruction.enabled = false;
+                LMBInstruction.enabled = false;
+                
                 PlayerCamera.enabled = true;
                 NormalUI.enabled = true;
 
@@ -79,7 +85,7 @@ public class CameraChange : MonoBehaviour
         {
 
             RMBInstruction.text = "Press right click to snooze...";
-            LMBInstruction.fontSize = LMBInstruction.fontSize - 4;
+            LMBInstruction.fontSize = LMBInstruction.fontSize - 2;
             PTSDCount++;
         }
 
