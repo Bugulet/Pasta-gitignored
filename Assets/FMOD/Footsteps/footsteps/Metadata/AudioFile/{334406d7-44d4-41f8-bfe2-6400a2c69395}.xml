@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.01.10.00">
     <object class="AudioFile" id="{334406d7-44d4-41f8-bfe2-6400a2c69395}">
         <property name="assetPath">
-            <value>fire-loop.mp3</value>
+            <value>Music/fire-loop.mp3</value>
         </property>
         <property name="isStreaming">
             <value>true</value>

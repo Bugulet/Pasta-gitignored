@@ -26,7 +26,7 @@ public class EndMenu : MonoBehaviour
     }
     public void BacktoMain()
     {
-        //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 2);
+        SceneManager.LoadScene(0);
         //SceneManager.LoadScene("Startscreen"); //out of the 2 options, this one is better
         Debug.Log("MAIN");
     }
