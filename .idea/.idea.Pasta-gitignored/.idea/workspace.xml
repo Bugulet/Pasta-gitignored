@@ -3,21 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="afc7159b-2fe2-4cc9-9c07-0f9a26409c92" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Pasta-gitignored/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Pasta-gitignored/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FMODStudioCache.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FMODStudioCache.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fonts/bodoni SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fonts/bodoni SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fonts/mvboli SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fonts/mvboli SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/FMODStudioSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/FMODStudioSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Normal UI.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefabs/Normal UI.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Prefabs.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefabs/Prefabs.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Credits.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/Credits.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Michela-scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/Michela-scene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/TestScene-Ave.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/TestScene-Ave.unity.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Scenes/_Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/_Game.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/_Game.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/_Game.unity.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/_Main_Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/_Main_Menu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Start-End Screen Scripts Linde/MainMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Start-End Screen Scripts Linde/MainMenu.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fmod_editor.log" beforeDir="false" afterPath="$PROJECT_DIR$/fmod_editor.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/PhoneManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/PhoneManager.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,6 +26,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Start-End Screen Scripts Linde/MainMenu.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/MainUIManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Fonts/bodoni SDF.asset" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scenes/_Game.unity" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/PhoneManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/BreathingExercise.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -55,8 +45,8 @@
         <option value="$PROJECT_DIR$/Assets/_Scripts/CameraChange.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/BreathingExercise.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Audio Scripts/Music.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Scripts/PhoneManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Start-End Screen Scripts Linde/MainMenu.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/PhoneManager.cs" />
       </list>
     </option>
   </component>
@@ -121,7 +111,7 @@
       <workItem from="1568629161240" duration="4235000" />
       <workItem from="1568710447418" duration="4433000" />
       <workItem from="1568722079391" duration="705000" />
-      <workItem from="1568806358000" duration="1275000" />
+      <workItem from="1568806358000" duration="2506000" />
     </task>
     <servers />
   </component>

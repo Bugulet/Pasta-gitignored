@@ -188,7 +188,8 @@ MonoBehaviour:
     Use A and D to navigate'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5815aafce8fa50e45b65a7697b470263, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 4302548679474519142, guid: 5815aafce8fa50e45b65a7697b470263,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -259,7 +260,7 @@ MonoBehaviour:
     spaceCount: 11
     wordCount: 12
     linkCount: 0
-    lineCount: 3
+    lineCount: 2
     pageCount: 1
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
@@ -302,18 +303,18 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1729407505588067591}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.000018341}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 3518557944882725124}
   m_Father: {fileID: 1362582933505926221}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 0.5}
-  m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -287.75, y: 425}
-  m_SizeDelta: {x: 575.4, y: 160.4}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
+  m_AnchoredPosition: {x: -79.15018, y: 67.099785}
+  m_SizeDelta: {x: 94.3, y: 102.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1729407505588067588
 CanvasRenderer:
@@ -348,7 +349,8 @@ MonoBehaviour:
     Press E to see them'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5815aafce8fa50e45b65a7697b470263, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 4302548679474519142, guid: 5815aafce8fa50e45b65a7697b470263,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -390,7 +392,7 @@ MonoBehaviour:
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: -1
+  m_firstOverflowCharacterIndex: 7
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
   m_isTextTruncated: 0
@@ -419,7 +421,7 @@ MonoBehaviour:
     spaceCount: 8
     wordCount: 9
     linkCount: 0
-    lineCount: 2
+    lineCount: 12
     pageCount: 1
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
@@ -594,8 +596,8 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8427596462808610632}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.0000091701}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1729407505588067590}
@@ -603,7 +605,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -47.15, y: 51.1}
+  m_AnchoredPosition: {x: -47.149883, y: 51.100174}
   m_SizeDelta: {x: 94.3, y: 102.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6397697992006135243
@@ -786,6 +788,11 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -0
       objectReference: {fileID: 0}
+    - target: {fileID: 2911059650558642092, guid: 570c2afbe023f8e4a8d2ff77d4754901,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 4063574004520174723, guid: 570c2afbe023f8e4a8d2ff77d4754901,
         type: 3}
       propertyPath: m_UiScaleMode
@@ -801,6 +808,11 @@ PrefabInstance:
       propertyPath: m_ReferenceResolution.y
       value: 1080
       objectReference: {fileID: 0}
+    - target: {fileID: 6997817196232829223, guid: 570c2afbe023f8e4a8d2ff77d4754901,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 2065578488274252470, guid: 570c2afbe023f8e4a8d2ff77d4754901,
         type: 3}
       propertyPath: Player
@@ -810,6 +822,11 @@ PrefabInstance:
         type: 3}
       propertyPath: smoothing
       value: 1.52
+      objectReference: {fileID: 0}
+    - target: {fileID: 4939772653470064528, guid: 570c2afbe023f8e4a8d2ff77d4754901,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 748273946569430220, guid: 570c2afbe023f8e4a8d2ff77d4754901, type: 3}
