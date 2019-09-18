@@ -77,7 +77,7 @@ public class CameraChange : MonoBehaviour
             if (Input.GetMouseButtonDown(1) && !PlayerCamera.enabled)
             {
                 //34 so you can press up to 3 times
-                manager.IncreaseAnxiety(40);
+                manager.IncreaseAnxiety(34);
             }
         }
 

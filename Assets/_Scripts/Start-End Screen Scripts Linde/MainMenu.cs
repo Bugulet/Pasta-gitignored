@@ -18,16 +18,9 @@ public class MainMenu : MonoBehaviour
         SceneManager.LoadScene("Credits");
         Debug.Log("Credits Loaded");
     }
-    
     public void QuitGame()
     {
         Debug.Log("QUIT");
         Application.Quit();
-    }
-    
-    public void MainGame()
-    {
-        SceneManager.LoadScene("_Main_Menu");
-        Debug.Log("Main Menu");
     }
 }

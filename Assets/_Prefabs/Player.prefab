@@ -131,7 +131,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MainUI: {fileID: 0}
-  AnxietyLevelIncrease: 25
+  AnxietyLevelIncrease: 10
   InterractionDistance: 0
 --- !u!114 &3692085848995171940
 MonoBehaviour:
