@@ -19,6 +19,7 @@ public class PhoneManager : MonoBehaviour
 
 
     private TextMeshProUGUI NotificationText;
+    [SerializeField] private Image notification;
     private TextMeshProUGUI InstructionText;
 
     private RawImage PhoneImage;
@@ -27,8 +28,13 @@ public class PhoneManager : MonoBehaviour
 
     private int maxMessage;
     private int currentMessage;
+    
+    private FMOD.Studio.EventInstance _messageGet;
+    private FMOD.Studio.EventInstance _messageSend;
 
-
+    private bool _messageSent = false;
+    
+    
     void Start()
     {
         PhoneImage = PhoneUI.transform.GetChild(0).GetComponent<RawImage>();
@@ -40,7 +46,11 @@ public class PhoneManager : MonoBehaviour
         counter = FindObjectOfType<AnxietyCounter>();
         PhoneImage.enabled = false;
         NotificationText.enabled = false;
+        notification.enabled = false;
         InstructionText.enabled = false;
+        
+        _messageGet = FMODUnity.RuntimeManager.CreateInstance("event:/SFX/Message_Get");
+        _messageSend = FMODUnity.RuntimeManager.CreateInstance("event:/SFX/Message_Send");
         
     }
 
@@ -60,8 +70,13 @@ public class PhoneManager : MonoBehaviour
                 currentMessage = i;
 
                 if (PhoneImage.enabled == false)
-                NotificationText.enabled = true;
+                {
+                    NotificationText.enabled = true;
+                    notification.enabled = true;
+                }
 
+                _messageGet.start();
+                
                 PhoneImage.GetComponent<RawImage>().texture = MessageImages[i];
             }
             
@@ -84,7 +99,7 @@ public class PhoneManager : MonoBehaviour
                 //enable movement with closed phone
                 PlayerPrefab.transform.GetChild(0).GetComponent<LookatMouse>().sensitivity = 2;
                 PlayerPrefab.GetComponent<PlayerMovement>().enabled = true;
-
+                
                 keyPressed = true;
                 InstructionText.enabled = false;
                 PhoneImage.enabled = false;
@@ -120,7 +135,14 @@ public class PhoneManager : MonoBehaviour
             PlayerPrefab.GetComponent<PlayerMovement>().enabled = false;
 
             PhoneImage.enabled = true;
+
+            if (_messageSent == false)
+            {
+                _messageSend.start();
+            }
+
             NotificationText.enabled = false;
+            notification.enabled = false;
             InstructionText.enabled = true;
         }
     }
