@@ -16,9 +16,11 @@ public class InteractWithObject : MonoBehaviour
         manager = FindObjectOfType<InteractionManager>();
     }
 
-    // Update is called once per frame
-    void Update()
+    public virtual void Interact()
     {
-        
+        if (manager.CheckInteraction(InteractionNumber))
+        {
+            Debug.Log("changed numb");
+        }
     }
 }
