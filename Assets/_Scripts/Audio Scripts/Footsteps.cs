@@ -9,6 +9,8 @@ public class Footsteps : MonoBehaviour
     public string inputSound;
 
     private bool playerIsMoving;
+
+    [SerializeField] private Rigidbody playerSpeed; 
     
     [SerializeField]
     private float walkingSpeed;
@@ -19,13 +21,10 @@ public class Footsteps : MonoBehaviour
     }
     private void Update()
     {
-        if (Input.GetAxis("Vertical") >= 0.01f
-            || Input.GetAxis("Vertical") <= -0.01f
-            || Input.GetAxis("Horizontal") >= 0.01f
-            || Input.GetAxis("Horizontal") <= -0.01f)
+        if (playerSpeed.velocity.magnitude > 1.0f)
         {
             playerIsMoving = true;
-        } else if (Input.GetAxis("Vertical") == 0 || Input.GetAxis("Horizontal") == 0)
+        } else if (playerSpeed.velocity.magnitude <= 1.0f)
         {
             playerIsMoving = false;
         }

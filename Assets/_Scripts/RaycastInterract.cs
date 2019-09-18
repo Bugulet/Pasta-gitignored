@@ -54,6 +54,10 @@ public class RaycastInterract : MonoBehaviour
                         {
                             hit.collider.GetComponent<ChangeModel>().ChangeObject();
                         }
+                    } 
+                    if (hit.collider.GetComponent<SFX>() != null)
+                    {
+                        hit.collider.GetComponent<SFX>().Play();
                     }
                     // Debug.Log("object: " + hit.collider.name + " hit at distance: "+hit.distance);
                 }

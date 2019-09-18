@@ -13,8 +13,10 @@
           <e p="Audio Scripts" t="Include">
             <e p="Footsteps.cs" t="Include" />
             <e p="Music.cs" t="Include" />
+            <e p="SFX.cs" t="Include" />
           </e>
           <e p="CameraChange.cs" t="Include" />
+          <e p="CameraRotation.cs" t="Include" />
           <e p="ChangeModel.cs" t="Include" />
           <e p="EnableText.cs" t="Include" />
           <e p="LookatMouse.cs" t="Include" />
