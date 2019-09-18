@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="AudioFile" id="{1bd8997f-f075-45a2-b0f3-e3f65410c103}">
+        <property name="assetPath">
+            <value>SFX/breathe-out.wav</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>2.63843537414966</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{8b1652ac-4a73-4555-bce7-dba9a920375d}</destination>
+        </relationship>
+    </object>
+</objects>
