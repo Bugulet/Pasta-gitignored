@@ -4,14 +4,12 @@ using UnityEngine;
 
 public class RaycastInterract : MonoBehaviour
 {
-    
-
     [SerializeField] private Canvas MainUI;
 
-    //how much the anxiety level increases when looking at a bad memory 
+    [Tooltip("How much the anxiety level increases when looking at a bad memory")]
     [SerializeField] private int AnxietyLevelIncrease = 10;
 
-    //max distance for the player to be able to interract with objects
+    [Tooltip("Max distance for the player to be able to interract with objects")]
     [SerializeField] private float InterractionDistance;
     
     private RaycastHit hit;
@@ -25,25 +23,37 @@ public class RaycastInterract : MonoBehaviour
             //check if it is interractible
             if (hit.collider.CompareTag("Interractible") || hit.collider.CompareTag("Bad Memory") || hit.collider.CompareTag("InterractObjects"))
             {
-                MainUI.GetComponent<MainUIManager>().ChangeObjectName(hit.collider.name);
-                
+                var nameChange = MainUI.GetComponent<MainUIManager>();
+                nameChange.ChangeObjectName(hit.collider.name);
 
                 //check if interraction is started
                 if (Input.GetMouseButtonDown(0))
                 {
                     if(hit.collider.CompareTag("Interractible"))
                     {
-                        hit.collider.GetComponent<EnableText>().StartHint();
+                        if(hit.collider.GetComponent<EnableText>()!=null)
+                        {
+                            hit.collider.GetComponent<EnableText>().StartHint();
+                        }
+                        else
+                        {
+                            Debug.Log("Enable text component not added");
+                        }
                     }
                     else if(hit.collider.CompareTag("Bad Memory"))
                     {
-                        hit.collider.GetComponent<EnableText>().StartHint();
-                        FindObjectOfType<AnxietyManager>().IncreaseAnxiety(AnxietyLevelIncrease);
+                        if (hit.collider.GetComponent<EnableText>() != null)
+                        {
+                            hit.collider.GetComponent<EnableText>().StartHint();
+                            FindObjectOfType<AnxietyManager>().IncreaseAnxiety(AnxietyLevelIncrease);
+                        }
                     }
                     else
                     {
-                        Debug.Log("AAAAAAA");
-                        hit.collider.GetComponent<ChangeModel>().ChangeObject();
+                        if (hit.collider.GetComponent<ChangeModel>() != null)
+                        {
+                            hit.collider.GetComponent<ChangeModel>().ChangeObject();
+                        }
                     }
                     // Debug.Log("object: " + hit.collider.name + " hit at distance: "+hit.distance);
                 }

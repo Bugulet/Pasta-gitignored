@@ -18,7 +18,7 @@ public class PhoneManager : MonoBehaviour
     [SerializeField] GameObject PlayerPrefab;
 
 
-    private TextMeshProUGUI NotificationText;
+    private GameObject NotificationText;
     [SerializeField] private Image notification;
     private TextMeshProUGUI InstructionText;
 
@@ -39,14 +39,14 @@ public class PhoneManager : MonoBehaviour
     {
         PhoneImage = PhoneUI.transform.GetChild(0).GetComponent<RawImage>();
 
-        NotificationText = PhoneUI.transform.GetChild(1).GetComponent<TextMeshProUGUI>() ;
+        NotificationText = PhoneUI.transform.GetChild(1).gameObject;
 
         InstructionText = PhoneUI.transform.GetChild(2).GetComponent<TextMeshProUGUI>();
 
         counter = FindObjectOfType<AnxietyCounter>();
         PhoneImage.enabled = false;
-        NotificationText.enabled = false;
-        notification.enabled = false;
+        NotificationText.SetActive(false);
+        //notification.enabled = false;
         InstructionText.enabled = false;
         
         _messageGet = FMODUnity.RuntimeManager.CreateInstance("event:/SFX/Message_Get");
@@ -71,8 +71,8 @@ public class PhoneManager : MonoBehaviour
 
                 if (PhoneImage.enabled == false)
                 {
-                    NotificationText.enabled = true;
-                    notification.enabled = true;
+                    NotificationText.SetActive(true);
+                    //notification.enabled = true;
                 }
 
                 _messageGet.start();
@@ -141,8 +141,8 @@ public class PhoneManager : MonoBehaviour
                 _messageSend.start();
             }
 
-            NotificationText.enabled = false;
-            notification.enabled = false;
+            NotificationText.SetActive(false);
+            //notification.enabled = false;
             InstructionText.enabled = true;
         }
     }

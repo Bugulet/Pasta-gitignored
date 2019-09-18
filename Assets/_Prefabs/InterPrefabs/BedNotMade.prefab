@@ -47,6 +47,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DifferentObject: {fileID: 7650689183176417066, guid: a264f81a805b87345aa79e37ed9f8b5c,
     type: 3}
+  InteractionNumber: 1
 --- !u!65 &4957107123510144437
 BoxCollider:
   m_ObjectHideFlags: 0
