@@ -221,17 +221,41 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MessageTimes:
-  - hour: 9
-    minutes: 5
-  - hour: 9
-    minutes: 7
-  - hour: 9
-    minutes: 12
+  - hour: 11
+    minutes: 1
+  - hour: 11
+    minutes: 1
+  - hour: 11
+    minutes: 1
+  - hour: 12
+    minutes: 1
+  - hour: 12
+    minutes: 1
+  - hour: 12
+    minutes: 48
+  - hour: 12
+    minutes: 48
+  - hour: 13
+    minutes: 29
+  - hour: 13
+    minutes: 29
+  - hour: 14
+    minutes: 27
+  - hour: 14
+    minutes: 27
   PhoneUI: {fileID: 5484294322472638156}
   MessageImages:
-  - {fileID: 2800000, guid: 0d9f434c8bd185b4181d037df6f0952b, type: 3}
-  - {fileID: 2800000, guid: db852128f7f77f547ab170f5cf75d89f, type: 3}
-  - {fileID: 2800000, guid: 48d126c64e5891b4a935fa990389021a, type: 3}
+  - {fileID: 2800000, guid: b422880cd08632f4f8295ed1bcf56f9a, type: 3}
+  - {fileID: 2800000, guid: 646cc2a051907b04e9c3dfb99b1df9db, type: 3}
+  - {fileID: 2800000, guid: f0882ea66b226644c958384b1f72d5e6, type: 3}
+  - {fileID: 2800000, guid: b68f236c01292084a92989355cf239a1, type: 3}
+  - {fileID: 2800000, guid: 72423096340e9fb4aaef9d383417048e, type: 3}
+  - {fileID: 2800000, guid: bdcafdf4ca262fc4f986abb53ccec2a5, type: 3}
+  - {fileID: 2800000, guid: 2b52c9fb267300043bc9ba4bee82916c, type: 3}
+  - {fileID: 2800000, guid: 1a1f688526d1e6740acad1ed56d4da36, type: 3}
+  - {fileID: 2800000, guid: 71aab18e50a883e4d8d4664add4e661d, type: 3}
+  - {fileID: 2800000, guid: 99c4342319546524d997698aa46822d7, type: 3}
+  - {fileID: 2800000, guid: baf9ac490bfcd274a8659f3aa049b40f, type: 3}
   PlayerPrefab: {fileID: 3115640411134283856}
   notification: {fileID: 5935207006907743831}
 --- !u!114 &1729407504954418417
@@ -327,6 +351,11 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5175270340773576059, guid: 570c2afbe023f8e4a8d2ff77d4754901,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0
+      objectReference: {fileID: 0}
     - target: {fileID: 8994190420797843355, guid: 570c2afbe023f8e4a8d2ff77d4754901,
         type: 3}
       propertyPath: PlayerCamera
@@ -351,6 +380,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_RenderMode
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2065578486937162962, guid: 570c2afbe023f8e4a8d2ff77d4754901,
+        type: 3}
+      propertyPath: BreathingExerciseThreshold
+      value: 69
       objectReference: {fileID: 0}
     - target: {fileID: 2065578486933059326, guid: 570c2afbe023f8e4a8d2ff77d4754901,
         type: 3}
@@ -431,16 +465,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_RootOrder
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5175270340773576059, guid: 570c2afbe023f8e4a8d2ff77d4754901,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2065578486937162962, guid: 570c2afbe023f8e4a8d2ff77d4754901,
-        type: 3}
-      propertyPath: BreathingExerciseThreshold
-      value: 69
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 748273946569430220, guid: 570c2afbe023f8e4a8d2ff77d4754901, type: 3}
@@ -605,6 +629,11 @@ PrefabInstance:
       propertyPath: Speed
       value: 1500
       objectReference: {fileID: 0}
+    - target: {fileID: 6152090854591876021, guid: 37d76638bd63f3346a5426b1d8939544,
+        type: 3}
+      propertyPath: playerSpeed
+      value: 
+      objectReference: {fileID: 3115640411134283854}
     - target: {fileID: 3692085848995171940, guid: 37d76638bd63f3346a5426b1d8939544,
         type: 3}
       propertyPath: sensitivity
@@ -660,11 +689,6 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6152090854591876021, guid: 37d76638bd63f3346a5426b1d8939544,
-        type: 3}
-      propertyPath: playerSpeed
-      value: 
-      objectReference: {fileID: 3115640411134283854}
     m_RemovedComponents:
     - {fileID: 8077998274094119804, guid: 37d76638bd63f3346a5426b1d8939544, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 37d76638bd63f3346a5426b1d8939544, type: 3}
