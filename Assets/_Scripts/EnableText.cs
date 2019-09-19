@@ -6,10 +6,11 @@ using TMPro;
 public class EnableText : MonoBehaviour
 {
 
+    [SerializeField] private int waitTime = 3;
     [SerializeField] private TextMeshPro hintText;
 
     private string message;
-    private bool IsInside;
+    private bool textStarted;
     private int messageIterator = 1;
 
     private void Start()
@@ -21,34 +22,33 @@ public class EnableText : MonoBehaviour
         }
     }
 
+    //start writing the text
     public void StartHint()
     {
-        messageIterator = 1;
-        IsInside = true;
+        messageIterator = 0;
+        textStarted = true;
         hintText.enabled = true;
         hintText.text = "";
     }
 
+    //start deleting the text
     private void DeleteHint()
     {
-        IsInside = false;
+        textStarted = false;
         totalTime = 0;
     }
 
-    [SerializeField] private int waitTime = 3;
-    float totalTime = 0;
+
+    //total time since the text was completely written
+    private float totalTime = 0;
 
     private void Update()
     {
         if (hintText != null)
         {
-            if (IsInside)
+            if (textStarted)
             {
-                if (!message.Equals(hintText.text))
-                {
-                    hintText.SetText(message.Substring(0, messageIterator++));
-                }
-                else
+                if (message.Equals(hintText.text))
                 {
                     if (totalTime >= waitTime)
                     {
@@ -59,15 +59,21 @@ public class EnableText : MonoBehaviour
                         totalTime += Time.deltaTime;
                     }
                 }
+                else
+                {
+                    hintText.SetText(message.Substring(0, messageIterator++));
+                }
             }
             else
             {
                 if (hintText.text.Length > 0)
                 {
-                    hintText.SetText(message.Substring(0, messageIterator--));
+                    messageIterator--;
+                    hintText.SetText(message.Substring(0, messageIterator));
                 }
             }
         }
+
     }
 
 }

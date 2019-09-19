@@ -19,8 +19,11 @@ public class InteractionManager : MonoBehaviour
     //check if this is a good interaction in order
     public bool CheckInteraction(int interactionNumber)
     {
+        //Debug.Log("checking");
         if (interactionNumber - 1 == CurrentObjective)
         {
+            PrintInteractionNumber();
+
             CurrentObjective = interactionNumber;
             return true;
         }
@@ -36,7 +39,7 @@ public class InteractionManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log("Current Objective " + CurrentObjective);
+        //Debug.Log("Current Objective " + CurrentObjective);
         if (CurrentObjective == MaxObjective)
         {
             Debug.Log("GOTO END");
