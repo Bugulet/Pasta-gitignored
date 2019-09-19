@@ -8,12 +8,12 @@ public class InteractionManager : MonoBehaviour
 
     [HideInInspector] public int CurrentObjective = 0;
     [SerializeField] private int MaxObjective = 5;
+    
+    private FMOD.Studio.Bus _masterBus;
 
-
-    // Start is called before the first frame update
-    void Start()
+    private void Start()
     {
-
+        _masterBus = FMODUnity.RuntimeManager.GetBus("Bus:/");
     }
 
     //check if this is a good interaction in order
@@ -43,6 +43,8 @@ public class InteractionManager : MonoBehaviour
         if (CurrentObjective == MaxObjective)
         {
             SceneManager.LoadScene("_Good_End");
+            
+            _masterBus.stopAllEvents(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
         }
     }
 }
