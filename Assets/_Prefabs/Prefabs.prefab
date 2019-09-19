@@ -246,9 +246,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8cfc44637034da84aab6a0f3e23f0848, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StartingHour: 9
+  StartingHour: 11
   StartingMinute: 0
-  UpdateRate: 1
+  UpdateRate: 15
   TimeText: {fileID: 3484990526979707951}
 --- !u!1001 &336219963043054152
 PrefabInstance:
@@ -436,6 +436,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.z
       value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2065578486937162962, guid: 570c2afbe023f8e4a8d2ff77d4754901,
+        type: 3}
+      propertyPath: BreathingExerciseThreshold
+      value: 69
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 748273946569430220, guid: 570c2afbe023f8e4a8d2ff77d4754901, type: 3}

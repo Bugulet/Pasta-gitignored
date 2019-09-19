@@ -164,6 +164,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &-7010404530831375255
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Music/Anxiety
+  m_EditorClassIdentifier: 
+  Name: Anxiety
+  Min: 0
+  Max: 110
+  Default: 0
+  Exists: 1
 --- !u!114 &-6895405565249990729
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -372,6 +389,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 1
+--- !u!114 &-4348925031506794201
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Breathing/state
+  m_EditorClassIdentifier: 
+  Name: state
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
 --- !u!114 &-4181704177109869205
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -480,7 +514,7 @@ MonoBehaviour:
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: -5836182426871627613}
+  - {fileID: -4348925031506794201}
   MinDistance: 0
   MaxDistance: 0
   Length: 15835
@@ -611,6 +645,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 1
+--- !u!114 &-672808471667084671
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Music/Anxiety
+  m_EditorClassIdentifier: 
+  Name: Anxiety
+  Min: 0
+  Max: 110
+  Default: 0
+  Exists: 1
 --- !u!114 &-541376539800660393
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -662,7 +713,7 @@ MonoBehaviour:
   - {fileID: 393061513323349648}
   StringsBanks:
   - {fileID: 6821751229740463069}
-  stringsBankWriteTime: 637044815092543698
+  stringsBankWriteTime: 637044894980563039
   cacheVersion: 3
 --- !u!114 &47523090047126302
 MonoBehaviour:
@@ -712,7 +763,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: C:\Users\angel\Documents\GitHub\Pasta-gitignored\Assets\FMOD\Footsteps\footsteps\Build\Desktop\Master
     Bank.bank
-  lastModified: 637044815092493831
+  lastModified: 637044894980483263
   LoadResult: 0
   FileSizes:
   - Name: Desktop
@@ -781,7 +832,7 @@ MonoBehaviour:
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: 4516395842104141972}
+  - {fileID: -7010404530831375255}
   MinDistance: 0
   MaxDistance: 0
   Length: 396005
@@ -1078,6 +1129,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &4351217968573008777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Breathing/state
+  m_EditorClassIdentifier: 
+  Name: state
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
 --- !u!114 &4365617940953667621
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1252,7 +1320,7 @@ MonoBehaviour:
   m_Name: bank:/Master Bank.strings.bank
   m_EditorClassIdentifier: 
   Path: Assets\FMOD\Footsteps\footsteps\Build\Desktop\Master Bank.strings.bank
-  lastModified: 637044815092543698
+  lastModified: 637044894980563039
   LoadResult: 0
   FileSizes:
   - Name: Desktop
@@ -1328,7 +1396,7 @@ MonoBehaviour:
   m_Name: bank:/Music.bank
   m_EditorClassIdentifier: 
   Path: C:\Users\angel\Documents\GitHub\Pasta-gitignored\Assets\FMOD\Footsteps\footsteps\Build\Desktop\Music.bank
-  lastModified: 637044815093221890
+  lastModified: 637044894981420751
   LoadResult: 0
   FileSizes:
   - Name: Desktop
@@ -1390,7 +1458,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
-  Length: 11500
+  Length: 9500
 --- !u!114 &8436774877931303534
 MonoBehaviour:
   m_ObjectHideFlags: 0
