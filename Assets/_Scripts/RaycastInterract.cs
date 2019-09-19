@@ -45,14 +45,14 @@ public class RaycastInterract : MonoBehaviour
                         if (hit.collider.GetComponent<EnableText>() != null)
                         {
                             hit.collider.GetComponent<EnableText>().StartHint();
+                            FindObjectOfType<AnxietyManager>().IncreaseAnxiety(AnxietyLevelIncrease);
                         }
-                        FindObjectOfType<AnxietyManager>().IncreaseAnxiety(AnxietyLevelIncrease);
                     }
                     else
                     {
-                        if (hit.collider.GetComponent<InteractWithObject>() != null)
+                        if (hit.collider.GetComponent<ChangeModel>() != null)
                         {
-                            hit.collider.GetComponent<InteractWithObject>().Interact();
+                            hit.collider.GetComponent<ChangeModel>().ChangeObject();
                         }
                     } 
                     if (hit.collider.GetComponent<SFX>() != null)

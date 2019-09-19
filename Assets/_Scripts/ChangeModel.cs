@@ -8,15 +8,13 @@ public class ChangeModel : InteractWithObject
     [Tooltip("The object that will be spawned when the object will be changed")]
     [SerializeField] private GameObject DifferentObject;
     
-    
 
     private void Start()
     {
         manager = FindObjectOfType<InteractionManager>();
-        
     }
 
-    override public void Interact()
+    public void ChangeObject()
     {
         if (manager.CheckInteraction(InteractionNumber))
         {
