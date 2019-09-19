@@ -18,6 +18,7 @@ public class RaycastInterract : MonoBehaviour
     private void Start()
     {
         nameChange = MainUI.GetComponent<MainUIManager>();
+        nameChange.ChangeObjectName("");
     }
     // Update is called once per frame
     void Update()
