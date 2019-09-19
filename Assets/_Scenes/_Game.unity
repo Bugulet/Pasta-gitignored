@@ -243,6 +243,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hintText: {fileID: 172462909}
+  waitTime: 3
 --- !u!65 &126898919
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2234,6 +2235,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hintText: {fileID: 1565969094}
+  waitTime: 3
 --- !u!1001 &696077240
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4986,7 +4988,7 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: 851eef452defa474a82992101f275cd8,
         type: 3}
       propertyPath: m_TagString
-      value: Model changing layer
+      value: InterractObjects
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 851eef452defa474a82992101f275cd8,
         type: 3}
@@ -5081,12 +5083,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1521993393}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1b78a9359a70df84691b44150796c866, type: 3}
+  m_Script: {fileID: 11500000, guid: 4a5828aeebfc80041a956604f853c63e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  InteractionNumber: 0
   DifferentObject: {fileID: -927199367670048503, guid: 5206b35fc57249f4ca8cac935b8ee6e2,
     type: 3}
-  InteractionNumber: 7
 --- !u!65 &1521993395
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5113,6 +5115,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hintText: {fileID: 70298024}
+  waitTime: 3
 --- !u!114 &1565969094 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1537554872757748995, guid: e2232815da2d7be4bb63974bb608447a,
@@ -6208,6 +6211,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hintText: {fileID: 1365917173}
+  waitTime: 3
 --- !u!114 &1827853371
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6235,6 +6239,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hintText: {fileID: 1407654157}
+  waitTime: 3
 --- !u!114 &1827853374
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6248,6 +6253,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hintText: {fileID: 1693056239}
+  waitTime: 3
 --- !u!114 &1827853375
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6261,6 +6267,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hintText: {fileID: 159001867}
+  waitTime: 3
 --- !u!114 &1827853376
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6274,6 +6281,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hintText: {fileID: 895895669}
+  waitTime: 3
 --- !u!114 &1827853377
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6287,6 +6295,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hintText: {fileID: 224641001}
+  waitTime: 3
 --- !u!64 &1827853378
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6314,6 +6323,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hintText: {fileID: 1039306099}
+  waitTime: 3
 --- !u!114 &1827853380
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6424,6 +6434,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hintText: {fileID: 2024530395}
+  waitTime: 3
 --- !u!65 &1827853404
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6554,6 +6565,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hintText: {fileID: 948722686}
+  waitTime: 3
 --- !u!64 &1827853426
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6636,6 +6648,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hintText: {fileID: 1664758002}
+  waitTime: 3
 --- !u!114 &1827853434
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6649,6 +6662,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hintText: {fileID: 1918536386}
+  waitTime: 3
 --- !u!65 &1827853435
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7101,6 +7115,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hintText: {fileID: 194460296}
+  waitTime: 3
 --- !u!23 &1838217152
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7346,6 +7361,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hintText: {fileID: 412265701}
+  waitTime: 3
 --- !u!1 &1895057031
 GameObject:
   m_ObjectHideFlags: 0

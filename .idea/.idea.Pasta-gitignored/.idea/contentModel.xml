@@ -41,6 +41,7 @@
             <e p="Time.cs" t="Include" />
           </e>
         </e>
+        <e p="ChangeModelNoInteraction.cs" t="Include" />
         <e p="Editor" t="Include">
           <e p="FMODMigrationUtil.cs" t="Include" />
         </e>
@@ -136,6 +137,7 @@
             </e>
           </e>
         </e>
+        <e p="MaskingEffect.cs" t="Include" />
         <e p="Plugins" t="Include">
           <e p="Editor" t="Include">
             <e p="FMOD" t="Include">
@@ -396,6 +398,7 @@
             <e p="EmojiOne Attribution.txt" t="Include" />
           </e>
         </e>
+        <e p="TransparencyEffect.cs" t="Include" />
       </e>
       <e p="obj" t="ExcludeRecursive" />
       <e p="Packages" t="ExcludeRecursive" />
