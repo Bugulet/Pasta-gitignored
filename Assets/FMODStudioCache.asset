@@ -142,6 +142,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 1
+--- !u!114 &-7546867386276499732
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Breathing/state
+  m_EditorClassIdentifier: 
+  Name: state
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
 --- !u!114 &-7455266658932729536
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -548,7 +565,7 @@ MonoBehaviour:
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: -7775581720272231580}
+  - {fileID: -7546867386276499732}
   MinDistance: 0
   MaxDistance: 0
   Length: 15835
@@ -747,7 +764,7 @@ MonoBehaviour:
   - {fileID: 393061513323349648}
   StringsBanks:
   - {fileID: 6821751229740463069}
-  stringsBankWriteTime: 637044913509083236
+  stringsBankWriteTime: 637045004648062530
   cacheVersion: 3
 --- !u!114 &47523090047126302
 MonoBehaviour:
@@ -797,7 +814,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: C:\Users\angel\Documents\GitHub\Pasta-gitignored\Assets\FMOD\Footsteps\footsteps\Build\Desktop\Master
     Bank.bank
-  lastModified: 637044913509073246
+  lastModified: 637045004648022649
   LoadResult: 0
   FileSizes:
   - Name: Desktop
@@ -866,7 +883,7 @@ MonoBehaviour:
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: -8603475582389688449}
+  - {fileID: 1662179086278334663}
   MinDistance: 0
   MaxDistance: 0
   Length: 396005
@@ -927,6 +944,23 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 7337
+--- !u!114 &1662179086278334663
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Music/Anxiety
+  m_EditorClassIdentifier: 
+  Name: Anxiety
+  Min: 0
+  Max: 110
+  Default: 0
+  Exists: 1
 --- !u!114 &1663823278206166515
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1354,7 +1388,7 @@ MonoBehaviour:
   m_Name: bank:/Master Bank.strings.bank
   m_EditorClassIdentifier: 
   Path: Assets\FMOD\Footsteps\footsteps\Build\Desktop\Master Bank.strings.bank
-  lastModified: 637044913509083236
+  lastModified: 637045004648062530
   LoadResult: 0
   FileSizes:
   - Name: Desktop
@@ -1430,7 +1464,7 @@ MonoBehaviour:
   m_Name: bank:/Music.bank
   m_EditorClassIdentifier: 
   Path: C:\Users\angel\Documents\GitHub\Pasta-gitignored\Assets\FMOD\Footsteps\footsteps\Build\Desktop\Music.bank
-  lastModified: 637044913509581907
+  lastModified: 637045004649089915
   LoadResult: 0
   FileSizes:
   - Name: Desktop
