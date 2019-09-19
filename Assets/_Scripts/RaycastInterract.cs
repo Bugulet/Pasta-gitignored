@@ -11,63 +11,67 @@ public class RaycastInterract : MonoBehaviour
 
     [Tooltip("Max distance for the player to be able to interract with objects")]
     [SerializeField] private float InterractionDistance;
-    
+    MainUIManager nameChange;
     private RaycastHit hit;
 
+
+    private void Start()
+    {
+        nameChange = MainUI.GetComponent<MainUIManager>();
+    }
     // Update is called once per frame
     void Update()
     {
         //check if it collided with something
         if (Physics.Raycast(transform.position,transform.forward, out hit,InterractionDistance))
         {
+            //Debug.Log(hit.collider.tag);
             //check if it is interractible
-            if (hit.collider.CompareTag("Interractible") || hit.collider.CompareTag("Bad Memory") || hit.collider.CompareTag("InterractObjects"))
+            if (hit.collider.CompareTag("Interractible") || hit.collider.CompareTag("Bad Memory"))
             {
-                var nameChange = MainUI.GetComponent<MainUIManager>();
-                nameChange.ChangeObjectName(hit.collider.name);
+               // Debug.Log(hit.collider.name);
+                string name = hit.collider.name;
+                
+                nameChange.ChangeObjectName(name);
 
                 //check if interraction is started
                 if (Input.GetMouseButtonDown(0))
                 {
-                    if(hit.collider.CompareTag("Interractible"))
+
+                    if (hit.collider.GetComponent<InteractWithObject>() != null)
                     {
-                        if(hit.collider.GetComponent<EnableText>()!=null)
-                        {
-                            hit.collider.GetComponent<EnableText>().StartHint();
-                        }
-                        else
-                        {
-                            Debug.Log("Enable text component not added");
-                        }
+                        hit.collider.GetComponent<InteractWithObject>().Interact();
                     }
-                    else if(hit.collider.CompareTag("Bad Memory"))
+
+                    if (hit.collider.GetComponent<EnableText>() != null)
                     {
-                        if (hit.collider.GetComponent<EnableText>() != null)
-                        {
-                            hit.collider.GetComponent<EnableText>().StartHint();
-                            FindObjectOfType<AnxietyManager>().IncreaseAnxiety(AnxietyLevelIncrease);
-                        }
+                        hit.collider.GetComponent<EnableText>().StartHint();
                     }
-                    else
+
+                    if (hit.collider.CompareTag("Bad Memory"))
                     {
-                        if (hit.collider.GetComponent<ChangeModel>() != null)
-                        {
-                            hit.collider.GetComponent<ChangeModel>().ChangeObject();
-                        }
-                    } 
-                    if (hit.collider.GetComponent<SFX>() != null)
-                    {
-                        hit.collider.GetComponent<SFX>().Play();
+                        
+                        FindObjectOfType<AnxietyManager>().IncreaseAnxiety(AnxietyLevelIncrease);
                     }
+                    //else
+                    //{
+                    //    if (hit.collider.GetComponent<InteractWithObject>() != null)
+                    //    {
+                    //        hit.collider.GetComponent<InteractWithObject>().Interact();
+                    //    }
+                    //}
                     // Debug.Log("object: " + hit.collider.name + " hit at distance: "+hit.distance);
                 }
             }
+
+            //if the collider does not exist or is not interractible, set the UI tip to blank
+            if (hit.collider == null || (!hit.collider.CompareTag("Interractible") && !hit.collider.CompareTag("Bad Memory")))
+            {
+                // Debug.Log("pula mea");
+                MainUI.GetComponent<MainUIManager>().ChangeObjectName("");
+            }
         }
         
-        //if the collider does not exist or is not interractible, set the UI tip to blank
-        if(hit.collider==null ||( !hit.collider.CompareTag("Interractible") && !hit.collider.CompareTag("Bad Memory") && !hit.collider.CompareTag("InterractObjects")))
-        {
-            MainUI.GetComponent<MainUIManager>().ChangeObjectName("");
-        }
+        
     }
 }
