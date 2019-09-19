@@ -20,8 +20,8 @@ public class ChangeModel : InteractWithObject
     {
         if (manager.CheckInteraction(InteractionNumber))
         {
-                Instantiate(DifferentObject, transform.position, transform.rotation);
-                Destroy(gameObject);
+            Instantiate(DifferentObject, transform.position, transform.rotation);
+            Destroy(gameObject);
         }
     }
 }
