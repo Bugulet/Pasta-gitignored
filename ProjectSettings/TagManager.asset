@@ -6,8 +6,6 @@ TagManager:
   tags:
   - Interractible
   - Bad Memory
-  - Model changing layer
-  - InterractObjects
   layers:
   - Default
   - TransparentFX

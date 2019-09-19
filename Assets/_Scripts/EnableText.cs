@@ -35,7 +35,7 @@ public class EnableText : MonoBehaviour
         totalTime = 0;
     }
 
-    int waitTime = 3;
+    [SerializeField] private int waitTime = 3;
     float totalTime = 0;
 
     private void Update()

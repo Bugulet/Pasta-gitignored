@@ -9,21 +9,11 @@ public class MainUIManager : MonoBehaviour
     private string objName;
 
     [SerializeField] Text ObjectText;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    
 
     public void ChangeObjectName(string objname)
     {
+       // Debug.Log("Triggered"+objname);
         objName = objname;
         ObjectText.text = objname;
     }
