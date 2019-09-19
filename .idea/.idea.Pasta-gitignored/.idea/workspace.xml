@@ -2,30 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="afc7159b-2fe2-4cc9-9c07-0f9a26409c92" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Pasta-gitignored/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Pasta-gitignored/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Pasta-gitignored/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Pasta-gitignored/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Pasta-gitignored/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Pasta-gitignored/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FMOD/Footsteps/footsteps/.cache/fsbcache/Desktop/0FD04F2C.fobj" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FMOD/Footsteps/footsteps/.cache/fsbcache/Desktop/0FD04F2C.fobj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FMOD/Footsteps/footsteps/.cache/fsbcache/Desktop/29013129.fobj" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FMOD/Footsteps/footsteps/.cache/fsbcache/Desktop/29013129.fobj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FMOD/Footsteps/footsteps/.cache/fsbcache/Desktop/6D427995.fobj" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FMOD/Footsteps/footsteps/.cache/fsbcache/Desktop/6D427995.fobj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FMOD/Footsteps/footsteps/.cache/fsbcache/Desktop/893832E1.fobj" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FMOD/Footsteps/footsteps/.cache/fsbcache/Desktop/893832E1.fobj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/FMOD/Footsteps/footsteps/.cache/{09ab4d61-74cd-4675-b327-905450e92579}.pdc" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FMOD/Footsteps/footsteps/.cache/{09ab4d61-74cd-4675-b327-905450e92579}.pdc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FMOD/Footsteps/footsteps/.cache/{4fc9dde2-3927-4207-aaaf-3ec26064d1b1}.pdc" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FMOD/Footsteps/footsteps/.cache/{4fc9dde2-3927-4207-aaaf-3ec26064d1b1}.pdc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/FMOD/Footsteps/footsteps/.cache/{5abfa6fc-74c8-499c-a0bb-f98c2fcb1b9c}.pdc" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FMOD/Footsteps/footsteps/.cache/{5abfa6fc-74c8-499c-a0bb-f98c2fcb1b9c}.pdc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/FMOD/Footsteps/footsteps/.cache/{ac3c093e-9545-4d90-ada3-6a04a616d094}.pdc" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FMOD/Footsteps/footsteps/.cache/{ac3c093e-9545-4d90-ada3-6a04a616d094}.pdc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/FMOD/Footsteps/footsteps/.cache/{e9e00262-9410-4851-8319-0b3e8692fc52}.pdc" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FMOD/Footsteps/footsteps/.cache/{e9e00262-9410-4851-8319-0b3e8692fc52}.pdc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/FMODStudioCache.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FMODStudioCache.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fonts/mvboli SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fonts/mvboli SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Music.bank" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/Music.bank" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Prefabs.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefabs/Prefabs.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Text Trigger.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefabs/Text Trigger.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Michela-scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/Michela-scene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InteractionManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InteractionManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Interactible models.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Interactible models/BedMade.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Interactible models/BedMade.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Interactible models/interactible_bed_made.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Interactible models/interactible_bed_made.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Interactible models/interactible_bed_rumpled.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Interactible models/interactible_bed_rumpled.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Textured Room Prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Textured Room Prefab/apartment_finished_v1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Textured Room Prefab/apartment_finished_v1.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Textured Room Prefab/apartment_finished_v1_soft.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Textured Room Prefab/apartment_finished_v1_soft.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Credits.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/Credits.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/EndScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/EndScene.unity.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Scenes/_Bad_End.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/_Bad_End.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Scenes/_Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/_Game.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Scenes/_Good_End.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/_Good_End.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Scenes/_Main_Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/_Main_Menu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Audio Scripts/SFX.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Audio Scripts/SFX.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/CameraRotation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/CameraRotation.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/textures/Particles.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fmod_editor.log" beforeDir="false" afterPath="$PROJECT_DIR$/fmod_editor.log" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,8 +46,6 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/RaycastInterract.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/EnableCursor.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Audio Scripts/SFX.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Fonts/bodoni SDF.asset" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scenes/_Game.unity" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/UI/AnxietyManager.cs" root0="FORCE_HIGHLIGHTING" />
@@ -49,8 +53,8 @@
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Audio Scripts/Footsteps.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/CameraChange.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Audio Scripts/Music.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/ChangeModel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Prefabs/Prefabs.prefab" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/CameraRotation.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/EnableText.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Start-End Screen Scripts Linde/MainMenu.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/LookatMouse.cs" root0="FORCE_HIGHLIGHTING" />
