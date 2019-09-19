@@ -42,7 +42,6 @@ public class InteractionManager : MonoBehaviour
         //Debug.Log("Current Objective " + CurrentObjective);
         if (CurrentObjective == MaxObjective)
         {
-            Debug.Log("GOTO END");
             SceneManager.LoadScene("_Good_End");
         }
     }
