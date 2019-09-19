@@ -1,12 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class InteractionManager : MonoBehaviour
 {
 
     [HideInInspector] public int CurrentObjective = 0;
-    [SerializeField] private int MaxObjective = 6;
+    [SerializeField] private int MaxObjective = 5;
 
 
     // Start is called before the first frame update
@@ -35,9 +36,11 @@ public class InteractionManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        Debug.Log("Current Objective " + CurrentObjective);
         if (CurrentObjective == MaxObjective)
         {
             Debug.Log("GOTO END");
+            SceneManager.LoadScene("_Good_End");
         }
     }
 }

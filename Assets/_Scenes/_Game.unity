@@ -6857,19 +6857,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 353.99997, y: 151.99998, z: 184.85986}
   m_Center: {x: -0.000030517578, y: 0, z: -0.0000076293945}
---- !u!65 &1827853480
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2979223682360345614}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 280, y: 439.99988, z: 126.77356}
-  m_Center: {x: -0.0000076293945, y: 0.0000076293945, z: 0.000030517578}
 --- !u!65 &1827853481
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7053,20 +7040,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DifferentObject: {fileID: 0}
   InteractionNumber: 1
---- !u!114 &1827853686
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1576278780920244303}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1a7d1058cf696634c8952de85c33f2a8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CurrentObjective: 0
-  MaxObjective: 6
 --- !u!114 &1827853687
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8927,7 +8900,6 @@ GameObject:
   - component: {fileID: 1827853400}
   - component: {fileID: 1827853401}
   - component: {fileID: 1827853685}
-  - component: {fileID: 1827853686}
   m_Layer: 0
   m_Name: Stuffed Toy
   m_TagString: Interractible
@@ -9685,10 +9657,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 2775786300544223153}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1b78a9359a70df84691b44150796c866, type: 3}
+  m_Script: {fileID: 11500000, guid: b6ee666ca20142449a230150d15fa347, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DifferentObject: {fileID: 2775786300544223153}
   InteractionNumber: 3
 --- !u!1 &2826347138381299409
 GameObject:
@@ -9774,9 +9745,9 @@ GameObject:
   - component: {fileID: 4940936979451407614}
   - component: {fileID: 402978138929348023}
   - component: {fileID: 1992007187567128738}
-  - component: {fileID: 1827853480}
   - component: {fileID: 2979223682360345615}
   - component: {fileID: 2979223682360345616}
+  - component: {fileID: 2979223682360345617}
   m_Layer: 0
   m_Name: Get Dressed
   m_TagString: InterractObjects
@@ -9807,11 +9778,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 2979223682360345614}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1b78a9359a70df84691b44150796c866, type: 3}
+  m_Script: {fileID: 11500000, guid: b6ee666ca20142449a230150d15fa347, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DifferentObject: {fileID: 2979223682360345614}
   InteractionNumber: 2
+--- !u!64 &2979223682360345617
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2979223682360345614}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: -3286031894441404677, guid: 194bf537b92b7144893dbdf1038363eb, type: 3}
 --- !u!4 &2994330935450250576
 Transform:
   m_ObjectHideFlags: 0
@@ -10638,10 +10622,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 4893946782195984553}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1b78a9359a70df84691b44150796c866, type: 3}
+  m_Script: {fileID: 11500000, guid: b6ee666ca20142449a230150d15fa347, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DifferentObject: {fileID: 4893946782195984553}
   InteractionNumber: 5
 --- !u!1 &4896461747240882007
 GameObject:
@@ -10907,10 +10890,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 5373693580496996525}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1b78a9359a70df84691b44150796c866, type: 3}
+  m_Script: {fileID: 11500000, guid: b6ee666ca20142449a230150d15fa347, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DifferentObject: {fileID: 5373693580496996525}
   InteractionNumber: 4
 --- !u!33 &5384415616377258156
 MeshFilter:

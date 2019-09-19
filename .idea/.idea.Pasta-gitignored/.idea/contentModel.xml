@@ -20,6 +20,8 @@
           <e p="ChangeModel.cs" t="Include" />
           <e p="EnableCursor.cs" t="Include" />
           <e p="EnableText.cs" t="Include" />
+          <e p="InteractionManager.cs" t="Include" />
+          <e p="InteractWithObject.cs" t="Include" />
           <e p="LookatMouse.cs" t="Include" />
           <e p="PlayerMovement.cs" t="Include" />
           <e p="RaycastInterract.cs" t="Include" />
@@ -134,7 +136,6 @@
             </e>
           </e>
         </e>
-        <e p="InteractionManager.cs" t="Include" />
         <e p="Plugins" t="Include">
           <e p="Editor" t="Include">
             <e p="FMOD" t="Include">
