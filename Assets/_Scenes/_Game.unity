@@ -6208,7 +6208,7 @@ PrefabInstance:
     - target: {fileID: 1537554872757748995, guid: e2232815da2d7be4bb63974bb608447a,
         type: 3}
       propertyPath: m_textInfo.lineCount
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 1537554872757748995, guid: e2232815da2d7be4bb63974bb608447a,
         type: 3}
@@ -6221,7 +6221,7 @@ PrefabInstance:
       value: 'All this terrible destruction, I don''t want to think about it.
 
 
-        <size=1>Stop, don''t go there, Alex. You''re not back there.'
+        Stop, don''t go there, Alex. You''re not back there.'
       objectReference: {fileID: 0}
     - target: {fileID: 1537554872757748995, guid: e2232815da2d7be4bb63974bb608447a,
         type: 3}
@@ -6231,7 +6231,7 @@ PrefabInstance:
     - target: {fileID: 1537554872757748995, guid: e2232815da2d7be4bb63974bb608447a,
         type: 3}
       propertyPath: m_firstOverflowCharacterIndex
-      value: -1
+      value: 92
       objectReference: {fileID: 0}
     - target: {fileID: 1537554872757748995, guid: e2232815da2d7be4bb63974bb608447a,
         type: 3}
