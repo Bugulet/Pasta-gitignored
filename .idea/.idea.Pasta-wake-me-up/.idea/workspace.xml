@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3c117c2-93b2-4d8c-8900-9460467a81ec" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Pasta-wake-me-up/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Pasta-wake-me-up/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Pasta-wake-me-up/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Pasta-wake-me-up/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/FMODStudioCache.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FMODStudioCache.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/FMODStudioSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/FMODStudioSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fmod_editor.log" beforeDir="false" afterPath="$PROJECT_DIR$/fmod_editor.log" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,38 +15,36 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Start-End Screen Scripts Linde/MainMenu.cs">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/_Scripts/UI/Time.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+            <state>
               <folding>
-                <marker date="1568207070230" expanded="true" signature="6:113" ph="..." />
-                <marker date="1568207070230" expanded="true" signature="152:557" ph="{...}" />
-                <marker date="1568207070230" expanded="true" signature="182:388" ph="{...}" />
-                <marker date="1568207070230" expanded="true" signature="197:354" ph="/* SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1); ... */" />
-                <marker date="1568207070230" expanded="true" signature="419:461" ph="{...}" />
-                <marker date="1568207070230" expanded="true" signature="488:555" ph="{...}" />
+                <marker date="1568819561672" expanded="true" signature="6:78" ph="..." />
+                <marker date="1568819561672" expanded="true" signature="123:406" ph="{...}" />
+                <marker date="1568819561672" expanded="true" signature="355:404" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Start-End Screen Scripts Linde/EndMenu.cs">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/_Scripts/UI/AnxietyCounter.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="15" column="107" selection-start-line="15" selection-start-column="107" selection-end-line="15" selection-end-column="107" />
+            <state relative-caret-position="105">
+              <caret line="8" column="49" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
               <folding>
-                <marker date="1568208679154" expanded="false" signature="6:149" ph="..." />
-                <marker date="1568208679154" expanded="true" signature="187:2212" ph="{...}" />
-                <marker date="1568208679154" expanded="true" signature="242:1804" ph="{...}" />
-                <marker date="1568208679154" expanded="true" signature="769:1798" ph="/* if (goodEnd) //the condition + the different end texts, ideally they'd be sprites instead of text ... */" />
-                <marker date="1568208679154" expanded="true" signature="1833:2044" ph="{...}" />
-                <marker date="1568208679154" expanded="true" signature="1848:2011" ph="/* SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 2); ... */" />
-                <marker date="1568208679154" expanded="true" signature="2074:2116" ph="{...}" />
-                <marker date="1568208679154" expanded="true" signature="2143:2210" ph="{...}" />
+                <marker date="1568878248936" expanded="true" signature="6:91" ph="..." />
+                <marker date="1568878248936" expanded="true" signature="136:1551" ph="{...}" />
+                <marker date="1568878248936" expanded="true" signature="618:928" ph="{...}" />
+                <marker date="1568878248936" expanded="true" signature="959:1484" ph="{...}" />
+                <marker date="1568878248936" expanded="true" signature="1021:1096" ph="{...}" />
+                <marker date="1568878248936" expanded="true" signature="1105:1150" ph="/* set the UI ... */" />
+                <marker date="1568878248936" expanded="true" signature="1178:1264" ph="{...}" />
+                <marker date="1568878248936" expanded="true" signature="1277:1359" ph="{...}" />
+                <marker date="1568878248936" expanded="true" signature="1369:1443" ph="/* Debug.Log(time.tring()); ... */" />
+                <marker date="1568878248936" expanded="true" signature="1515:1548" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -56,8 +56,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Start-End Screen Scripts Linde/MainMenu.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Start-End Screen Scripts Linde/EndMenu.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/UI/Time.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/UI/AnxietyCounter.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -65,6 +65,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Start-End Screen Scripts Linde/MainMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/EndMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Start-End Screen Scripts Linde/EndMenu.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/UI/AnxietyCounter.cs" />
       </list>
     </option>
   </component>
@@ -78,7 +79,7 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="240" />
-    <option name="y" value="126" />
+    <option name="y" value="125" />
     <option name="width" value="1440" />
     <option name="height" value="775" />
   </component>
@@ -90,8 +91,8 @@
       <pane id="SolutionExplorer">
         <option name="show-all-files" value="false" />
       </pane>
-      <pane id="FileSystemExplorer" />
       <pane id="AssemblyExplorer" />
+      <pane id="FileSystemExplorer" />
       <pane id="UnityExplorer">
         <option name="show-hidden-items" value="false" />
         <option name="show-project-names" value="true" />
@@ -145,11 +146,12 @@
       <option name="presentableId" value="Default" />
       <updated>1568205870420</updated>
       <workItem from="1568205877255" duration="2948000" />
+      <workItem from="1568878120989" duration="123000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2948000" />
+    <option name="totallyTimeSpent" value="3071000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -163,18 +165,9 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24949698" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25285044" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="NuGet" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Unity" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Unit Tests" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Performance Profiler" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -182,12 +175,21 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Errors In Solution" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Unit Tests Coverage" />
+      <window_info anchor="bottom" id="NuGet" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Performance Profiler" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Unity" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Unit Tests" order="13" />
+      <window_info anchor="bottom" id="Terminal" order="14" />
+      <window_info anchor="bottom" id="Event Log" order="15" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="5" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,10 +208,14 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/EndMenu.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/EndMenu.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Start-End Screen Scripts Linde/MainMenu.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="300">
+          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#113#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -217,30 +223,35 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="15" column="107" selection-start-line="15" selection-start-column="107" selection-end-line="15" selection-end-column="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/_Scripts/UI/Time.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
           <folding>
-            <marker date="1568208679154" expanded="false" signature="6:149" ph="..." />
-            <marker date="1568208679154" expanded="true" signature="187:2212" ph="{...}" />
-            <marker date="1568208679154" expanded="true" signature="242:1804" ph="{...}" />
-            <marker date="1568208679154" expanded="true" signature="769:1798" ph="/* if (goodEnd) //the condition + the different end texts, ideally they'd be sprites instead of text ... */" />
-            <marker date="1568208679154" expanded="true" signature="1833:2044" ph="{...}" />
-            <marker date="1568208679154" expanded="true" signature="1848:2011" ph="/* SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 2); ... */" />
-            <marker date="1568208679154" expanded="true" signature="2074:2116" ph="{...}" />
-            <marker date="1568208679154" expanded="true" signature="2143:2210" ph="{...}" />
+            <marker date="1568819561672" expanded="true" signature="6:78" ph="..." />
+            <marker date="1568819561672" expanded="true" signature="123:406" ph="{...}" />
+            <marker date="1568819561672" expanded="true" signature="355:404" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Start-End Screen Scripts Linde/MainMenu.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/_Scripts/UI/AnxietyCounter.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+        <state relative-caret-position="105">
+          <caret line="8" column="49" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
           <folding>
-            <marker date="1568207070230" expanded="true" signature="6:113" ph="..." />
-            <marker date="1568207070230" expanded="true" signature="152:557" ph="{...}" />
-            <marker date="1568207070230" expanded="true" signature="182:388" ph="{...}" />
-            <marker date="1568207070230" expanded="true" signature="197:354" ph="/* SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1); ... */" />
-            <marker date="1568207070230" expanded="true" signature="419:461" ph="{...}" />
-            <marker date="1568207070230" expanded="true" signature="488:555" ph="{...}" />
+            <marker date="1568878248936" expanded="true" signature="6:91" ph="..." />
+            <marker date="1568878248936" expanded="true" signature="136:1551" ph="{...}" />
+            <marker date="1568878248936" expanded="true" signature="618:928" ph="{...}" />
+            <marker date="1568878248936" expanded="true" signature="959:1484" ph="{...}" />
+            <marker date="1568878248936" expanded="true" signature="1021:1096" ph="{...}" />
+            <marker date="1568878248936" expanded="true" signature="1105:1150" ph="/* set the UI ... */" />
+            <marker date="1568878248936" expanded="true" signature="1178:1264" ph="{...}" />
+            <marker date="1568878248936" expanded="true" signature="1277:1359" ph="{...}" />
+            <marker date="1568878248936" expanded="true" signature="1369:1443" ph="/* Debug.Log(time.tring()); ... */" />
+            <marker date="1568878248936" expanded="true" signature="1515:1548" ph="{...}" />
           </folding>
         </state>
       </provider>
