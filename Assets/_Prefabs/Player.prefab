@@ -90,7 +90,7 @@ Camera:
     y: 0
     width: 1
     height: 1
-  near clip plane: 0.3
+  near clip plane: 0.1
   far clip plane: 1000
   field of view: 60
   orthographic: 0
@@ -302,6 +302,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inputSound: event:/SFX/Footsteps
+  playerSpeed: {fileID: 0}
   walkingSpeed: 0.55
 --- !u!1 &4632695570709772639
 GameObject:

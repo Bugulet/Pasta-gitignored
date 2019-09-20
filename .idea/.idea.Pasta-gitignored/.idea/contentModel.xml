@@ -13,10 +13,15 @@
           <e p="Audio Scripts" t="Include">
             <e p="Footsteps.cs" t="Include" />
             <e p="Music.cs" t="Include" />
+            <e p="SFX.cs" t="Include" />
           </e>
           <e p="CameraChange.cs" t="Include" />
+          <e p="CameraRotation.cs" t="Include" />
           <e p="ChangeModel.cs" t="Include" />
+          <e p="EnableCursor.cs" t="Include" />
           <e p="EnableText.cs" t="Include" />
+          <e p="InteractionManager.cs" t="Include" />
+          <e p="InteractWithObject.cs" t="Include" />
           <e p="LookatMouse.cs" t="Include" />
           <e p="PlayerMovement.cs" t="Include" />
           <e p="RaycastInterract.cs" t="Include" />
@@ -36,6 +41,7 @@
             <e p="Time.cs" t="Include" />
           </e>
         </e>
+        <e p="ChangeModelNoInteraction.cs" t="Include" />
         <e p="Editor" t="Include">
           <e p="FMODMigrationUtil.cs" t="Include" />
         </e>
@@ -51,6 +57,7 @@
                 </e>
                 <e p="AudioFile" t="Include">
                   <e p="{08589ee8-3964-4737-804d-11531e7e60ce}.xml" t="Include" />
+                  <e p="{09ab4d61-74cd-4675-b327-905450e92579}.xml" t="Include" />
                   <e p="{15974d1c-ca88-480d-bb02-38061a4c74c0}.xml" t="Include" />
                   <e p="{16db5776-27e0-4aa4-8b56-8fc3301bb18b}.xml" t="Include" />
                   <e p="{1bd8997f-f075-45a2-b0f3-e3f65410c103}.xml" t="Include" />
@@ -62,13 +69,16 @@
                   <e p="{3a74ee47-295d-43f6-bce2-90aa639a492a}.xml" t="Include" />
                   <e p="{44dfb5b0-3b9a-41a4-a52d-3f3f827b1d20}.xml" t="Include" />
                   <e p="{4fc9dde2-3927-4207-aaaf-3ec26064d1b1}.xml" t="Include" />
+                  <e p="{5abfa6fc-74c8-499c-a0bb-f98c2fcb1b9c}.xml" t="Include" />
                   <e p="{70aec263-7440-4548-a344-02fb9f22e0e5}.xml" t="Include" />
                   <e p="{9054bc11-04c9-45d7-be4a-1788d736e67e}.xml" t="Include" />
+                  <e p="{ac3c093e-9545-4d90-ada3-6a04a616d094}.xml" t="Include" />
                   <e p="{be700119-897e-4dbb-811e-9058a1948e5c}.xml" t="Include" />
                   <e p="{c1f68c09-4eae-4d99-911f-9d851b425e33}.xml" t="Include" />
                   <e p="{c8304dc6-4cb3-4559-bae6-53cb9e438be3}.xml" t="Include" />
                   <e p="{cc2ad365-d0c6-4026-ae30-6aafbb65320b}.xml" t="Include" />
                   <e p="{d9cca959-450d-4058-8d3e-e3b56a5b3275}.xml" t="Include" />
+                  <e p="{e9e00262-9410-4851-8319-0b3e8692fc52}.xml" t="Include" />
                 </e>
                 <e p="Bank" t="Include">
                   <e p="{1efddea4-a8c4-471c-b935-5bc1fb59ba5a}.xml" t="Include" />
@@ -84,16 +94,21 @@
                   <e p="{be2bdecc-12b5-4ec5-807c-81f0fda4ef31}.xml" t="Include" />
                 </e>
                 <e p="Event" t="Include">
+                  <e p="{42bfba29-85b9-41aa-8ef5-bfae03692f3f}.xml" t="Include" />
                   <e p="{66ecb5b3-2b61-4c20-a540-7dca98418536}.xml" t="Include" />
                   <e p="{70a11578-27c2-4861-8574-a30bfb9e59bd}.xml" t="Include" />
+                  <e p="{811a2098-8f54-42f6-a5c7-906a2366551c}.xml" t="Include" />
                   <e p="{89d8250d-8284-41ff-a398-fab29731cc1a}.xml" t="Include" />
+                  <e p="{ae982b8b-b652-4206-98cb-6dc95a5919b9}.xml" t="Include" />
                   <e p="{d1380d9c-c124-46c4-a004-1f7c6c1f2555}.xml" t="Include" />
                   <e p="{da6acc2d-2357-4a1a-846a-e3d9e878d7f3}.xml" t="Include" />
                   <e p="{e274b9db-8259-4cfa-a808-1991bef652d9}.xml" t="Include" />
                   <e p="{e7713f50-063d-473a-a029-74771f9005e4}.xml" t="Include" />
+                  <e p="{eb4cef8b-fdf4-484b-b90d-6f979c0bf39a}.xml" t="Include" />
                 </e>
                 <e p="EventFolder" t="Include">
                   <e p="{073bbb61-7226-4e95-bc67-0bd3a61c0df9}.xml" t="Include" />
+                  <e p="{4102ffc9-d8ee-48fb-863c-a4bf7b58c0e0}.xml" t="Include" />
                   <e p="{4a2ef935-7533-4550-a3ab-47c70d7ccc5b}.xml" t="Include" />
                   <e p="{b67ef9cd-0eb2-4574-a990-540de73fbaae}.xml" t="Include" />
                   <e p="{bd9d3682-85f1-4ea0-8dbc-cb1cdc7a8bf8}.xml" t="Include" />
@@ -122,7 +137,7 @@
             </e>
           </e>
         </e>
-        <e p="InteractionManager.cs" t="Include" />
+        <e p="MaskingEffect.cs" t="Include" />
         <e p="Plugins" t="Include">
           <e p="Editor" t="Include">
             <e p="FMOD" t="Include">
@@ -350,6 +365,11 @@
             <e p="FmodResonanceAudioRoom.cs" t="Include" />
           </e>
         </e>
+        <e p="Sprites" t="Include">
+          <e p="Particles" t="Include">
+            <e p="AdditiveTintable.shader" t="Include" />
+          </e>
+        </e>
         <e p="TextMesh Pro" t="Include">
           <e p="Fonts" t="Include">
             <e p="LiberationSans - OFL.txt" t="Include" />
@@ -378,6 +398,7 @@
             <e p="EmojiOne Attribution.txt" t="Include" />
           </e>
         </e>
+        <e p="TransparencyEffect.cs" t="Include" />
       </e>
       <e p="obj" t="ExcludeRecursive" />
       <e p="Packages" t="ExcludeRecursive" />

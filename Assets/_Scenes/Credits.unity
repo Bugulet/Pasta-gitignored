@@ -154,8 +154,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: -1312}
-  m_SizeDelta: {x: 720, y: 1664}
+  m_AnchoredPosition: {x: 0, y: -2985}
+  m_SizeDelta: {x: 1440, y: 5000}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &83516507
 MonoBehaviour:
@@ -179,10 +179,10 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: e2a3a32a70df7c04b90a6f7e30eb0b4e, type: 3}
-    m_FontSize: 72
+    m_FontSize: 48
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 7
+    m_MinSize: 4
     m_MaxSize: 72
     m_Alignment: 1
     m_AlignByGeometry: 0
@@ -190,25 +190,16 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '<size=96>Artists:</size>
-
-    Nero
-
-    Michela
-
-    Jasmijn
-
-
-    <size=96>Engineer:</size>
-
-    Sebi
-
-
-    <size=96>Designers:</size>
-
-    Linde
-
-    Avery'
+  m_Text: "<size=96>Credits:\r</size>\n<size=64>Nero Bongers\r</size>\nLead Artist\r\n3D
+    Concept Artist\r\n3D Modeller\r\nEnvironmental Artist\r\n\r\n<size=64>Jasmijn
+    Davelaar\r</size>\nUI/UX Design\r\nVideo Writer\r\nVideo Director\r\nVideo Editor\r\n\r\n<size=64>Buga
+    Eusebiu\r</size>\nGameplay Engineer\r\nScripter\r\nUI Engineer\r\n\r\n<size=64>Michela
+    Paulucci\r</size>\nConcept Artist\r\n3D Modeller\r\nEnvironmental Artist\r\nLighting
+    Artist\r\n\r\n<size=64>Avery Pereira\r</size>\nGame Designer\r\nSound Designer\r\nAudio
+    Engineer\r\nVoice Actress\r\nUI Engineer\r\nQuality Assurance\r\nCo-Scrum Master\r\n\r\n<size=64>Linde
+    van Weerd\r</size>\nGame designer\r\nNarrative Designer\r\nUI Engineer\r\nGame
+    Writer\r\nUI Polisher\r\nQuality Assurance \r\nScrum Master\r\n\r\n<size=96>Special
+    thanks\r</size>\nJade Davelaar - Video Actress\r\nAmber van Weerd - Voice Actress\r"
 --- !u!222 &83516508
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -246,7 +237,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e81c859dd5689043be0230dc5b1a8c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waitUntilLeave: 14
+  waitUntilLeave: 27
 --- !u!4 &463308523
 Transform:
   m_ObjectHideFlags: 0

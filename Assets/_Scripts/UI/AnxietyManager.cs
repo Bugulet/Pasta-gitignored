@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.SceneManagement;
 using UnityEngine;
@@ -15,7 +16,13 @@ public class AnxietyManager : MonoBehaviour
     /// at what percentage does the exercise start
     /// </summary>
     [SerializeField][Range(0,100)] private int BreathingExerciseThreshold = 70;
-    
+
+    private FMOD.Studio.Bus _masterBus;
+
+    private void Start()
+    {
+        _masterBus = FMODUnity.RuntimeManager.GetBus("Bus:/");
+    }
 
     private void SetEffects()
     {
@@ -69,7 +76,9 @@ public class AnxietyManager : MonoBehaviour
             if (AnxietyMeter >= 100)
             {
                 Debug.Log("Changed scene");
-                SceneManager.LoadScene("EndScene");
+                SceneManager.LoadScene("_Bad_End");
+
+                _masterBus.stopAllEvents(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
             }
 
             exercise.StartPanicAttack();
