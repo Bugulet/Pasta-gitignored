@@ -2,17 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="afc7159b-2fe2-4cc9-9c07-0f9a26409c92" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Pasta-gitignored/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Pasta-gitignored/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Pasta-gitignored/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Pasta-gitignored/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FMODStudioCache.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FMODStudioCache.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Animations/Credits.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Animations/Credits.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Particles/Fire.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Particles/Fire.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/New Post-Processing Profile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/New Post-Processing Profile.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefabs/Player.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Prefabs different/TV News.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefabs/Prefabs different/TV News.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Prefabs different/TV News.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefabs/Prefabs different/TV News.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Prefabs.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefabs/Prefabs.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Credits.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/Credits.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Scenes/_Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/_Game.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/InteractionManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/InteractionManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fmod_editor.log" beforeDir="false" afterPath="$PROJECT_DIR$/fmod_editor.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/_Main_Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/_Main_Menu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/EnableCursor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/EnableCursor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/PlayerMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/RaycastInterract.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/RaycastInterract.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Start-End Screen Scripts Linde/MainMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Start-End Screen Scripts Linde/MainMenu.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,8 +34,10 @@
     <setting file="file://$PROJECT_DIR$/Assets/ChangeModelNoInteraction.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Fonts/bodoni SDF.asset" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scenes/_Game.unity" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/EnableCursor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/UI/AnxietyManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/FMOD/RuntimeManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/InteractWithObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/InteractionManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Audio Scripts/Footsteps.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/CameraChange.cs" root0="FORCE_HIGHLIGHTING" />
@@ -59,19 +66,19 @@
         <option value="$PROJECT_DIR$/Assets/_Scripts/CameraChange.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/BreathingExercise.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Audio Scripts/Music.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Scripts/Start-End Screen Scripts Linde/MainMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/PhoneManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Scripts/PlayerMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Audio Scripts/Footsteps.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Scripts/RaycastInterract.cs" />
         <option value="$PROJECT_DIR$/Assets/Plugins/FMOD/RuntimeManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Audio Scripts/SFX.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/LookatMouse.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Scripts/EnableCursor.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/CameraRotation.cs" />
         <option value="$PROJECT_DIR$/Assets/InteractWithObject.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/UI/AnxietyManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/InteractionManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/PlayerMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/RaycastInterract.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/EnableCursor.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/Start-End Screen Scripts Linde/MainMenu.cs" />
       </list>
     </option>
   </component>
@@ -139,6 +146,7 @@
       <workItem from="1568806358000" duration="4465000" />
       <workItem from="1568833128332" duration="6296000" />
       <workItem from="1568881944630" duration="3699000" />
+      <workItem from="1568985566716" duration="4332000" />
     </task>
     <servers />
   </component>

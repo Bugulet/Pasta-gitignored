@@ -7,7 +7,7 @@ public class RaycastInterract : MonoBehaviour
     [SerializeField] private Canvas MainUI;
 
     [Tooltip("How much the anxiety level increases when looking at a bad memory")]
-    [SerializeField] private int AnxietyLevelIncrease = 10;
+    [SerializeField] private int AnxietyLevelIncrease = 25;
 
     [Tooltip("Max distance for the player to be able to interract with objects")]
     [SerializeField] private float InterractionDistance;
@@ -62,6 +62,10 @@ public class RaycastInterract : MonoBehaviour
                     //    }
                     //}
                     // Debug.Log("object: " + hit.collider.name + " hit at distance: "+hit.distance);
+                    if (hit.collider.GetComponent<SFX>() != null)
+                    {
+                        hit.collider.GetComponent<SFX>().Play();
+                    }
                 }
             }
 

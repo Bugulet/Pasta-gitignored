@@ -14,6 +14,7 @@ public class PlayerMovement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Cursor.visible = false;
         if (Player == null)
         {
             Debug.Log("PLAYER NOT ASSIGNED FOR MOVEMENT");

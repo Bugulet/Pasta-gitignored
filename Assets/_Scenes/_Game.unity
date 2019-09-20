@@ -6379,11 +6379,6 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 8956652248511540508, guid: bfe4ede99769a434b865761876bf0704,
-        type: 3}
-      propertyPath: AnxietyLevelIncrease
-      value: 10
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bfe4ede99769a434b865761876bf0704, type: 3}
 --- !u!1 &1619034606 stripped
