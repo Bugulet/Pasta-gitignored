@@ -12,8 +12,10 @@ GameObject:
   - component: {fileID: 2494230480792627104}
   - component: {fileID: 8188036716910828377}
   - component: {fileID: 4208325472669339594}
+  - component: {fileID: 703012990635543954}
+  - component: {fileID: 5859229128458411735}
   m_Layer: 0
-  m_Name: interactible_candle_burning
+  m_Name: Candle Burning
   m_TagString: Bad Memory
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -58,7 +60,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -2609809028551464901, guid: d1c1ec4e8437e444d90119b8ee870faa, type: 3}
+  - {fileID: 2100000, guid: b6f68c06a30714943a2cf395f309a1ba, type: 2}
   - {fileID: 2100000, guid: 2b9a9abff26e90b4c8140bb7f08d3b16, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
@@ -93,3 +95,27 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 65.89032, y: 33.325317, z: 33.22046}
   m_Center: {x: -0.7816162, y: 1.8702683, z: 0.078165054}
+--- !u!114 &703012990635543954
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7610263202139565957}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ac0da12f7530614d970c70ab69a7f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &5859229128458411735
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7610263202139565957}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f28ea0ca8ec42248a866734478a8271, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
