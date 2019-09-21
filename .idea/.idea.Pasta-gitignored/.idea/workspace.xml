@@ -2,22 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="afc7159b-2fe2-4cc9-9c07-0f9a26409c92" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Pasta-gitignored/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Pasta-gitignored/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Pasta-gitignored/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Pasta-gitignored/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/New Post-Processing Profile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/New Post-Processing Profile.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefabs/Player.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Prefabs.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefabs/Prefabs.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Pasta-gitignored/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Pasta-gitignored/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Credits.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/Credits.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/_Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/_Game.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/_Main_Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/_Main_Menu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/EnableCursor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/EnableCursor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/PlayerMovement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/RaycastInterract.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/RaycastInterract.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Start-End Screen Scripts Linde/MainMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Start-End Screen Scripts Linde/MainMenu.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -147,6 +134,7 @@
       <workItem from="1568833128332" duration="6296000" />
       <workItem from="1568881944630" duration="3699000" />
       <workItem from="1568985566716" duration="4332000" />
+      <workItem from="1569084548418" duration="704000" />
     </task>
     <servers />
   </component>
