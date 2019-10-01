@@ -1,6 +1,8 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class RaycastInterract : MonoBehaviour
 {
@@ -14,13 +16,16 @@ public class RaycastInterract : MonoBehaviour
     MainUIManager nameChange;
     private RaycastHit hit;
 
+    [Space]
+    [Header("Flashback Room Properties")]
+    [SerializeField] private RawImage fireCamera;
 
     private void Start()
     {
         nameChange = MainUI.GetComponent<MainUIManager>();
         nameChange.ChangeObjectName("");
     }
-    // Update is called once per frame
+    
     void Update()
     {
         //check if it collided with something
@@ -38,10 +43,16 @@ public class RaycastInterract : MonoBehaviour
                 //check if interraction is started
                 if (Input.GetMouseButtonDown(0))
                 {
-
                     if (hit.collider.GetComponent<InteractWithObject>() != null)
                     {
                         hit.collider.GetComponent<InteractWithObject>().Interact();
+                        if (hit.collider.CompareTag("Bad Memory"))
+                        {
+                            StartCoroutine(ImageFadeIn());
+                            
+                            StartCoroutine(ImageFadeOut());
+                        }
+                        
                     }
 
                     if (hit.collider.GetComponent<EnableText>() != null)
@@ -51,7 +62,6 @@ public class RaycastInterract : MonoBehaviour
 
                     if (hit.collider.CompareTag("Bad Memory"))
                     {
-                        
                         FindObjectOfType<AnxietyManager>().IncreaseAnxiety(AnxietyLevelIncrease);
                     }
                     //else
@@ -76,7 +86,27 @@ public class RaycastInterract : MonoBehaviour
                 MainUI.GetComponent<MainUIManager>().ChangeObjectName("");
             }
         }
-        
-        
+
+        IEnumerator ImageFadeIn()
+        {
+            for (float f = 0.05f; f <= 1; f += 0.05f)
+            {
+                Color c = fireCamera.material.color;
+                c.a = f;
+                fireCamera.material.color = c;
+                yield return new WaitForSeconds(0.05f);
+            }
+        }
+
+        IEnumerator ImageFadeOut()
+        {
+            for (float f = 1.0f; f >= -0.05f; f -= 0.05f)
+            {
+                Color c = fireCamera.color;
+                c.a = f;
+                fireCamera.color = c;
+                yield return new WaitForSeconds(0.5f);
+            }
+        }
     }
 }

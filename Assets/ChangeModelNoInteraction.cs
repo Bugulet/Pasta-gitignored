@@ -15,7 +15,7 @@ public class ChangeModelNoInteraction : InteractWithObject
 
     }
 
-    override public void Interact()
+    public override void Interact()
     {
        // manager.CheckInteraction(InteractionNumber);
         Instantiate(DifferentObject, transform.position, transform.rotation);

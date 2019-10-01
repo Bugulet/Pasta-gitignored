@@ -436,6 +436,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4379202460395394980, guid: 0cd3d50fcf21ce84f91267f295b10d35,
+        type: 3}
+      propertyPath: m_Name
+      value: apartment_v4003
+      objectReference: {fileID: 0}
     - target: {fileID: 764860658372355511, guid: 0cd3d50fcf21ce84f91267f295b10d35,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -496,11 +501,6 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: d00e3f5a34d5b854aa6842bcad287d85, type: 2}
-    - target: {fileID: 4379202460395394980, guid: 0cd3d50fcf21ce84f91267f295b10d35,
-        type: 3}
-      propertyPath: m_Name
-      value: apartment_v4003
-      objectReference: {fileID: 0}
     - target: {fileID: 5584257847682078812, guid: 0cd3d50fcf21ce84f91267f295b10d35,
         type: 3}
       propertyPath: m_IsActive
@@ -1230,7 +1230,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 768301398}
-        m_MethodName: MainGame
+        m_MethodName: LoadMainMenu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

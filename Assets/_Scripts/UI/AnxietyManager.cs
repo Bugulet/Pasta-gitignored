@@ -75,16 +75,12 @@ public class AnxietyManager : MonoBehaviour
         {
             if (AnxietyMeter >= 100)
             {
-                Debug.Log("Changed scene");
+                Debug.Log("Bad end scene");
                 SceneManager.LoadScene("_Bad_End");
 
                 _masterBus.stopAllEvents(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
             }
-
             exercise.StartPanicAttack();
-
         }
-
     }
-
 }

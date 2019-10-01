@@ -8,6 +8,7 @@ public class InteractionManager : MonoBehaviour
 
     [HideInInspector] public int CurrentObjective = 0;
     [SerializeField] private int MaxObjective = 5;
+    [SerializeField] private bool changeModel; 
     
     private FMOD.Studio.Bus _masterBus;
 
@@ -15,7 +16,7 @@ public class InteractionManager : MonoBehaviour
     {
         _masterBus = FMODUnity.RuntimeManager.GetBus("Bus:/");
     }
-
+    
     //check if this is a good interaction in order
     public bool CheckInteraction(int interactionNumber)
     {
@@ -33,12 +34,13 @@ public class InteractionManager : MonoBehaviour
     [ContextMenu("Check interaction number")]
     private void PrintInteractionNumber()
     {
-        Debug.Log("Current objective -> " + CurrentObjective);
+        Debug.Log("Current objective: " + CurrentObjective);
     }
 
     // Update is called once per frame
     void Update()
     {
+        
         //Debug.Log("Current Objective " + CurrentObjective);
         if (CurrentObjective == MaxObjective)
         {

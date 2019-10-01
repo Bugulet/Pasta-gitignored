@@ -268,17 +268,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Text Trigger_Beanbag
       objectReference: {fileID: 0}
-    - target: {fileID: 28005198246820569, guid: e2232815da2d7be4bb63974bb608447a,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 109156942810752590, guid: e2232815da2d7be4bb63974bb608447a,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 4302548679474519142, guid: 5815aafce8fa50e45b65a7697b470263,
-        type: 2}
     - target: {fileID: 1537554872757748995, guid: e2232815da2d7be4bb63974bb608447a,
         type: 3}
       propertyPath: m_sharedMaterial
@@ -315,6 +304,17 @@ PrefabInstance:
       propertyPath: m_text
       value: Comfiest thing since comfy friends
       objectReference: {fileID: 0}
+    - target: {fileID: 28005198246820569, guid: e2232815da2d7be4bb63974bb608447a,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 109156942810752590, guid: e2232815da2d7be4bb63974bb608447a,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: -4542340809922716667, guid: 19037b9d47542054e8a232c2e6e2381b,
+        type: 2}
     - target: {fileID: 8085705742089244542, guid: e2232815da2d7be4bb63974bb608447a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -434,17 +434,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Text Trigger_Candles
       objectReference: {fileID: 0}
-    - target: {fileID: 28005198246820569, guid: e2232815da2d7be4bb63974bb608447a,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 109156942810752590, guid: e2232815da2d7be4bb63974bb608447a,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 4302548679474519142, guid: 5815aafce8fa50e45b65a7697b470263,
-        type: 2}
     - target: {fileID: 1537554872757748995, guid: e2232815da2d7be4bb63974bb608447a,
         type: 3}
       propertyPath: m_textInfo.characterCount
@@ -480,6 +469,17 @@ PrefabInstance:
       propertyPath: m_sharedMaterial
       value: 
       objectReference: {fileID: 4302548679474519142, guid: 5815aafce8fa50e45b65a7697b470263,
+        type: 2}
+    - target: {fileID: 28005198246820569, guid: e2232815da2d7be4bb63974bb608447a,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 109156942810752590, guid: e2232815da2d7be4bb63974bb608447a,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: -4542340809922716667, guid: 19037b9d47542054e8a232c2e6e2381b,
         type: 2}
     - target: {fileID: 8085705742089244542, guid: e2232815da2d7be4bb63974bb608447a,
         type: 3}
@@ -685,7 +685,7 @@ Transform:
   m_LocalScale: {x: 1.8974063, y: 1, z: 2.542}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 180, y: 0, z: 0}
 --- !u!224 &301566568 stripped
 RectTransform:
@@ -727,7 +727,7 @@ Transform:
   - {fileID: 31235877}
   - {fileID: 1259458825}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &374764776
 GameObject:
@@ -820,12 +820,6 @@ Light:
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
---- !u!223 &395347805 stripped
-Canvas:
-  m_CorrespondingSourceObject: {fileID: 1227785677904888047, guid: bfe4ede99769a434b865761876bf0704,
-    type: 3}
-  m_PrefabInstance: {fileID: 1729407506424777095}
-  m_PrefabAsset: {fileID: 0}
 --- !u!224 &415769406 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 8085705742089244542, guid: e2232815da2d7be4bb63974bb608447a,
@@ -875,17 +869,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Text Trigger_Clothing
       objectReference: {fileID: 0}
-    - target: {fileID: 28005198246820569, guid: e2232815da2d7be4bb63974bb608447a,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 109156942810752590, guid: e2232815da2d7be4bb63974bb608447a,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 4302548679474519142, guid: 5815aafce8fa50e45b65a7697b470263,
-        type: 2}
     - target: {fileID: 1537554872757748995, guid: e2232815da2d7be4bb63974bb608447a,
         type: 3}
       propertyPath: m_sharedMaterial
@@ -922,6 +905,17 @@ PrefabInstance:
       propertyPath: m_text
       value: I really should stop leaving clothes around the place
       objectReference: {fileID: 0}
+    - target: {fileID: 28005198246820569, guid: e2232815da2d7be4bb63974bb608447a,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 109156942810752590, guid: e2232815da2d7be4bb63974bb608447a,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: -4542340809922716667, guid: 19037b9d47542054e8a232c2e6e2381b,
+        type: 2}
     - target: {fileID: 8085705742089244542, guid: e2232815da2d7be4bb63974bb608447a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1047,17 +1041,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Text Trigger_Easel
       objectReference: {fileID: 0}
-    - target: {fileID: 28005198246820569, guid: e2232815da2d7be4bb63974bb608447a,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 109156942810752590, guid: e2232815da2d7be4bb63974bb608447a,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 4302548679474519142, guid: 5815aafce8fa50e45b65a7697b470263,
-        type: 2}
     - target: {fileID: 1537554872757748995, guid: e2232815da2d7be4bb63974bb608447a,
         type: 3}
       propertyPath: m_sharedMaterial
@@ -1099,6 +1082,17 @@ PrefabInstance:
       propertyPath: m_margin.x
       value: -0.11591478
       objectReference: {fileID: 0}
+    - target: {fileID: 28005198246820569, guid: e2232815da2d7be4bb63974bb608447a,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 109156942810752590, guid: e2232815da2d7be4bb63974bb608447a,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: -4542340809922716667, guid: 19037b9d47542054e8a232c2e6e2381b,
+        type: 2}
     - target: {fileID: 8085705742089244542, guid: e2232815da2d7be4bb63974bb608447a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1230,17 +1224,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Text Trigger_Poster
       objectReference: {fileID: 0}
-    - target: {fileID: 28005198246820569, guid: e2232815da2d7be4bb63974bb608447a,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 109156942810752590, guid: e2232815da2d7be4bb63974bb608447a,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 4302548679474519142, guid: 5815aafce8fa50e45b65a7697b470263,
-        type: 2}
     - target: {fileID: 1537554872757748995, guid: e2232815da2d7be4bb63974bb608447a,
         type: 3}
       propertyPath: m_sharedMaterial
@@ -1277,6 +1260,17 @@ PrefabInstance:
       propertyPath: m_text
       value: I always enjoy rewatching this movie with hazel.
       objectReference: {fileID: 0}
+    - target: {fileID: 28005198246820569, guid: e2232815da2d7be4bb63974bb608447a,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 109156942810752590, guid: e2232815da2d7be4bb63974bb608447a,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: -4542340809922716667, guid: 19037b9d47542054e8a232c2e6e2381b,
+        type: 2}
     - target: {fileID: 8085705742089244542, guid: e2232815da2d7be4bb63974bb608447a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1414,8 +1408,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2063d91f9a4c72f46a3826cc8fbb4bc8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hintText: {fileID: 500937301}
   waitTime: 3
+  hintText: {fileID: 500937301}
 --- !u!224 &821828226 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 8085705742089244542, guid: e2232815da2d7be4bb63974bb608447a,
@@ -1531,17 +1525,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Text Trigger_Portrait
       objectReference: {fileID: 0}
-    - target: {fileID: 28005198246820569, guid: e2232815da2d7be4bb63974bb608447a,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 109156942810752590, guid: e2232815da2d7be4bb63974bb608447a,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 4302548679474519142, guid: 5815aafce8fa50e45b65a7697b470263,
-        type: 2}
     - target: {fileID: 1537554872757748995, guid: e2232815da2d7be4bb63974bb608447a,
         type: 3}
       propertyPath: m_sharedMaterial
@@ -1578,6 +1561,17 @@ PrefabInstance:
       propertyPath: m_text
       value: I miss my family
       objectReference: {fileID: 0}
+    - target: {fileID: 28005198246820569, guid: e2232815da2d7be4bb63974bb608447a,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 109156942810752590, guid: e2232815da2d7be4bb63974bb608447a,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: -4542340809922716667, guid: 19037b9d47542054e8a232c2e6e2381b,
+        type: 2}
     - target: {fileID: 8085705742089244542, guid: e2232815da2d7be4bb63974bb608447a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1697,17 +1691,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Text Trigger_Couch
       objectReference: {fileID: 0}
-    - target: {fileID: 28005198246820569, guid: e2232815da2d7be4bb63974bb608447a,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 109156942810752590, guid: e2232815da2d7be4bb63974bb608447a,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 4302548679474519142, guid: 5815aafce8fa50e45b65a7697b470263,
-        type: 2}
     - target: {fileID: 1537554872757748995, guid: e2232815da2d7be4bb63974bb608447a,
         type: 3}
       propertyPath: m_sharedMaterial
@@ -1744,6 +1727,17 @@ PrefabInstance:
       propertyPath: m_text
       value: I shouldn't sleep on the couch so often...
       objectReference: {fileID: 0}
+    - target: {fileID: 28005198246820569, guid: e2232815da2d7be4bb63974bb608447a,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 109156942810752590, guid: e2232815da2d7be4bb63974bb608447a,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: -4542340809922716667, guid: 19037b9d47542054e8a232c2e6e2381b,
+        type: 2}
     - target: {fileID: 8085705742089244542, guid: e2232815da2d7be4bb63974bb608447a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1863,17 +1857,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Text Trigger_Console
       objectReference: {fileID: 0}
-    - target: {fileID: 28005198246820569, guid: e2232815da2d7be4bb63974bb608447a,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 109156942810752590, guid: e2232815da2d7be4bb63974bb608447a,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 4302548679474519142, guid: 5815aafce8fa50e45b65a7697b470263,
-        type: 2}
     - target: {fileID: 1537554872757748995, guid: e2232815da2d7be4bb63974bb608447a,
         type: 3}
       propertyPath: m_sharedMaterial
@@ -1910,6 +1893,17 @@ PrefabInstance:
       propertyPath: m_text
       value: I bought this for so cheap
       objectReference: {fileID: 0}
+    - target: {fileID: 28005198246820569, guid: e2232815da2d7be4bb63974bb608447a,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 109156942810752590, guid: e2232815da2d7be4bb63974bb608447a,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: -4542340809922716667, guid: 19037b9d47542054e8a232c2e6e2381b,
+        type: 2}
     - target: {fileID: 8085705742089244542, guid: e2232815da2d7be4bb63974bb608447a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2151,17 +2145,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Text Trigger_TV
       objectReference: {fileID: 0}
-    - target: {fileID: 28005198246820569, guid: e2232815da2d7be4bb63974bb608447a,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 109156942810752590, guid: e2232815da2d7be4bb63974bb608447a,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 4302548679474519142, guid: 5815aafce8fa50e45b65a7697b470263,
-        type: 2}
     - target: {fileID: 1537554872757748995, guid: e2232815da2d7be4bb63974bb608447a,
         type: 3}
       propertyPath: m_sharedMaterial
@@ -2198,6 +2181,17 @@ PrefabInstance:
       propertyPath: m_text
       value: '*Reporter Noises*'
       objectReference: {fileID: 0}
+    - target: {fileID: 28005198246820569, guid: e2232815da2d7be4bb63974bb608447a,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 109156942810752590, guid: e2232815da2d7be4bb63974bb608447a,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: -4542340809922716667, guid: 19037b9d47542054e8a232c2e6e2381b,
+        type: 2}
     - target: {fileID: 8085705742089244542, guid: e2232815da2d7be4bb63974bb608447a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2317,17 +2311,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Text Trigger_Seal
       objectReference: {fileID: 0}
-    - target: {fileID: 28005198246820569, guid: e2232815da2d7be4bb63974bb608447a,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 109156942810752590, guid: e2232815da2d7be4bb63974bb608447a,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 4302548679474519142, guid: 5815aafce8fa50e45b65a7697b470263,
-        type: 2}
     - target: {fileID: 1537554872757748995, guid: e2232815da2d7be4bb63974bb608447a,
         type: 3}
       propertyPath: m_sharedMaterial
@@ -2364,6 +2347,17 @@ PrefabInstance:
       propertyPath: m_text
       value: '*Aggressive fire noises*'
       objectReference: {fileID: 0}
+    - target: {fileID: 28005198246820569, guid: e2232815da2d7be4bb63974bb608447a,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 109156942810752590, guid: e2232815da2d7be4bb63974bb608447a,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: -4542340809922716667, guid: 19037b9d47542054e8a232c2e6e2381b,
+        type: 2}
     - target: {fileID: 8085705742089244542, guid: e2232815da2d7be4bb63974bb608447a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2606,17 +2600,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Text Trigger_Book
       objectReference: {fileID: 0}
-    - target: {fileID: 28005198246820569, guid: e2232815da2d7be4bb63974bb608447a,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 109156942810752590, guid: e2232815da2d7be4bb63974bb608447a,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: -4542340809922716667, guid: 19037b9d47542054e8a232c2e6e2381b,
-        type: 2}
     - target: {fileID: 1537554872757748995, guid: e2232815da2d7be4bb63974bb608447a,
         type: 3}
       propertyPath: m_fontAsset
@@ -2679,6 +2662,17 @@ PrefabInstance:
       propertyPath: m_margin.z
       value: 0.23656988
       objectReference: {fileID: 0}
+    - target: {fileID: 28005198246820569, guid: e2232815da2d7be4bb63974bb608447a,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 109156942810752590, guid: e2232815da2d7be4bb63974bb608447a,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: -4542340809922716667, guid: 19037b9d47542054e8a232c2e6e2381b,
+        type: 2}
     - target: {fileID: 8085705742089244542, guid: e2232815da2d7be4bb63974bb608447a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2798,17 +2792,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Text Trigger_Postcard
       objectReference: {fileID: 0}
-    - target: {fileID: 28005198246820569, guid: e2232815da2d7be4bb63974bb608447a,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 109156942810752590, guid: e2232815da2d7be4bb63974bb608447a,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 4302548679474519142, guid: 5815aafce8fa50e45b65a7697b470263,
-        type: 2}
     - target: {fileID: 1537554872757748995, guid: e2232815da2d7be4bb63974bb608447a,
         type: 3}
       propertyPath: m_sharedMaterial
@@ -2857,6 +2840,17 @@ PrefabInstance:
       propertyPath: m_fontSizeBase
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 28005198246820569, guid: e2232815da2d7be4bb63974bb608447a,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 109156942810752590, guid: e2232815da2d7be4bb63974bb608447a,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: -4542340809922716667, guid: 19037b9d47542054e8a232c2e6e2381b,
+        type: 2}
     - target: {fileID: 8085705742089244542, guid: e2232815da2d7be4bb63974bb608447a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2982,17 +2976,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Text Trigger_post_stack
       objectReference: {fileID: 0}
-    - target: {fileID: 28005198246820569, guid: e2232815da2d7be4bb63974bb608447a,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 109156942810752590, guid: e2232815da2d7be4bb63974bb608447a,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 4302548679474519142, guid: 5815aafce8fa50e45b65a7697b470263,
-        type: 2}
     - target: {fileID: 1537554872757748995, guid: e2232815da2d7be4bb63974bb608447a,
         type: 3}
       propertyPath: m_sharedMaterial
@@ -3029,6 +3012,17 @@ PrefabInstance:
       propertyPath: m_text
       value: Write one a day to keep the asylum away
       objectReference: {fileID: 0}
+    - target: {fileID: 28005198246820569, guid: e2232815da2d7be4bb63974bb608447a,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 109156942810752590, guid: e2232815da2d7be4bb63974bb608447a,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: -4542340809922716667, guid: 19037b9d47542054e8a232c2e6e2381b,
+        type: 2}
     - target: {fileID: 8085705742089244542, guid: e2232815da2d7be4bb63974bb608447a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3179,7 +3173,7 @@ Transform:
   - {fileID: 79121654}
   - {fileID: 1537237429}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!224 &1495381820 stripped
 RectTransform:
@@ -3285,18 +3279,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1599510812 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3115640411134283856, guid: bfe4ede99769a434b865761876bf0704,
-    type: 3}
-  m_PrefabInstance: {fileID: 1729407506424777095}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &1599510819 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3115640411134283853, guid: bfe4ede99769a434b865761876bf0704,
-    type: 3}
-  m_PrefabInstance: {fileID: 1729407506424777095}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1619309000
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3309,17 +3291,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Text Trigger_Laptop
       objectReference: {fileID: 0}
-    - target: {fileID: 28005198246820569, guid: e2232815da2d7be4bb63974bb608447a,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 109156942810752590, guid: e2232815da2d7be4bb63974bb608447a,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 4302548679474519142, guid: 5815aafce8fa50e45b65a7697b470263,
-        type: 2}
     - target: {fileID: 1537554872757748995, guid: e2232815da2d7be4bb63974bb608447a,
         type: 3}
       propertyPath: m_sharedMaterial
@@ -3356,6 +3327,17 @@ PrefabInstance:
       propertyPath: m_text
       value: I need to get a proper desk
       objectReference: {fileID: 0}
+    - target: {fileID: 28005198246820569, guid: e2232815da2d7be4bb63974bb608447a,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 109156942810752590, guid: e2232815da2d7be4bb63974bb608447a,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: -4542340809922716667, guid: 19037b9d47542054e8a232c2e6e2381b,
+        type: 2}
     - target: {fileID: 8085705742089244542, guid: e2232815da2d7be4bb63974bb608447a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3475,17 +3457,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Text Trigger_Plant
       objectReference: {fileID: 0}
-    - target: {fileID: 28005198246820569, guid: e2232815da2d7be4bb63974bb608447a,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 109156942810752590, guid: e2232815da2d7be4bb63974bb608447a,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 4302548679474519142, guid: 5815aafce8fa50e45b65a7697b470263,
-        type: 2}
     - target: {fileID: 1537554872757748995, guid: e2232815da2d7be4bb63974bb608447a,
         type: 3}
       propertyPath: m_sharedMaterial
@@ -3527,6 +3498,17 @@ PrefabInstance:
       propertyPath: m_margin.z
       value: 0.9204537
       objectReference: {fileID: 0}
+    - target: {fileID: 28005198246820569, guid: e2232815da2d7be4bb63974bb608447a,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 109156942810752590, guid: e2232815da2d7be4bb63974bb608447a,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: -4542340809922716667, guid: 19037b9d47542054e8a232c2e6e2381b,
+        type: 2}
     - target: {fileID: 8085705742089244542, guid: e2232815da2d7be4bb63974bb608447a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4090,17 +4072,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Text Trigger_postcard_bedroom
       objectReference: {fileID: 0}
-    - target: {fileID: 28005198246820569, guid: e2232815da2d7be4bb63974bb608447a,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 109156942810752590, guid: e2232815da2d7be4bb63974bb608447a,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: -4542340809922716667, guid: 19037b9d47542054e8a232c2e6e2381b,
-        type: 2}
     - target: {fileID: 1537554872757748995, guid: e2232815da2d7be4bb63974bb608447a,
         type: 3}
       propertyPath: m_sharedMaterial
@@ -4143,6 +4114,17 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 19037b9d47542054e8a232c2e6e2381b,
         type: 2}
+    - target: {fileID: 28005198246820569, guid: e2232815da2d7be4bb63974bb608447a,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 109156942810752590, guid: e2232815da2d7be4bb63974bb608447a,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: -4542340809922716667, guid: 19037b9d47542054e8a232c2e6e2381b,
+        type: 2}
     - target: {fileID: 8085705742089244542, guid: e2232815da2d7be4bb63974bb608447a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4181,7 +4163,7 @@ PrefabInstance:
     - target: {fileID: 8085705742089244542, guid: e2232815da2d7be4bb63974bb608447a,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8085705742089244542, guid: e2232815da2d7be4bb63974bb608447a,
         type: 3}
@@ -4322,149 +4304,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2079694251}
   m_CullTransparentMesh: 0
---- !u!1 &2083015482
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2083015483}
-  - component: {fileID: 2083015489}
-  - component: {fileID: 2083015488}
-  - component: {fileID: 2083015487}
-  - component: {fileID: 2083015486}
-  - component: {fileID: 2083015485}
-  - component: {fileID: 2083015484}
-  m_Layer: 0
-  m_Name: PlayerCamera (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2083015483
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2083015482}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.847, z: 0.299}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1599510819}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2083015484
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2083015482}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ff26db721962cdf4a8edcdfa9a767d2a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  profile: {fileID: 11400000, guid: afb7f37d5a67d65449bf3904ded8db25, type: 2}
---- !u!114 &2083015485
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2083015482}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ListenerNumber: 0
---- !u!114 &2083015486
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2083015482}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d644ca33d844c28499f53cc996646299, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sensitivity: 2
-  smoothing: 2
-  Player: {fileID: 1599510812}
---- !u!114 &2083015487
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2083015482}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 681a8a935d50ce6479fcb18b1a135aca, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  MainUI: {fileID: 395347805}
-  AnxietyLevelIncrease: 10
-  InterractionDistance: 5
---- !u!81 &2083015488
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2083015482}
-  m_Enabled: 0
---- !u!20 &2083015489
-Camera:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2083015482}
-  m_Enabled: 0
-  serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
-  m_projectionMatrixMode: 1
-  m_GateFitMode: 2
-  m_FOVAxisMode: 0
-  m_SensorSize: {x: 36, y: 24}
-  m_LensShift: {x: 0, y: 0}
-  m_FocalLength: 50
-  m_NormalizedViewPortRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1
-    height: 1
-  near clip plane: 0.3
-  far clip plane: 1000
-  field of view: 60
-  orthographic: 0
-  orthographic size: 5
-  m_Depth: 0
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_RenderingPath: -1
-  m_TargetTexture: {fileID: 0}
-  m_TargetDisplay: 0
-  m_TargetEye: 3
-  m_HDR: 1
-  m_AllowMSAA: 1
-  m_AllowDynamicResolution: 0
-  m_ForceIntoRT: 0
-  m_OcclusionCulling: 1
-  m_StereoConvergence: 10
-  m_StereoSeparation: 0.022
 --- !u!1001 &1729407506424777095
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4535,7 +4374,7 @@ PrefabInstance:
     - target: {fileID: 1729407505765132579, guid: bfe4ede99769a434b865761876bf0704,
         type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 1729407505765132579, guid: bfe4ede99769a434b865761876bf0704,
         type: 3}
@@ -4556,21 +4395,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1729407506770249486, guid: bfe4ede99769a434b865761876bf0704,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -9.34
-      objectReference: {fileID: 0}
-    - target: {fileID: 1729407506770249486, guid: bfe4ede99769a434b865761876bf0704,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.28
-      objectReference: {fileID: 0}
-    - target: {fileID: 1729407506770249486, guid: bfe4ede99769a434b865761876bf0704,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 3.42
       objectReference: {fileID: 0}
     - target: {fileID: 3228050768814065124, guid: bfe4ede99769a434b865761876bf0704,
         type: 3}
@@ -4594,6 +4418,21 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 4302548679474519142, guid: 5815aafce8fa50e45b65a7697b470263,
         type: 2}
+    - target: {fileID: 1729407506770249486, guid: bfe4ede99769a434b865761876bf0704,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -9.34
+      objectReference: {fileID: 0}
+    - target: {fileID: 1729407506770249486, guid: bfe4ede99769a434b865761876bf0704,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.28
+      objectReference: {fileID: 0}
+    - target: {fileID: 1729407506770249486, guid: bfe4ede99769a434b865761876bf0704,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 3.42
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bfe4ede99769a434b865761876bf0704, type: 3}
 --- !u!1001 &5356586838944014053
@@ -4651,7 +4490,7 @@ PrefabInstance:
     - target: {fileID: 5642262289782900368, guid: b04ce254f9a3999458c842d2f02d256a,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5642262289782900368, guid: b04ce254f9a3999458c842d2f02d256a,
         type: 3}

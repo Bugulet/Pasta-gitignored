@@ -2,9 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="afc7159b-2fe2-4cc9-9c07-0f9a26409c92" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Pasta-gitignored/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Pasta-gitignored/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Credits.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/Credits.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Start-End Screen Scripts Linde/MainMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Start-End Screen Scripts Linde/MainMenu.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Pasta-gitignored/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Pasta-gitignored/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Pasta-gitignored/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Pasta-gitignored/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ChangeModelNoInteraction.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ChangeModelNoInteraction.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/New Render Texture.renderTexture" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/New Render Texture.renderTexture.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Normal UI.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefabs/Normal UI.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefabs/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Prefabs.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefabs/Prefabs.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Sebi Testing.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/Sebi Testing.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/_Bad_End.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/_Bad_End.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/_Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/_Game.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/_Good_End.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/_Good_End.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/CameraChange.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/CameraChange.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/ChangeModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/ChangeModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/InteractionManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/InteractionManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/RaycastInterract.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/RaycastInterract.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/UI/AnxietyCounter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/UI/AnxietyCounter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/UI/AnxietyManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/UI/AnxietyManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/UI/BreathingExercise.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/UI/BreathingExercise.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/UI/PhoneEnable.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/UI/PhoneEnable.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/UI/Time.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/UI/Time.cs.meta" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,26 +36,29 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/RaycastInterract.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ChangeModelNoInteraction.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Fonts/bodoni SDF.asset" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_Scenes/_Game.unity" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/EnableCursor.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/UI/AnxietyManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Plugins/FMOD/RuntimeManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/InteractWithObject.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/InteractionManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Audio Scripts/Footsteps.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/CameraChange.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Audio Scripts/Music.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/ChangeModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/EnableCursor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Fonts/bodoni SDF.asset" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Prefabs/Prefabs.prefab" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/EnableText.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Start-End Screen Scripts Linde/MainMenu.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/LookatMouse.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://C:/Program Files/Unity/Hub/Editor/2019.2.3f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/InputModules/BaseInput.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/CameraChange.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/InteractionManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/UI/AnxietyManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/UI/BreathingExercise.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/UI/AnxietyCounter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/UI/PhoneManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ChangeModelNoInteraction.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/UI/Time.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/InteractWithObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/LookatMouse.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/FMOD/RuntimeManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Audio Scripts/Music.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Audio Scripts/Footsteps.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/EnableText.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/RaycastInterract.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scenes/_Game.unity" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -50,7 +72,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Start-End Screen Scripts Linde/MainMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Start-End Screen Scripts Linde/LeaveCredits.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TrackPlayerText.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Scripts/CameraChange.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/BreathingExercise.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Audio Scripts/Music.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/PhoneManager.cs" />
@@ -60,12 +81,20 @@
         <option value="$PROJECT_DIR$/Assets/_Scripts/LookatMouse.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/CameraRotation.cs" />
         <option value="$PROJECT_DIR$/Assets/InteractWithObject.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Scripts/UI/AnxietyManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Scripts/InteractionManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/PlayerMovement.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Scripts/RaycastInterract.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/EnableCursor.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Start-End Screen Scripts Linde/MainMenu.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/UI/Time.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/UI/BreathingExercise.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/UI/AnxietyManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/UI/PhoneManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/UI/AnxietyCounter.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/InteractWithObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/InteractionManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/ChangeModel.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/CameraChange.cs" />
+        <option value="$PROJECT_DIR$/Assets/ChangeModelNoInteraction.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/RaycastInterract.cs" />
       </list>
     </option>
   </component>
@@ -135,6 +164,7 @@
       <workItem from="1568881944630" duration="3699000" />
       <workItem from="1568985566716" duration="4332000" />
       <workItem from="1569084548418" duration="704000" />
+      <workItem from="1569919448328" duration="8459000" />
     </task>
     <servers />
   </component>
