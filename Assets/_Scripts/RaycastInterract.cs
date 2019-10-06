@@ -30,10 +30,10 @@ public class RaycastInterract : MonoBehaviour
     
     void Update()
     {
+        Vector3 rayOrigin = mainCamera.ViewportToWorldPoint (new Vector3(0.5f, 0.5f, 0.0f));
         //check if it collided with something
-        if (Physics.Raycast(mainCamera.transform.position,mainCamera.transform.forward, out hit,InterractionDistance))
+        if (Physics.Raycast(rayOrigin,mainCamera.transform.forward, out hit,InterractionDistance))
         {
-            //Debug.Log(hit.collider.tag);
             //check if it is interractible
             if (hit.collider.CompareTag("Interractible") || hit.collider.CompareTag("Bad Memory"))
             {

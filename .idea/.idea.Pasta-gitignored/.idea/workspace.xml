@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="afc7159b-2fe2-4cc9-9c07-0f9a26409c92" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Pasta-gitignored/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Pasta-gitignored/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Pasta-gitignored/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Pasta-gitignored/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Pasta-gitignored/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Pasta-gitignored/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefabs/Player.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Scenes/_Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/_Game.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/CameraChange.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/CameraChange.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/InteractWithObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/InteractWithObject.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/InteractionManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/InteractionManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Scripts/RaycastInterract.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/RaycastInterract.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -157,6 +151,7 @@
       <workItem from="1569084548418" duration="704000" />
       <workItem from="1569919448328" duration="9672000" />
       <workItem from="1570384622530" duration="5417000" />
+      <workItem from="1570390608533" duration="1470000" />
     </task>
     <servers />
   </component>
@@ -188,19 +183,6 @@
           <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
           <option name="timeStamp" value="1" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/_Scripts/RaycastInterract.cs</url>
-          <line>34</line>
-          <properties documentPath="$PROJECT_DIR$/Assets/_Scripts/RaycastInterract.cs" initialLine="33">
-            <startOffsets>
-              <option value="1102" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1103" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
