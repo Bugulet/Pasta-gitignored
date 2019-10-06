@@ -8,12 +8,19 @@ public class InteractWithObject : MonoBehaviour
     [Tooltip("The index of the interaction so they happen in order")]
     [SerializeField] protected int InteractionNumber = 0;
 
+    public int currentInteraction = 0;
+
     protected InteractionManager manager;
 
     // Start is called before the first frame update
     void Start()
     {
         manager = FindObjectOfType<InteractionManager>();
+    }
+
+    public void NextObjective()
+    {
+        
     }
 
     public virtual void Interact()

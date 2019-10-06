@@ -23,24 +23,14 @@ public class InteractionManager : MonoBehaviour
         //Debug.Log("checking");
         if (interactionNumber - 1 == CurrentObjective)
         {
-            PrintInteractionNumber();
-
             CurrentObjective = interactionNumber;
             return true;
         }
         else return false;
     }
 
-    [ContextMenu("Check interaction number")]
-    private void PrintInteractionNumber()
-    {
-        Debug.Log("Current objective: " + CurrentObjective);
-    }
-
-    // Update is called once per frame
     void Update()
     {
-        
         //Debug.Log("Current Objective " + CurrentObjective);
         if (CurrentObjective == MaxObjective)
         {

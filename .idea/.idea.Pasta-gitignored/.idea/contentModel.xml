@@ -20,6 +20,7 @@
           <e p="ChangeModel.cs" t="Include" />
           <e p="EnableCursor.cs" t="Include" />
           <e p="EnableText.cs" t="Include" />
+          <e p="FireRoomFading.cs" t="Include" />
           <e p="InteractionManager.cs" t="Include" />
           <e p="InteractWithObject.cs" t="Include" />
           <e p="LookatMouse.cs" t="Include" />
@@ -36,6 +37,7 @@
             <e p="AnxietyManager.cs" t="Include" />
             <e p="BreathingExercise.cs" t="Include" />
             <e p="MainUIManager.cs" t="Include" />
+            <e p="PhoneEnable.cs" t="Include" />
             <e p="PhoneManager.cs" t="Include" />
             <e p="Time.cs" t="Include" />
           </e>

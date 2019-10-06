@@ -32,6 +32,8 @@ public class CameraChange : MonoBehaviour
 
     [SerializeField] private AnxietyManager manager;
 
+    [Header("Rotations")] 
+    [SerializeField] private GameObject player;
     void Start()
     {
         if (!BedCamera || !PlayerCamera)
@@ -46,6 +48,7 @@ public class CameraChange : MonoBehaviour
             BedUI.enabled = true;
 
             PlayerCamera.enabled = false;
+            player.SetActive(false);
             NormalUI.enabled = false;
             fireRoom.SetActive(false);
         }
@@ -66,6 +69,7 @@ public class CameraChange : MonoBehaviour
                 RMBInstruction.enabled = false;
                 LMBInstruction.enabled = false;
                 
+                player.SetActive(true);
                 PlayerCamera.enabled = true;
                 NormalUI.enabled = true;
                 fireRoom.SetActive(true);
@@ -76,10 +80,9 @@ public class CameraChange : MonoBehaviour
                 manager.IncreaseAnxiety(40);
             }
         }
-
+        
         if (Input.GetMouseButtonDown(0) && !PlayerCamera.enabled)
         {
-
             RMBInstruction.text = "Press right click to snooze...";
             LMBInstruction.fontSize -= 2;
             PTSDCount++;

@@ -19,7 +19,9 @@ public class RaycastInterract : MonoBehaviour
     [Space]
     [Header("Flashback Room Properties")]
     [SerializeField] private RawImage fireCamera;
+    [SerializeField] private float secondsPerFade = 0.25f;
 
+    [SerializeField] private Camera mainCamera;
     private void Start()
     {
         nameChange = MainUI.GetComponent<MainUIManager>();
@@ -29,7 +31,7 @@ public class RaycastInterract : MonoBehaviour
     void Update()
     {
         //check if it collided with something
-        if (Physics.Raycast(transform.position,transform.forward, out hit,InterractionDistance))
+        if (Physics.Raycast(mainCamera.transform.position,mainCamera.transform.forward, out hit,InterractionDistance))
         {
             //Debug.Log(hit.collider.tag);
             //check if it is interractible
@@ -46,13 +48,13 @@ public class RaycastInterract : MonoBehaviour
                     if (hit.collider.GetComponent<InteractWithObject>() != null)
                     {
                         hit.collider.GetComponent<InteractWithObject>().Interact();
-                        if (hit.collider.CompareTag("Bad Memory"))
-                        {
-                            StartCoroutine(ImageFadeIn());
+                    }
+                                        
+                    if (hit.collider.GetComponent<FireRoomFading>() != null)
+                    {
+                        //StartCoroutine(ImageFadeIn());
                             
-                            StartCoroutine(ImageFadeOut());
-                        }
-                        
+                        StartCoroutine(ImageFadeOut());
                     }
 
                     if (hit.collider.GetComponent<EnableText>() != null)
@@ -64,14 +66,7 @@ public class RaycastInterract : MonoBehaviour
                     {
                         FindObjectOfType<AnxietyManager>().IncreaseAnxiety(AnxietyLevelIncrease);
                     }
-                    //else
-                    //{
-                    //    if (hit.collider.GetComponent<InteractWithObject>() != null)
-                    //    {
-                    //        hit.collider.GetComponent<InteractWithObject>().Interact();
-                    //    }
-                    //}
-                    // Debug.Log("object: " + hit.collider.name + " hit at distance: "+hit.distance);
+                    
                     if (hit.collider.GetComponent<SFX>() != null)
                     {
                         hit.collider.GetComponent<SFX>().Play();
@@ -91,10 +86,11 @@ public class RaycastInterract : MonoBehaviour
         {
             for (float f = 0.05f; f <= 1; f += 0.05f)
             {
-                Color c = fireCamera.material.color;
+                Color c = fireCamera.color;
                 c.a = f;
-                fireCamera.material.color = c;
-                yield return new WaitForSeconds(0.05f);
+                fireCamera.color = c;
+                yield return new WaitForSeconds(0.25f);
+                Debug.Log(fireCamera.color.a);
             }
         }
 
@@ -105,7 +101,7 @@ public class RaycastInterract : MonoBehaviour
                 Color c = fireCamera.color;
                 c.a = f;
                 fireCamera.color = c;
-                yield return new WaitForSeconds(0.5f);
+                yield return new WaitForSeconds(secondsPerFade);
             }
         }
     }
