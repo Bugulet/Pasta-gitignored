@@ -72,8 +72,8 @@ MonoBehaviour:
   depthOfField:
     m_Enabled: 0
     m_Settings:
-      focusDistance: 7
-      aperture: 0.6
+      focusDistance: 4.44
+      aperture: 0.1
       focalLength: 50
       useCameraFov: 1
       kernelSize: 0
@@ -98,7 +98,7 @@ MonoBehaviour:
       logMin: -8
       logMax: 4
   bloom:
-    m_Enabled: 1
+    m_Enabled: 0
     m_Settings:
       bloom:
         intensity: 0.12
@@ -309,23 +309,23 @@ MonoBehaviour:
     m_Enabled: 0
     m_Settings:
       spectralTexture: {fileID: 0}
-      intensity: 0.415
+      intensity: 1
   grain:
     m_Enabled: 0
     m_Settings:
       colored: 1
-      intensity: 0.2
+      intensity: 1
       size: 0.42
-      luminanceContribution: 1
+      luminanceContribution: 0
   vignette:
-    m_Enabled: 1
+    m_Enabled: 0
     m_Settings:
       mode: 0
-      color: {r: 0.26415092, g: 0.26415092, b: 0.26415092, a: 1}
+      color: {r: 0.30980393, g: 0.032529417, b: 0.032529417, a: 1}
       center: {x: 0.5, y: 0.5}
-      intensity: 0.363
-      smoothness: 0.388
-      roundness: 0.953
+      intensity: 0.66
+      smoothness: 1
+      roundness: 1
       mask: {fileID: 0}
       opacity: 1
       rounded: 0
