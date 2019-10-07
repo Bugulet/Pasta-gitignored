@@ -2,9 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="afc7159b-2fe2-4cc9-9c07-0f9a26409c92" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Pasta-gitignored/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Pasta-gitignored/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/_Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/_Game.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/PlayerMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/textures/Candles.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/textures/Candles.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/textures/Fabric.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/textures/Fabric.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/textures/Fabric2.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/textures/Fabric2.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/textures/Glass2.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/textures/Glass2.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/textures/Kitchen.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/textures/Kitchen.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/textures/Lamp.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/textures/Lamp.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/textures/Light gray.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/textures/Light gray.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/textures/Metal2.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/textures/Metal2.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/textures/Television.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/textures/Television.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/textures/Tshirt.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/textures/Tshirt.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/textures/Vase.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/textures/Vase.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/textures/Wood.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/textures/Wood.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/textures/Wood2.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/textures/Wood2.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/textures/Wood3.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/textures/Wood3.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/textures/Wood4.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/textures/Wood4.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/textures/Wood6.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/textures/Wood6.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/textures/postcard.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/textures/postcard.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/textures/soft5.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/textures/soft5.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/textures/texture2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/textures/texture2.png.meta" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,6 +45,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/EnableText.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/RaycastInterract.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scenes/_Game.unity" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/textures/Candles.mat.meta" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/ChangeModel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/FireRoomFading.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/EnableCursor.cs" root0="FORCE_HIGHLIGHTING" />
@@ -151,7 +168,7 @@
       <workItem from="1569919448328" duration="9672000" />
       <workItem from="1570384622530" duration="5417000" />
       <workItem from="1570390608533" duration="1470000" />
-      <workItem from="1570438451859" duration="1044000" />
+      <workItem from="1570438451859" duration="1643000" />
     </task>
     <servers />
   </component>
