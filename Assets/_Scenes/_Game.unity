@@ -12846,6 +12846,16 @@ PrefabInstance:
       propertyPath: m_Color.a
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3115640411134283857, guid: bfe4ede99769a434b865761876bf0704,
+        type: 3}
+      propertyPath: Speed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3115640411134283857, guid: bfe4ede99769a434b865761876bf0704,
+        type: 3}
+      propertyPath: speed
+      value: 5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bfe4ede99769a434b865761876bf0704, type: 3}
 --- !u!1 &1619034606 stripped
@@ -17889,7 +17899,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 3115640409795173245}
-  Speed: 1500
+  speed: 5
 --- !u!1 &3115640409795173245
 GameObject:
   m_ObjectHideFlags: 0
