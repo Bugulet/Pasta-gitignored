@@ -14,8 +14,10 @@ public class CameraChange : MonoBehaviour
     [SerializeField] private Camera BedCamera;
     
     [SerializeField] private Camera PlayerCamera;
-    
+    [SerializeField] private GameObject fireRoom;
 
+    [Space]
+    
     [SerializeField] private TextMeshPro RMBInstruction;
     [SerializeField] private TextMeshPro LMBInstruction;
 
@@ -30,6 +32,8 @@ public class CameraChange : MonoBehaviour
 
     [SerializeField] private AnxietyManager manager;
 
+    [Header("Rotations")] 
+    [SerializeField] private GameObject player;
     void Start()
     {
         if (!BedCamera || !PlayerCamera)
@@ -44,13 +48,9 @@ public class CameraChange : MonoBehaviour
             BedUI.enabled = true;
 
             PlayerCamera.enabled = false;
+            player.SetActive(false);
             NormalUI.enabled = false;
-
-            //LMBInstruction = BedUI.transform.GetChild(0).GetComponent<TextMeshPro>();
-
-            //RMBInstruction = BedUI.transform.GetChild(1).GetComponent<TextMeshPro>();
-            //RMBInstruction =RMBInstruction. GetComponent<TextMeshPro>();
-            //LMBInstruction =LMBInstruction. GetComponent<TextMeshPro>();
+            fireRoom.SetActive(false);
         }
     }
 
@@ -69,26 +69,23 @@ public class CameraChange : MonoBehaviour
                 RMBInstruction.enabled = false;
                 LMBInstruction.enabled = false;
                 
+                player.SetActive(true);
                 PlayerCamera.enabled = true;
                 NormalUI.enabled = true;
-
+                fireRoom.SetActive(true);
             }
 
             if (Input.GetMouseButtonDown(1) && !PlayerCamera.enabled)
             {
-                //34 so you can press up to 3 times
                 manager.IncreaseAnxiety(40);
             }
         }
-
+        
         if (Input.GetMouseButtonDown(0) && !PlayerCamera.enabled)
         {
-
             RMBInstruction.text = "Press right click to snooze...";
-            LMBInstruction.fontSize = LMBInstruction.fontSize - 2;
+            LMBInstruction.fontSize -= 2;
             PTSDCount++;
         }
-
-
     }
 }

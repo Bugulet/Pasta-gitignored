@@ -7,13 +7,14 @@ public class PlayerMovement : MonoBehaviour
 
     [SerializeField] private GameObject Player;
 
-    [SerializeField] private float Speed;
+    [SerializeField] public float speed;
 
     private Rigidbody playerRigidbody;
 
     // Start is called before the first frame update
     void Start()
     {
+        Cursor.visible = false;
         if (Player == null)
         {
             Debug.Log("PLAYER NOT ASSIGNED FOR MOVEMENT");
@@ -34,6 +35,15 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+            float moveHorizontal = Input.GetAxis ("Horizontal")*speed;
+            float moveVertical = Input.GetAxis ("Vertical")*speed;
+            moveHorizontal *= Time.deltaTime;
+            moveVertical *= Time.deltaTime;
+
+            transform.Translate(moveHorizontal, 0.0f, moveVertical);
+    }
+    
+        /*
         if (Player.GetComponentInChildren<Camera>().enabled)
         {
             float speedMultiplier = Speed * Time.deltaTime;
@@ -57,6 +67,7 @@ public class PlayerMovement : MonoBehaviour
             {
                 playerRigidbody.AddForce(-speedMultiplier * Player.transform.forward);
             }
+            
         }
-    }
+        */
 }

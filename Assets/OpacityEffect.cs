@@ -19,6 +19,17 @@ public class OpacityEffect : MonoBehaviour
         anxietyMemory = manager.GetAnxiety();
         self = GetComponent<Renderer>();
         materials = self.materials;
+
+        for (int i = 0; i < materials.Length; i++)
+        {
+            Color c = new Color();
+            c = self.materials[i].GetColor("_Color");
+
+            c.a = 0.1f;
+            //else c.a = 0;
+            self.materials[i].SetColor("_Color", c);
+        }
+
     }
 
     // Update is called once per frame
@@ -29,9 +40,10 @@ public class OpacityEffect : MonoBehaviour
         {
             Color c = new Color();
             c = self.materials[i].GetColor("_Color");
-            if (manager.GetAnxiety() > 20)
-                c.a = manager.GetAnxiety() / 70f;
-            else c.a = 0;
+            //if (manager.GetAnxiety() > 20)
+           // if(manager.GetAnxiety()>10)
+                c.a = (manager.GetAnxiety() / 70f)+0.1f;
+           // else c.a = 0.2f;
             self.materials[i].SetColor("_Color", c);
         }
         

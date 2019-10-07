@@ -1,12 +1,14 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class AnxietyCounter : MonoBehaviour
 {
     [Header("Starting time")]
-    [SerializeField] private int StartingHour = 9;
+    [SerializeField] private int StartingHour = 11;
     [SerializeField] private int StartingMinute = 0;
 
 
@@ -20,6 +22,21 @@ public class AnxietyCounter : MonoBehaviour
     [Tooltip("The text element on the normal UI")]
     [SerializeField] private TextMeshProUGUI TimeText;
     
+    private FMOD.Studio.Bus _masterBus;
+
+    private void Start()
+    {
+        _masterBus = FMODUnity.RuntimeManager.GetBus("Bus:/");
+    }
+
+    private void Update()
+    {
+        if (time.hour < 15) return;
+        Debug.Log("Bad end scene");
+        SceneManager.LoadScene("_Bad_End");
+
+        _masterBus.stopAllEvents(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+    }
 
     private void OnEnable()
     {

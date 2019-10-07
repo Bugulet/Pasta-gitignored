@@ -1,11 +1,11 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
-    
     public void StartGame()
     {
         SceneManager.LoadScene("_Game");
@@ -24,10 +24,9 @@ public class MainMenu : MonoBehaviour
         Debug.Log("QUIT");
         Application.Quit();
     }
-    
-    public void MainGame()
+
+    public void LoadMainMenu()
     {
         SceneManager.LoadScene("_Main_Menu");
-        Debug.Log("Main Menu");
     }
 }

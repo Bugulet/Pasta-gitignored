@@ -20,6 +20,7 @@
           <e p="ChangeModel.cs" t="Include" />
           <e p="EnableCursor.cs" t="Include" />
           <e p="EnableText.cs" t="Include" />
+          <e p="FireRoomFading.cs" t="Include" />
           <e p="InteractionManager.cs" t="Include" />
           <e p="InteractWithObject.cs" t="Include" />
           <e p="LookatMouse.cs" t="Include" />
@@ -45,6 +46,7 @@
         <e p="Editor" t="Include">
           <e p="FMODMigrationUtil.cs" t="Include" />
         </e>
+        <e p="FireEffect.cs" t="Include" />
         <e p="FMOD" t="Include">
           <e p="Footsteps" t="Include">
             <e p="Footsteps" t="Include">
@@ -138,6 +140,7 @@
           </e>
         </e>
         <e p="MaskingEffect.cs" t="Include" />
+        <e p="OpacityEffect.cs" t="Include" />
         <e p="Plugins" t="Include">
           <e p="Editor" t="Include">
             <e p="FMOD" t="Include">
@@ -356,6 +359,7 @@
             </e>
           </e>
         </e>
+        <e p="Rename.cs" t="Include" />
         <e p="ResonanceAudio" t="Include">
           <e p="Editor" t="Include">
             <e p="FmodResonanceAudioRoomEditor.cs" t="Include" />
