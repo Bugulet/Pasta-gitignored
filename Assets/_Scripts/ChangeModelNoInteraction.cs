@@ -19,6 +19,7 @@ public class ChangeModelNoInteraction : InteractWithObject
     {
        // manager.CheckInteraction(InteractionNumber);
         Instantiate(DifferentObject, transform.position, transform.rotation);
-        Destroy(gameObject);
+
+        this.enabled = false;
     }
 }

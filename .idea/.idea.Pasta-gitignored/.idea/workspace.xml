@@ -2,25 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="afc7159b-2fe2-4cc9-9c07-0f9a26409c92" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/textures/Candles.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/textures/Candles.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/textures/Fabric.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/textures/Fabric.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/textures/Fabric2.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/textures/Fabric2.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/textures/Glass2.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/textures/Glass2.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/textures/Kitchen.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/textures/Kitchen.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/textures/Lamp.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/textures/Lamp.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/textures/Light gray.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/textures/Light gray.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/textures/Metal2.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/textures/Metal2.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/textures/Television.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/textures/Television.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/textures/Tshirt.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/textures/Tshirt.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/textures/Vase.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/textures/Vase.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/textures/Wood.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/textures/Wood.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/textures/Wood2.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/textures/Wood2.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/textures/Wood3.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/textures/Wood3.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/textures/Wood4.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/textures/Wood4.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/textures/Wood6.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/textures/Wood6.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/textures/postcard.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/textures/postcard.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/textures/soft5.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/textures/soft5.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/textures/texture2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/textures/texture2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Pasta-gitignored/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Pasta-gitignored/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Pasta-gitignored/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Pasta-gitignored/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ChangeModelNoInteraction.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ChangeModelNoInteraction.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Rename.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Rename.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/House/textures/Candles.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefabs/House/textures/Candles.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/_Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/_Game.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/CameraChange.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/CameraChange.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/RaycastInterract.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/RaycastInterract.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/UI/BreathingExercise.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/UI/BreathingExercise.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,7 +30,6 @@
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Start-End Screen Scripts Linde/MainMenu.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://C:/Program Files/Unity/Hub/Editor/2019.2.3f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/InputModules/BaseInput.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ChangeModelNoInteraction.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/UI/Time.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/InteractWithObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/LookatMouse.cs" root0="FORCE_HIGHLIGHTING" />
@@ -45,7 +37,6 @@
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/EnableText.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/RaycastInterract.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scenes/_Game.unity" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/textures/Candles.mat.meta" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/ChangeModel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/FireRoomFading.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/EnableCursor.cs" root0="FORCE_HIGHLIGHTING" />
@@ -53,6 +44,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/CameraChange.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/InteractionManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/ChangeModelNoInteraction.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/UI/AnxietyManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/UI/BreathingExercise.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/UI/AnxietyCounter.cs" root0="FORCE_HIGHLIGHTING" />
@@ -84,18 +76,19 @@
         <option value="$PROJECT_DIR$/Assets/_Scripts/EnableCursor.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Start-End Screen Scripts Linde/MainMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/UI/Time.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Scripts/UI/BreathingExercise.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/UI/AnxietyManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/UI/PhoneManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/UI/AnxietyCounter.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/ChangeModel.cs" />
         <option value="$PROJECT_DIR$/Assets/ChangeModelNoInteraction.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/FireRoomFading.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Scripts/CameraChange.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/InteractionManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/InteractWithObject.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Scripts/RaycastInterract.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/PlayerMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/UI/BreathingExercise.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/CameraChange.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/RaycastInterract.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/ChangeModelNoInteraction.cs" />
       </list>
     </option>
   </component>
@@ -169,6 +162,7 @@
       <workItem from="1570384622530" duration="5417000" />
       <workItem from="1570390608533" duration="1470000" />
       <workItem from="1570438451859" duration="1643000" />
+      <workItem from="1570632775233" duration="6956000" />
     </task>
     <servers />
   </component>

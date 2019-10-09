@@ -84,7 +84,7 @@ public class CameraChange : MonoBehaviour
         if (Input.GetMouseButtonDown(0) && !PlayerCamera.enabled)
         {
             RMBInstruction.text = "Press right click to snooze...";
-            LMBInstruction.fontSize -= 2;
+            LMBInstruction.fontSize -= 1;
             PTSDCount++;
         }
     }

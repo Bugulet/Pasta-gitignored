@@ -1,4 +1,5 @@
-﻿using TMPro;
+﻿using System;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -12,6 +13,8 @@ public class BreathingExercise : MonoBehaviour
      private Image crosshair;
     [SerializeField] private int ScoreThreshold = 3;
 
+    [SerializeField] private RaycastInterract disableInteraction;
+    
     private bool attackIsHappening = false;
     private bool activateAttack = false;
 
@@ -26,6 +29,8 @@ public class BreathingExercise : MonoBehaviour
     private float breathCounter = 0;
     
     private int score=0;
+
+    private bool _hasBreathed = false;
 
     // Audio
     private FMOD.Studio.EventInstance _breathing;
@@ -77,6 +82,11 @@ public class BreathingExercise : MonoBehaviour
                 _breathingAudioPlaying = true;
             }
         }
+
+        if (Mathf.Sin(Time.time) > 0.45f && Mathf.Sin(Time.time) < 0.55)
+        {
+            _hasBreathed = false;
+        }
         
         if (attackIsHappening)
         {
@@ -91,18 +101,22 @@ public class BreathingExercise : MonoBehaviour
             circle.transform.localScale =  map(Mathf.Sin(Time.time), -1,1, 0.5f, circleScale) * Vector3.one;
             Color c = new Color(1, map(Mathf.Sin(Time.time), -1, 1, 0.5f, 1), map(Mathf.Sin(Time.time), -1,1,0,1 ),0.5f);
             circle.GetComponent<RawImage>().color = c;
-            
+
+            disableInteraction.enabled = false;
+
             if (Input.GetMouseButtonDown(0))
             {
-                if (Mathf.Sin(Time.time) < -0.5f)
+                if (Mathf.Sin(Time.time) < -0.4f && _hasBreathed == false) // small circle
                 {
                     _breathing.setParameterValue("state", 1.0f); // To breathe in
                     score++;
+                    _hasBreathed = true;
                 }
-                else if (Mathf.Sin(Time.time) > 0.5f)
+                else if (Mathf.Sin(Time.time) > 0.6f && _hasBreathed == false) // big circle
                 {
                     _breathing.setParameterValue("state", 0.0f); // To breathe out
                     score++;
+                    _hasBreathed = true;
                 }
                 else
                 {
@@ -110,7 +124,6 @@ public class BreathingExercise : MonoBehaviour
                     score = 0;
                     FailPanicAttack();
                 }
-
                 counter.SetText(""+score);
             }
 
@@ -149,6 +162,8 @@ public class BreathingExercise : MonoBehaviour
         crosshair.GetComponent<Image>().enabled = true ;
 
         manager.SetAnxiety(20);
+
+        disableInteraction.enabled = true;
 
     }
     

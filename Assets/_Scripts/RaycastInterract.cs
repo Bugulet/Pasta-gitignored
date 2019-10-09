@@ -16,6 +16,7 @@ public class RaycastInterract : MonoBehaviour
     MainUIManager nameChange;
     private RaycastHit hit;
 
+    private string _name;
     [Space]
     [Header("Flashback Room Properties")]
     [SerializeField] private RawImage fireCamera;
@@ -38,9 +39,9 @@ public class RaycastInterract : MonoBehaviour
             if (hit.collider.CompareTag("Interractible") || hit.collider.CompareTag("Bad Memory"))
             {
                // Debug.Log(hit.collider.name);
-                string name = hit.collider.name;
+                _name = hit.collider.name;
                 
-                nameChange.ChangeObjectName(name);
+                nameChange.ChangeObjectName(_name);
 
                 //check if interraction is started
                 if (Input.GetMouseButtonDown(0))
@@ -75,34 +76,37 @@ public class RaycastInterract : MonoBehaviour
             }
 
             //if the collider does not exist or is not interractible, set the UI tip to blank
-            if (hit.collider == null || (!hit.collider.CompareTag("Interractible") && !hit.collider.CompareTag("Bad Memory")))
+            else if (hit.collider == null || (!hit.collider.CompareTag("Interractible") && !hit.collider.CompareTag("Bad Memory")))
             {
                 // Debug.Log("pula mea");
-                MainUI.GetComponent<MainUIManager>().ChangeObjectName("");
+                nameChange.ChangeObjectName("");
+            } else if (hit.distance > InterractionDistance)
+            {
+                nameChange.ChangeObjectName("");
             }
         }
-
-        IEnumerator ImageFadeIn()
+    }
+    
+    IEnumerator ImageFadeIn()
+    {
+        for (float f = 0.05f; f <= 1; f += 0.05f)
         {
-            for (float f = 0.05f; f <= 1; f += 0.05f)
-            {
-                Color c = fireCamera.color;
-                c.a = f;
-                fireCamera.color = c;
-                yield return new WaitForSeconds(0.25f);
-                Debug.Log(fireCamera.color.a);
-            }
+            Color c = fireCamera.color;
+            c.a = f;
+            fireCamera.color = c;
+            yield return new WaitForSeconds(0.25f);
+            Debug.Log(fireCamera.color.a);
         }
+    }
 
-        IEnumerator ImageFadeOut()
+    IEnumerator ImageFadeOut()
+    {
+        for (float f = 1.0f; f >= -0.05f; f -= 0.05f)
         {
-            for (float f = 1.0f; f >= -0.05f; f -= 0.05f)
-            {
-                Color c = fireCamera.color;
-                c.a = f;
-                fireCamera.color = c;
-                yield return new WaitForSeconds(secondsPerFade);
-            }
+            Color c = fireCamera.color;
+            c.a = f;
+            fireCamera.color = c;
+            yield return new WaitForSeconds(secondsPerFade);
         }
     }
 }
