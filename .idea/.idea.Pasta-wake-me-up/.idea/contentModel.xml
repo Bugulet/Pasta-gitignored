@@ -21,6 +21,7 @@
           <e p="CameraRotation.cs" t="Include" />
           <e p="ChangeModel.cs" t="Include" />
           <e p="ChangeModelNoInteraction.cs" t="Include" />
+          <e p="CopyPlayerPos.cs" t="Include" />
           <e p="EnableCursor.cs" t="Include" />
           <e p="EnableText.cs" t="Include" />
           <e p="FireRoomFading.cs" t="Include" />
