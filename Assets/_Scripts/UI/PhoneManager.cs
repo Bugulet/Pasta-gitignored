@@ -11,18 +11,23 @@ public class PhoneManager : MonoBehaviour
     [Space(20)]
     [Header("Images")]
     [SerializeField] GameObject PhoneUI;
+    [SerializeField] private GameObject memoUI;
     
     [SerializeField] Texture2D[] MessageImages;
+    
     [Space(20)]
     [Header("Others")]
     [SerializeField] GameObject PlayerPrefab;
-
-
+    [SerializeField] private GameObject dupePlayer;
+    
     private GameObject NotificationText;
     [SerializeField] private Image notification;
+    
     private TextMeshProUGUI InstructionText;
 
     private RawImage PhoneImage;
+
+    private RawImage _memoImage;
 
     private AnxietyCounter counter;
 
@@ -38,15 +43,19 @@ public class PhoneManager : MonoBehaviour
     void Start()
     {
         PhoneImage = PhoneUI.transform.GetChild(0).GetComponent<RawImage>();
-
+        _memoImage = memoUI.transform.GetChild(0).GetComponent<RawImage>();
+        
+        memoUI.SetActive(false);
+        
         NotificationText = PhoneUI.transform.GetChild(1).gameObject;
 
         InstructionText = PhoneUI.transform.GetChild(2).GetComponent<TextMeshProUGUI>();
 
         counter = FindObjectOfType<AnxietyCounter>();
         PhoneImage.enabled = false;
+        _memoImage.enabled = false;
+        
         NotificationText.SetActive(false);
-        //notification.enabled = false;
         InstructionText.enabled = false;
         
         _messageGet = FMODUnity.RuntimeManager.CreateInstance("event:/SFX/Message_Get");
@@ -72,7 +81,6 @@ public class PhoneManager : MonoBehaviour
                 if (PhoneImage.enabled == false)
                 {
                     NotificationText.SetActive(true);
-                    //notification.enabled = true;
                 }
 
                 _messageGet.start();
@@ -91,30 +99,40 @@ public class PhoneManager : MonoBehaviour
         //close phone
         if (PhoneImage.enabled)
         {
+            _memoImage.enabled = false;
+            
             InstructionText.enabled = true;
 
             //close phone
-            if (Input.GetKeyDown(KeyCode.E) && keyPressed==false)
+            if (Input.GetKeyDown(KeyCode.E) && keyPressed == false)
             {
                 //enable movement with closed phone
                 PlayerPrefab.transform.GetChild(0).GetComponent<LookatMouse>().sensitivity = 2;
                 PlayerPrefab.GetComponent<PlayerMovement>().enabled = true;
-                
+                dupePlayer.transform.GetChild(0).GetComponent<LookatMouse>().sensitivity = 2;
+
                 keyPressed = true;
                 InstructionText.enabled = false;
                 PhoneImage.enabled = false;
+                memoUI.SetActive(false);
             }
 
             //go to previous message
-            if (Input.GetKeyDown(KeyCode.A))
+            if (Input.GetKeyDown(KeyCode.W))
             {
                 currentMessage--;
             }
 
             //go to next message
-            if (Input.GetKeyDown(KeyCode.D))
+            if (Input.GetKeyDown(KeyCode.S))
             {
                 currentMessage++;
+            }
+
+            if (Input.GetKeyDown(KeyCode.D))
+            {
+                PhoneImage.enabled = false;
+                _memoImage.enabled = true;
             }
 
             //clamp the messages
@@ -127,12 +145,39 @@ public class PhoneManager : MonoBehaviour
             PhoneImage.GetComponent<RawImage>().texture = MessageImages[currentMessage];
         }
 
+        if (_memoImage.enabled)
+        {
+            memoUI.SetActive(true);
+            PhoneImage.enabled = false;
+            
+            if (Input.GetKeyDown(KeyCode.E) && keyPressed==false)
+            {
+                //enable movement with closed phone
+                PlayerPrefab.transform.GetChild(0).GetComponent<LookatMouse>().sensitivity = 2;
+                PlayerPrefab.GetComponent<PlayerMovement>().enabled = true;
+                dupePlayer.transform.GetChild(0).GetComponent<LookatMouse>().sensitivity = 2;
+                
+                keyPressed = true;
+                InstructionText.enabled = false;
+                _memoImage.enabled = false;
+                memoUI.SetActive(false);
+            }
+
+            if (Input.GetKeyDown(KeyCode.A))
+            {
+                _memoImage.enabled = false;
+                PhoneImage.enabled = true;
+                memoUI.SetActive(false);
+            }
+        } 
+        
         //open phone
         if (Input.GetKeyDown(KeyCode.E) && keyPressed==false)
         {
             //disable movement with open phone
             PlayerPrefab.transform.GetChild(0).GetComponent<LookatMouse>().sensitivity = 0; 
             PlayerPrefab.GetComponent<PlayerMovement>().enabled = false;
+            dupePlayer.transform.GetChild(0).GetComponent<LookatMouse>().sensitivity = 0;
 
             PhoneImage.enabled = true;
 
@@ -142,7 +187,6 @@ public class PhoneManager : MonoBehaviour
             }
 
             NotificationText.SetActive(false);
-            //notification.enabled = false;
             InstructionText.enabled = true;
         }
     }

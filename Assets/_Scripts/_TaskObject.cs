@@ -1,17 +1,20 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.Serialization;
+using UnityEngine.UI;
 
 public class _TaskObject : MonoBehaviour
 {
     private _TaskManager _manager;
     
+    [SerializeField] private RawImage currentTask;
+    
     [SerializeField] private GameObject differentObject;
 
     private Renderer _currentRenderer;
     private Collider _currentCollider;
-
 
     [SerializeField] private bool changesModel = false;
 
@@ -26,6 +29,8 @@ public class _TaskObject : MonoBehaviour
     public void TaskInteraction()
     {
         _manager.Task();
+
+        currentTask.enabled = true;
 
         if (differentObject == null)
             return;

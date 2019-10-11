@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3c117c2-93b2-4d8c-8900-9460467a81ec" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Pasta-wake-me-up/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Pasta-wake-me-up/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Pasta-wake-me-up/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Pasta-wake-me-up/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Prefabs.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefabs/Prefabs.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Scenes/_Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/_Game.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/UI/PhoneManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/UI/PhoneManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/_TaskManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/_TaskManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/_TaskObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/_TaskObject.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/_Scripts/CopyPlayerPos.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="240">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <marker date="1570807742344" expanded="true" signature="6:92" ph="..." />
                 <marker date="1570807742344" expanded="true" signature="136:488" ph="{...}" />
@@ -30,7 +32,75 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/_Scripts/UI/PhoneManager.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="660">
+              <caret line="167" column="38" selection-start-line="167" selection-start-column="38" selection-end-line="167" selection-end-column="38" />
+              <folding>
+                <marker date="1570812427388" expanded="true" signature="6:113" ph="..." />
+                <marker date="1570812427388" expanded="true" signature="156:5858" ph="{...}" />
+                <marker date="1570812427388" expanded="true" signature="1043:1836" ph="{...}" />
+                <marker date="1570812427388" expanded="true" signature="1905:2667" ph="{...}" />
+                <marker date="1570812427388" expanded="true" signature="1974:2661" ph="{...}" />
+                <marker date="1570812427388" expanded="true" signature="2224:2638" ph="{...}" />
+                <marker date="1570812427388" expanded="true" signature="2399:2489" ph="{...}" />
+                <marker date="1570812427388" expanded="true" signature="2694:5856" ph="{...}" />
+                <marker date="1570812427388" expanded="true" signature="2841:4295" ph="{...}" />
+                <marker date="1570812427388" expanded="true" signature="3043:3518" ph="{...}" />
+                <marker date="1570812427388" expanded="true" signature="3601:3663" ph="{...}" />
+                <marker date="1570812427388" expanded="true" signature="3742:3804" ph="{...}" />
+                <marker date="1570812427388" expanded="true" signature="3850:3965" ph="{...}" />
+                <marker date="1570812427388" expanded="true" signature="4328:5196" ph="{...}" />
+                <marker date="1570812427388" expanded="true" signature="4493:4984" ph="{...}" />
+                <marker date="1570812427388" expanded="true" signature="5030:5186" ph="{...}" />
+                <marker date="1570812427388" expanded="true" signature="5289:5850" ph="{...}" />
+                <marker date="1570812427388" expanded="true" signature="5682:5748" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/_Scripts/_TaskObject.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+              <folding>
+                <marker date="1570812866883" expanded="false" signature="6:146" ph="..." />
+                <marker date="1570812866883" expanded="true" signature="188:1124" ph="{...}" />
+                <marker date="1570812866883" expanded="true" signature="558:754" ph="{...}" />
+                <marker date="1570812866883" expanded="true" signature="789:1122" ph="{...}" />
+                <marker date="1570812866883" expanded="true" signature="950:1116" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/_Scripts/_TaskManager.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+              <folding>
+                <marker date="1570811580000" expanded="true" signature="6:113" ph="..." />
+                <marker date="1570811580000" expanded="true" signature="156:942" ph="{...}" />
+                <marker date="1570811580000" expanded="true" signature="310:385" ph="{...}" />
+                <marker date="1570811580000" expanded="true" signature="541:640" ph="{...}" />
+                <marker date="1570811580000" expanded="true" signature="663:940" ph="{...}" />
+                <marker date="1570811580000" expanded="true" signature="778:934" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>getchild</find>
+      <find>notification</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
@@ -47,6 +117,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/ChangeModelNoInteraction.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/ChangeModel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Audio Scripts/SFX.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/UI/PhoneManager.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -58,11 +129,12 @@
         <option value="$PROJECT_DIR$/Assets/_Scripts/ChangeModelNoInteraction.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/ChangeModel.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/InteractionManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Scripts/_TaskManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Scripts/_TaskObject.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/SwitchModel.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/RaycastInterract.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/CopyPlayerPos.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/_TaskManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/UI/PhoneManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/_TaskObject.cs" />
       </list>
     </option>
   </component>
@@ -85,15 +157,15 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AssemblyExplorer" />
       <pane id="SolutionExplorer">
         <option name="show-all-files" value="false" />
       </pane>
+      <pane id="FileSystemExplorer" />
       <pane id="UnityExplorer">
         <option name="show-hidden-items" value="false" />
         <option name="show-project-names" value="true" />
       </pane>
-      <pane id="FileSystemExplorer" />
+      <pane id="AssemblyExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -154,11 +226,12 @@
       <workItem from="1570794447547" duration="281000" />
       <workItem from="1570794743755" duration="5440000" />
       <workItem from="1570800269951" duration="2008000" />
+      <workItem from="1570809069785" duration="3797000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13279000" />
+    <option name="totallyTimeSpent" value="17076000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -171,8 +244,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26265317" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.265317" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -300,35 +374,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/_Scripts/_TaskManager.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
-          <folding>
-            <marker date="1570800143058" expanded="true" signature="6:113" ph="..." />
-            <marker date="1570800143058" expanded="true" signature="156:1078" ph="{...}" />
-            <marker date="1570800143058" expanded="true" signature="343:478" ph="{...}" />
-            <marker date="1570800143058" expanded="true" signature="634:776" ph="{...}" />
-            <marker date="1570800143058" expanded="true" signature="799:1076" ph="{...}" />
-            <marker date="1570800143058" expanded="true" signature="914:1070" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/_Scripts/_TaskObject.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="25" column="33" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
-          <folding>
-            <marker date="1570800173014" expanded="false" signature="6:111" ph="..." />
-            <marker date="1570800173014" expanded="true" signature="153:997" ph="{...}" />
-            <marker date="1570800173014" expanded="true" signature="468:664" ph="{...}" />
-            <marker date="1570800173014" expanded="true" signature="699:995" ph="{...}" />
-            <marker date="1570800173014" expanded="true" signature="823:989" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/_Scripts/RaycastInterract.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="630">
@@ -360,13 +405,69 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/_Scripts/CopyPlayerPos.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="240">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
           <folding>
             <marker date="1570807742344" expanded="true" signature="6:92" ph="..." />
             <marker date="1570807742344" expanded="true" signature="136:488" ph="{...}" />
             <marker date="1570807742344" expanded="true" signature="266:278" ph="{...}" />
             <marker date="1570807742344" expanded="true" signature="305:486" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/_Scripts/_TaskManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+          <folding>
+            <marker date="1570811580000" expanded="true" signature="6:113" ph="..." />
+            <marker date="1570811580000" expanded="true" signature="156:942" ph="{...}" />
+            <marker date="1570811580000" expanded="true" signature="310:385" ph="{...}" />
+            <marker date="1570811580000" expanded="true" signature="541:640" ph="{...}" />
+            <marker date="1570811580000" expanded="true" signature="663:940" ph="{...}" />
+            <marker date="1570811580000" expanded="true" signature="778:934" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/_Scripts/UI/PhoneManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="167" column="38" selection-start-line="167" selection-start-column="38" selection-end-line="167" selection-end-column="38" />
+          <folding>
+            <marker date="1570812427388" expanded="true" signature="6:113" ph="..." />
+            <marker date="1570812427388" expanded="true" signature="156:5858" ph="{...}" />
+            <marker date="1570812427388" expanded="true" signature="1043:1836" ph="{...}" />
+            <marker date="1570812427388" expanded="true" signature="1905:2667" ph="{...}" />
+            <marker date="1570812427388" expanded="true" signature="1974:2661" ph="{...}" />
+            <marker date="1570812427388" expanded="true" signature="2224:2638" ph="{...}" />
+            <marker date="1570812427388" expanded="true" signature="2399:2489" ph="{...}" />
+            <marker date="1570812427388" expanded="true" signature="2694:5856" ph="{...}" />
+            <marker date="1570812427388" expanded="true" signature="2841:4295" ph="{...}" />
+            <marker date="1570812427388" expanded="true" signature="3043:3518" ph="{...}" />
+            <marker date="1570812427388" expanded="true" signature="3601:3663" ph="{...}" />
+            <marker date="1570812427388" expanded="true" signature="3742:3804" ph="{...}" />
+            <marker date="1570812427388" expanded="true" signature="3850:3965" ph="{...}" />
+            <marker date="1570812427388" expanded="true" signature="4328:5196" ph="{...}" />
+            <marker date="1570812427388" expanded="true" signature="4493:4984" ph="{...}" />
+            <marker date="1570812427388" expanded="true" signature="5030:5186" ph="{...}" />
+            <marker date="1570812427388" expanded="true" signature="5289:5850" ph="{...}" />
+            <marker date="1570812427388" expanded="true" signature="5682:5748" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/_Scripts/_TaskObject.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+          <folding>
+            <marker date="1570812866883" expanded="false" signature="6:146" ph="..." />
+            <marker date="1570812866883" expanded="true" signature="188:1124" ph="{...}" />
+            <marker date="1570812866883" expanded="true" signature="558:754" ph="{...}" />
+            <marker date="1570812866883" expanded="true" signature="789:1122" ph="{...}" />
+            <marker date="1570812866883" expanded="true" signature="950:1116" ph="{...}" />
           </folding>
         </state>
       </provider>
