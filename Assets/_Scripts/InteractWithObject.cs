@@ -7,25 +7,22 @@ public class InteractWithObject : MonoBehaviour
 
     [Tooltip("The index of the interaction so they happen in order")]
     [SerializeField] protected int InteractionNumber = 0;
-
+    
+    
     public int currentInteraction = 0;
 
-    protected InteractionManager manager;
+    [HideInInspector] public int currentTask;
+    private InteractionManager _manager;
 
     // Start is called before the first frame update
     void Start()
     {
-        manager = FindObjectOfType<InteractionManager>();
+        _manager = FindObjectOfType<InteractionManager>();
     }
-
-    public void NextObjective()
-    {
-        
-    }
-
+    
     public virtual void Interact()
     {
-        if (manager.CheckInteraction(InteractionNumber))
+        if (_manager.CheckInteraction(InteractionNumber))
         {
             Debug.Log("changed numb");
         }

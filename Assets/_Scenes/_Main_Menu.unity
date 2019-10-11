@@ -38,13 +38,13 @@ RenderSettings:
   m_ReflectionIntensity: 0.186
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 1626969465}
-  m_IndirectSpecularColor: {r: 0.19386804, g: 0.21859428, b: 0.25749612, a: 0.186}
+  m_IndirectSpecularColor: {r: 0.1938684, g: 0.21859461, b: 0.25749663, a: 0.186}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 11
-  m_GIWorkflowMode: 0
+  m_GIWorkflowMode: 1
   m_GISettings:
     serializedVersion: 2
     m_BounceScale: 1
@@ -96,7 +96,8 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaAO: 1
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: 1dd8e30625d605a4db89da7bbf746e6e,
+    type: 2}
   m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:

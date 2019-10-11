@@ -43,14 +43,19 @@ public class RaycastInterract : MonoBehaviour
                 
                 nameChange.ChangeObjectName(_name);
 
-                //check if interraction is started
+                //check if interaction is started
                 if (Input.GetMouseButtonDown(0))
                 {
-                    if (hit.collider.GetComponent<InteractWithObject>() != null)
+                    if (hit.collider.GetComponent<_TaskObject>() != null)
                     {
-                        hit.collider.GetComponent<InteractWithObject>().Interact();
+                        if (hit.collider.GetComponent<_TaskObject>().enabled)
+                        {
+                            hit.collider.GetComponent<_TaskObject>().TaskInteraction();
+                            hit.collider.GetComponent<_TaskObject>().enabled = false;
+                            hit.collider.tag = "Untagged";
+                        }
                     }
-                                        
+
                     if (hit.collider.GetComponent<FireRoomFading>() != null)
                     {
                         //StartCoroutine(ImageFadeIn());
@@ -62,15 +67,21 @@ public class RaycastInterract : MonoBehaviour
                     {
                         hit.collider.GetComponent<EnableText>().StartHint();
                     }
-
-                    if (hit.collider.CompareTag("Bad Memory"))
+                    
+                    if (hit.collider.GetComponent<SwitchModel>() != null)
                     {
-                        FindObjectOfType<AnxietyManager>().IncreaseAnxiety(AnxietyLevelIncrease);
+                        hit.collider.GetComponent<SwitchModel>().ChangeObject();
                     }
                     
                     if (hit.collider.GetComponent<SFX>() != null)
                     {
                         hit.collider.GetComponent<SFX>().Play();
+                        Debug.Log("Sound is playing");
+                    }
+                    
+                    if (hit.collider.CompareTag("Bad Memory"))
+                    {
+                        FindObjectOfType<AnxietyManager>().IncreaseAnxiety(AnxietyLevelIncrease);
                     }
                 }
             }

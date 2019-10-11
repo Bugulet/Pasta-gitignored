@@ -8,8 +8,8 @@ public class InteractionManager : MonoBehaviour
 
     [HideInInspector] public int CurrentObjective = 0;
     [SerializeField] private int MaxObjective = 5;
-    [SerializeField] private bool changeModel; 
-    
+
+
     private FMOD.Studio.Bus _masterBus;
 
     private void Start()

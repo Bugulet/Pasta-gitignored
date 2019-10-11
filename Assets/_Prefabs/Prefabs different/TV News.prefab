@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 1150950015934342922}
   - component: {fileID: 6885297442552180572}
   - component: {fileID: 8443590066704827322}
-  - component: {fileID: 3992170252415606376}
+  - component: {fileID: 5158083855402162179}
   m_Layer: 0
   m_Name: TV News
   m_TagString: Interractible
@@ -121,7 +121,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f28ea0ca8ec42248a866734478a8271, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &3992170252415606376
+--- !u!114 &5158083855402162179
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -130,9 +130,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 8996243615318572545}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4a5828aeebfc80041a956604f853c63e, type: 3}
+  m_Script: {fileID: 11500000, guid: 85d53f5c571433e4597fd3934f3f9afc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  InteractionNumber: 0
   DifferentObject: {fileID: 9100930647907955931, guid: 4df2406cf03bbc544a1dbbabefb98fbd,
     type: 3}

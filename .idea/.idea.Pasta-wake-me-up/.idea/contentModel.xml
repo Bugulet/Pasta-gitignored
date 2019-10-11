@@ -1,17 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\linde\.Rider2019.1\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\linde\.Rider2019.1\system\resharper-host\local\Transient\ReSharperHost\v191\SolutionCaches\_Pasta-wake-me-up.2125609823.00" t="ExcludeRecursive" />
-    <e p="D:\Users\linde\Documents\GitHub\Pasta-wake-me-up" t="IncludeRecursive">
+    <e p="C:\Users\Gebruiker\.Rider2019.1\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Gebruiker\.Rider2019.1\system\resharper-host\local\Transient\ReSharperHost\v191\SolutionCaches\_Pasta-wake-me-up.1789122778.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Gebruiker\Documents\GitHub\Pasta-wake-me-up" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="_Scripts" t="Include">
+          <e p="_TaskManager.cs" t="Include" />
+          <e p="_TaskObject.cs" t="Include" />
+          <e p="Audio Scripts" t="Include">
+            <e p="Footsteps.cs" t="Include" />
+            <e p="Music.cs" t="Include" />
+            <e p="SFX.cs" t="Include" />
+          </e>
+          <e p="CameraChange.cs" t="Include" />
+          <e p="CameraRotation.cs" t="Include" />
+          <e p="ChangeModel.cs" t="Include" />
+          <e p="ChangeModelNoInteraction.cs" t="Include" />
+          <e p="EnableCursor.cs" t="Include" />
+          <e p="EnableText.cs" t="Include" />
+          <e p="FireRoomFading.cs" t="Include" />
+          <e p="InteractionManager.cs" t="Include" />
+          <e p="InteractWithObject.cs" t="Include" />
+          <e p="LookatMouse.cs" t="Include" />
+          <e p="PlayerMovement.cs" t="Include" />
+          <e p="RaycastInterract.cs" t="Include" />
+          <e p="Rename.cs" t="Include" />
+          <e p="Start-End Screen Scripts Linde" t="Include">
+            <e p="EndMenu.cs" t="Include" />
+            <e p="LeaveCredits.cs" t="Include" />
+            <e p="MainMenu.cs" t="Include" />
+          </e>
+          <e p="SwitchModel.cs" t="Include" />
+          <e p="TrackPlayerText.cs" t="Include" />
+          <e p="UI" t="Include">
+            <e p="AnxietyCounter.cs" t="Include" />
+            <e p="AnxietyManager.cs" t="Include" />
+            <e p="BreathingExercise.cs" t="Include" />
+            <e p="MainUIManager.cs" t="Include" />
+            <e p="PhoneEnable.cs" t="Include" />
+            <e p="PhoneManager.cs" t="Include" />
+            <e p="Time.cs" t="Include" />
+          </e>
+        </e>
         <e p="Editor" t="Include">
           <e p="FMODMigrationUtil.cs" t="Include" />
         </e>
+        <e p="FireEffect.cs" t="Include" />
         <e p="FMOD" t="Include">
           <e p="Footsteps" t="Include">
             <e p="Footsteps" t="Include">
@@ -23,16 +62,29 @@
                   <e p="{e06bd946-d71d-4ee7-9778-f94041de7a1d}.xml" t="Include" />
                 </e>
                 <e p="AudioFile" t="Include">
+                  <e p="{08589ee8-3964-4737-804d-11531e7e60ce}.xml" t="Include" />
+                  <e p="{09ab4d61-74cd-4675-b327-905450e92579}.xml" t="Include" />
+                  <e p="{15974d1c-ca88-480d-bb02-38061a4c74c0}.xml" t="Include" />
                   <e p="{16db5776-27e0-4aa4-8b56-8fc3301bb18b}.xml" t="Include" />
+                  <e p="{1bd8997f-f075-45a2-b0f3-e3f65410c103}.xml" t="Include" />
                   <e p="{24f75c67-4933-4192-a0a3-7c8d48ef7c47}.xml" t="Include" />
                   <e p="{28553919-91ec-4e2d-9c8a-27b3da3fdfc1}.xml" t="Include" />
+                  <e p="{2d920750-67c3-4f4f-a4f3-94c7ffed64eb}.xml" t="Include" />
                   <e p="{329b7442-f577-41a8-ac39-426a1ac2835c}.xml" t="Include" />
+                  <e p="{334406d7-44d4-41f8-bfe2-6400a2c69395}.xml" t="Include" />
+                  <e p="{3a74ee47-295d-43f6-bce2-90aa639a492a}.xml" t="Include" />
+                  <e p="{44dfb5b0-3b9a-41a4-a52d-3f3f827b1d20}.xml" t="Include" />
+                  <e p="{4fc9dde2-3927-4207-aaaf-3ec26064d1b1}.xml" t="Include" />
+                  <e p="{5abfa6fc-74c8-499c-a0bb-f98c2fcb1b9c}.xml" t="Include" />
                   <e p="{70aec263-7440-4548-a344-02fb9f22e0e5}.xml" t="Include" />
+                  <e p="{9054bc11-04c9-45d7-be4a-1788d736e67e}.xml" t="Include" />
+                  <e p="{ac3c093e-9545-4d90-ada3-6a04a616d094}.xml" t="Include" />
                   <e p="{be700119-897e-4dbb-811e-9058a1948e5c}.xml" t="Include" />
                   <e p="{c1f68c09-4eae-4d99-911f-9d851b425e33}.xml" t="Include" />
                   <e p="{c8304dc6-4cb3-4559-bae6-53cb9e438be3}.xml" t="Include" />
                   <e p="{cc2ad365-d0c6-4026-ae30-6aafbb65320b}.xml" t="Include" />
                   <e p="{d9cca959-450d-4058-8d3e-e3b56a5b3275}.xml" t="Include" />
+                  <e p="{e9e00262-9410-4851-8319-0b3e8692fc52}.xml" t="Include" />
                 </e>
                 <e p="Bank" t="Include">
                   <e p="{1efddea4-a8c4-471c-b935-5bc1fb59ba5a}.xml" t="Include" />
@@ -48,17 +100,29 @@
                   <e p="{be2bdecc-12b5-4ec5-807c-81f0fda4ef31}.xml" t="Include" />
                 </e>
                 <e p="Event" t="Include">
+                  <e p="{42bfba29-85b9-41aa-8ef5-bfae03692f3f}.xml" t="Include" />
+                  <e p="{66ecb5b3-2b61-4c20-a540-7dca98418536}.xml" t="Include" />
                   <e p="{70a11578-27c2-4861-8574-a30bfb9e59bd}.xml" t="Include" />
+                  <e p="{811a2098-8f54-42f6-a5c7-906a2366551c}.xml" t="Include" />
                   <e p="{89d8250d-8284-41ff-a398-fab29731cc1a}.xml" t="Include" />
+                  <e p="{ae982b8b-b652-4206-98cb-6dc95a5919b9}.xml" t="Include" />
+                  <e p="{d1380d9c-c124-46c4-a004-1f7c6c1f2555}.xml" t="Include" />
+                  <e p="{da6acc2d-2357-4a1a-846a-e3d9e878d7f3}.xml" t="Include" />
+                  <e p="{e274b9db-8259-4cfa-a808-1991bef652d9}.xml" t="Include" />
+                  <e p="{e7713f50-063d-473a-a029-74771f9005e4}.xml" t="Include" />
+                  <e p="{eb4cef8b-fdf4-484b-b90d-6f979c0bf39a}.xml" t="Include" />
                 </e>
                 <e p="EventFolder" t="Include">
                   <e p="{073bbb61-7226-4e95-bc67-0bd3a61c0df9}.xml" t="Include" />
+                  <e p="{4102ffc9-d8ee-48fb-863c-a4bf7b58c0e0}.xml" t="Include" />
                   <e p="{4a2ef935-7533-4550-a3ab-47c70d7ccc5b}.xml" t="Include" />
+                  <e p="{b67ef9cd-0eb2-4574-a990-540de73fbaae}.xml" t="Include" />
                   <e p="{bd9d3682-85f1-4ea0-8dbc-cb1cdc7a8bf8}.xml" t="Include" />
                 </e>
                 <e p="Master.xml" t="Include" />
                 <e p="Mixer.xml" t="Include" />
                 <e p="ParameterPreset" t="Include">
+                  <e p="{2a2cdcf8-db63-4d38-a046-2e220b3846bb}.xml" t="Include" />
                   <e p="{aac4f1cd-fe88-4552-bcdb-0f745bf8596c}.xml" t="Include" />
                 </e>
                 <e p="ParameterPresetFolder" t="Include">
@@ -79,6 +143,8 @@
             </e>
           </e>
         </e>
+        <e p="MaskingEffect.cs" t="Include" />
+        <e p="OpacityEffect.cs" t="Include" />
         <e p="Plugins" t="Include">
           <e p="Editor" t="Include">
             <e p="FMOD" t="Include">
@@ -306,68 +372,12 @@
             <e p="FmodResonanceAudioRoom.cs" t="Include" />
           </e>
         </e>
-        <e p="Scripts" t="Include">
-          <e p="AnxietyCounter.cs" t="Include" />
-          <e p="AnxietyFeedback.cs" t="Include" />
-          <e p="AnxietyManager.cs" t="Include" />
-          <e p="Audio Scripts" t="Include">
-            <e p="Footsteps.cs" t="Include" />
-          </e>
-          <e p="BreathingExercise.cs" t="Include" />
-          <e p="CameraChange.cs" t="Include" />
-          <e p="EnableText.cs" t="Include" />
-          <e p="LookatMouse.cs" t="Include" />
-          <e p="MainUIManager.cs" t="Include" />
-          <e p="PlayerMovement.cs" t="Include" />
-          <e p="RaycastInterract.cs" t="Include" />
-          <e p="Start-End Screen Scripts Linde" t="Include">
-            <e p="EndMenu.cs" t="Include" />
-            <e p="MainMenu.cs" t="Include" />
+        <e p="Sprites" t="Include">
+          <e p="Particles" t="Include">
+            <e p="AdditiveTintable.shader" t="Include" />
           </e>
         </e>
         <e p="TextMesh Pro" t="Include">
-          <e p="Examples &amp; Extras" t="Include">
-            <e p="Fonts" t="Include">
-              <e p="Anton OFL.txt" t="Include" />
-              <e p="Bangers - OFL.txt" t="Include" />
-              <e p="Oswald-Bold - OFL.txt" t="Include" />
-            </e>
-            <e p="Scripts" t="Include">
-              <e p="Benchmark01.cs" t="Include" />
-              <e p="Benchmark01_UGUI.cs" t="Include" />
-              <e p="Benchmark02.cs" t="Include" />
-              <e p="Benchmark03.cs" t="Include" />
-              <e p="Benchmark04.cs" t="Include" />
-              <e p="CameraController.cs" t="Include" />
-              <e p="ChatController.cs" t="Include" />
-              <e p="EnvMapAnimator.cs" t="Include" />
-              <e p="ObjectSpin.cs" t="Include" />
-              <e p="ShaderPropAnimator.cs" t="Include" />
-              <e p="SimpleScript.cs" t="Include" />
-              <e p="SkewTextExample.cs" t="Include" />
-              <e p="TeleType.cs" t="Include" />
-              <e p="TextConsoleSimulator.cs" t="Include" />
-              <e p="TextMeshProFloatingText.cs" t="Include" />
-              <e p="TextMeshSpawner.cs" t="Include" />
-              <e p="TMP_DigitValidator.cs" t="Include" />
-              <e p="TMP_ExampleScript_01.cs" t="Include" />
-              <e p="TMP_FrameRateCounter.cs" t="Include" />
-              <e p="TMP_PhoneNumberValidator.cs" t="Include" />
-              <e p="TMP_TextEventCheck.cs" t="Include" />
-              <e p="TMP_TextEventHandler.cs" t="Include" />
-              <e p="TMP_TextInfoDebugTool.cs" t="Include" />
-              <e p="TMP_TextSelector_A.cs" t="Include" />
-              <e p="TMP_TextSelector_B.cs" t="Include" />
-              <e p="TMP_UiFrameRateCounter.cs" t="Include" />
-              <e p="TMPro_InstructionOverlay.cs" t="Include" />
-              <e p="VertexColorCycler.cs" t="Include" />
-              <e p="VertexJitter.cs" t="Include" />
-              <e p="VertexShakeA.cs" t="Include" />
-              <e p="VertexShakeB.cs" t="Include" />
-              <e p="VertexZoom.cs" t="Include" />
-              <e p="WarpTextExample.cs" t="Include" />
-            </e>
-          </e>
           <e p="Fonts" t="Include">
             <e p="LiberationSans - OFL.txt" t="Include" />
           </e>
@@ -395,6 +405,7 @@
             <e p="EmojiOne Attribution.txt" t="Include" />
           </e>
         </e>
+        <e p="TransparencyEffect.cs" t="Include" />
       </e>
       <e p="obj" t="ExcludeRecursive" />
       <e p="Packages" t="ExcludeRecursive" />

@@ -5,6 +5,7 @@ using UnityEngine;
 public class ChangeModel : InteractWithObject
 {
 
+    /*
     [Tooltip("The object that will be spawned when the object will be changed")]
     [SerializeField] private GameObject DifferentObject;
 
@@ -22,4 +23,5 @@ public class ChangeModel : InteractWithObject
             Destroy(gameObject);
         }
     }
+    */
 }

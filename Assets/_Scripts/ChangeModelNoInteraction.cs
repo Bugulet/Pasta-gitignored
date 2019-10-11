@@ -7,19 +7,20 @@ public class ChangeModelNoInteraction : InteractWithObject
     [Tooltip("The object that will be spawned when the object will be changed")]
     [SerializeField] private GameObject DifferentObject;
 
-
+    private Renderer _currentRenderer;
+    private Collider _currentCollider;
 
     private void Start()
     {
-        //manager = FindObjectOfType<InteractionManager>();
-
+        _currentRenderer = gameObject.GetComponent<Renderer>();
+        _currentCollider = gameObject.GetComponent<BoxCollider>();
     }
 
-    public override void Interact()
+    public void ChangeObject()
     {
-       // manager.CheckInteraction(InteractionNumber);
         Instantiate(DifferentObject, transform.position, transform.rotation);
 
-        this.enabled = false;
+        _currentCollider.enabled = false;
+        _currentRenderer.enabled = false;
     }
 }
