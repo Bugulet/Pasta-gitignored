@@ -42,6 +42,7 @@
             <e p="AnxietyCounter.cs" t="Include" />
             <e p="AnxietyManager.cs" t="Include" />
             <e p="BreathingExercise.cs" t="Include" />
+            <e p="disableTutorial.cs" t="Include" />
             <e p="MainUIManager.cs" t="Include" />
             <e p="PhoneEnable.cs" t="Include" />
             <e p="PhoneManager.cs" t="Include" />

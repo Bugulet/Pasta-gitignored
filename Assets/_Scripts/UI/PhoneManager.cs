@@ -22,6 +22,8 @@ public class PhoneManager : MonoBehaviour
     
     private GameObject NotificationText;
     [SerializeField] private Image notification;
+
+    [SerializeField] private GameObject switchingInstructions;
     
     private TextMeshProUGUI InstructionText;
 
@@ -57,6 +59,7 @@ public class PhoneManager : MonoBehaviour
         
         NotificationText.SetActive(false);
         InstructionText.enabled = false;
+        switchingInstructions.SetActive(false);
         
         _messageGet = FMODUnity.RuntimeManager.CreateInstance("event:/SFX/Message_Get");
         _messageSend = FMODUnity.RuntimeManager.CreateInstance("event:/SFX/Message_Send");
@@ -100,6 +103,7 @@ public class PhoneManager : MonoBehaviour
         if (PhoneImage.enabled)
         {
             _memoImage.enabled = false;
+            switchingInstructions.SetActive(true);
             
             InstructionText.enabled = true;
 
@@ -114,7 +118,8 @@ public class PhoneManager : MonoBehaviour
                 keyPressed = true;
                 InstructionText.enabled = false;
                 PhoneImage.enabled = false;
-                memoUI.SetActive(false);
+                // memoUI.SetActive(false);
+                switchingInstructions.SetActive(false);
             }
 
             //go to previous message
@@ -161,6 +166,7 @@ public class PhoneManager : MonoBehaviour
                 InstructionText.enabled = false;
                 _memoImage.enabled = false;
                 memoUI.SetActive(false);
+                switchingInstructions.SetActive(false);
             }
 
             if (Input.GetKeyDown(KeyCode.A))

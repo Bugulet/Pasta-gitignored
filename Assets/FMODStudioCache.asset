@@ -675,7 +675,7 @@ MonoBehaviour:
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: -2796884369993453944}
+  - {fileID: 5090590138478275858}
   MinDistance: 0
   MaxDistance: 0
   Length: 15835
@@ -995,7 +995,7 @@ MonoBehaviour:
   - {fileID: 6670911657701679701}
   StringsBanks:
   - {fileID: 6821751229740463069}
-  stringsBankWriteTime: 637063518100078524
+  stringsBankWriteTime: 637064198916144339
   cacheVersion: 3
 --- !u!114 &47523090047126302
 MonoBehaviour:
@@ -1114,7 +1114,7 @@ MonoBehaviour:
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: 5600418510292806803}
+  - {fileID: 9128596624303951932}
   MinDistance: 0
   MaxDistance: 0
   Length: 396005
@@ -1497,7 +1497,7 @@ MonoBehaviour:
   m_Name: bank:/Music.bank
   m_EditorClassIdentifier: 
   Path: C:\Users\Gebruiker\Documents\GitHub\Pasta-wake-me-up\Assets\FMOD\Footsteps\footsteps\Build\Desktop\Music.bank
-  lastModified: 637063518100288573
+  lastModified: 637064198916134337
   LoadResult: 0
   FileSizes:
   - Name: Desktop
@@ -1641,6 +1641,23 @@ MonoBehaviour:
   - Name: Desktop
     Value: 5145152
   Exists: 0
+--- !u!114 &5090590138478275858
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Breathing/state
+  m_EditorClassIdentifier: 
+  Name: state
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
 --- !u!114 &5600418510292806803
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1765,7 +1782,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: C:\Users\Gebruiker\Documents\GitHub\Pasta-wake-me-up\Assets\FMOD\Footsteps\footsteps\Build\Desktop\Master
     Bank.bank
-  lastModified: 637063518100078524
+  lastModified: 637064198916164342
   LoadResult: 0
   FileSizes:
   - Name: Desktop
@@ -1818,7 +1835,7 @@ MonoBehaviour:
   m_Name: bank:/Master Bank.strings.bank
   m_EditorClassIdentifier: 
   Path: Assets\FMOD\Footsteps\footsteps\Build\Desktop\Master Bank.strings.bank
-  lastModified: 637063518100078524
+  lastModified: 637064198916144339
   LoadResult: 0
   FileSizes:
   - Name: Desktop
@@ -2051,3 +2068,20 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 1980
+--- !u!114 &9128596624303951932
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Music/Anxiety
+  m_EditorClassIdentifier: 
+  Name: Anxiety
+  Min: 0
+  Max: 110
+  Default: 0
+  Exists: 1
