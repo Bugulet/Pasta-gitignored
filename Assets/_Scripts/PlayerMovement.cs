@@ -1,73 +1,46 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 public class PlayerMovement : MonoBehaviour
 {
 
-    [SerializeField] private GameObject Player;
+    [FormerlySerializedAs("Player")] 
+    [SerializeField] private GameObject player;
 
-    [SerializeField] public float speed;
+    [SerializeField] private float speed;
 
-    private Rigidbody playerRigidbody;
+    private float _moveHor;
+    private float _moveVer;
 
     // Start is called before the first frame update
-    void Start()
+    private void Start()
     {
         Cursor.visible = false;
-        if (Player == null)
+        if (player == null)
         {
             Debug.Log("PLAYER NOT ASSIGNED FOR MOVEMENT");
-        }
-        else
-        {
-            if (Player.GetComponent<Rigidbody>() == null)
-            {
-                Debug.Log("RIGIDBODY FOR MOVEMENT DOESNT EXIST");
-            }
-            else
-            {
-                playerRigidbody = Player.GetComponent<Rigidbody>();
-            }
         }
     }
 
     // Update is called once per frame
-    void Update()
+    private void Update()
     {
-            float moveHorizontal = Input.GetAxis ("Horizontal")*speed;
-            float moveVertical = Input.GetAxis ("Vertical")*speed;
-            moveHorizontal *= Time.deltaTime;
-            moveVertical *= Time.deltaTime;
+            _moveHor = Input.GetAxis ("Horizontal")*speed;
+            _moveVer = Input.GetAxis ("Vertical")*speed;
+            _moveHor *= Time.deltaTime;
+            _moveVer *= Time.deltaTime;
 
-            transform.Translate(moveHorizontal, 0.0f, moveVertical);
+            transform.Translate(_moveHor, 0.0f, _moveVer);
     }
-    
-        /*
-        if (Player.GetComponentInChildren<Camera>().enabled)
+
+    public bool MovementGetter()
+    {
+        if (_moveHor != 0 || _moveVer != 0)
         {
-            float speedMultiplier = Speed * Time.deltaTime;
-            
-            if (Input.GetKey(KeyCode.W))
-            {
-                playerRigidbody.AddForce(speedMultiplier * Player.transform.forward);
-            }
-
-            if (Input.GetKey(KeyCode.A))
-            {
-                playerRigidbody.AddForce(-speedMultiplier * Player.transform.right);
-            }
-
-            if (Input.GetKey(KeyCode.D))
-            {
-                playerRigidbody.AddForce(speedMultiplier * Player.transform.right);
-            }
-
-            if (Input.GetKey(KeyCode.S))
-            {
-                playerRigidbody.AddForce(-speedMultiplier * Player.transform.forward);
-            }
-            
+            return true;
         }
-        */
+        else return false;
+    }
 }

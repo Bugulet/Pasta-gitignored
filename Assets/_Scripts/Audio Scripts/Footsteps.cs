@@ -12,22 +12,44 @@ public class Footsteps : MonoBehaviour
 
     [SerializeField] private Rigidbody playerSpeed; 
     
-    [SerializeField]
-    private float walkingSpeed;
+    [SerializeField] private float walkingSpeed;
+
+    private PlayerMovement _isMoving;
 
     private void Start()
     {
         InvokeRepeating(nameof(CallFootsteps), 0, walkingSpeed);
+        _isMoving = FindObjectOfType<PlayerMovement>();
     }
+    
     private void Update()
     {
-        if (playerSpeed.velocity.magnitude > 1.0f)
+        if (_isMoving.MovementGetter())
         {
             playerIsMoving = true;
-        } else if (playerSpeed.velocity.magnitude <= 1.0f)
+        }
+
+        if (!_isMoving.MovementGetter())
         {
             playerIsMoving = false;
         }
+        
+        /*
+        if (playerSpeed.velocity.magnitude > 0.01f)
+        {
+            playerIsMoving = true;
+        }
+        else
+        {
+            playerIsMoving = false;
+        }
+
+        
+        else if (playerSpeed.velocity.magnitude <= 0.1f)
+        {
+            playerIsMoving = false;
+        }
+        */
     }
 
     private void CallFootsteps()
