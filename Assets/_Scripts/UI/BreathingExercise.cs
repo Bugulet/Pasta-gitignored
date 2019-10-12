@@ -130,6 +130,7 @@ public class BreathingExercise : MonoBehaviour
             if (score >= ScoreThreshold)
             {
                 StopPanicAttack();
+                score = 0;
             }
         }
     }

@@ -15,21 +15,23 @@ public class Footsteps : MonoBehaviour
     [SerializeField] private float walkingSpeed;
 
     private PlayerMovement _isMoving;
+    private PhoneManager _phoneManager;
 
     private void Start()
     {
+        _phoneManager = FindObjectOfType<PhoneManager>();
         InvokeRepeating(nameof(CallFootsteps), 0, walkingSpeed);
         _isMoving = FindObjectOfType<PlayerMovement>();
     }
     
     private void Update()
     {
-        if (_isMoving.MovementGetter())
+        if (_isMoving.MovementGetter() || _phoneManager.phoneOpen == false)
         {
             playerIsMoving = true;
         }
 
-        if (!_isMoving.MovementGetter())
+        if (!_isMoving.MovementGetter() || _phoneManager.phoneOpen)
         {
             playerIsMoving = false;
         }

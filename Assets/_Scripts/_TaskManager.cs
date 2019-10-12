@@ -8,6 +8,7 @@ public class _TaskManager : MonoBehaviour
     private int _currentObjective;
     private AnxietyCounter _time;
     [SerializeField] private int maxObjective = 4;
+    [SerializeField] private int endHour = 15;
     private FMOD.Studio.Bus _masterBus;
 
     private void Start()
@@ -30,7 +31,7 @@ public class _TaskManager : MonoBehaviour
         //Debug.Log("Current Objective " + CurrentObjective);
         if (_currentObjective == maxObjective)
         {
-            if (_time.GetTime().hour >= 15)
+            if (_time.GetTime().hour >= endHour)
             {
                 SceneManager.LoadScene("_Good_End");
                 _masterBus.stopAllEvents(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);

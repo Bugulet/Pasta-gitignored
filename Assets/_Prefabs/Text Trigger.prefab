@@ -119,7 +119,7 @@ MonoBehaviour:
 
     CAN''T WAKE UP'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 19037b9d47542054e8a232c2e6e2381b, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 4b4ea13935bcd794babf93d68837c408, type: 2}
   m_sharedMaterial: {fileID: 4302548679474519142, guid: 5815aafce8fa50e45b65a7697b470263,
     type: 2}
   m_fontSharedMaterials: []

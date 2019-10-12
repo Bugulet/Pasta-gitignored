@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
@@ -19,6 +20,11 @@ public class EnableText : MonoBehaviour
         {
             message = hintText.text;
             hintText.enabled = false;
+        }
+
+        if (hintText == null)
+        {
+            throw new Exception("Message missing from " + gameObject.name);
         }
     }
 

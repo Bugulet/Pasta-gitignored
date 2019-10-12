@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
@@ -24,6 +25,16 @@ public class _TaskObject : MonoBehaviour
         _manager = FindObjectOfType<_TaskManager>();
         _currentRenderer = gameObject.GetComponent<Renderer>();
         _currentCollider = gameObject.GetComponent<BoxCollider>();
+
+        if (currentTask == null)
+        {
+            throw new Exception("Current task image is missing from " + gameObject.name);
+        }
+
+        if (changesModel && differentObject == null)
+        {
+            throw new Exception("Different Object missing from " + gameObject.name);
+        }
     }
 
     public void TaskInteraction()

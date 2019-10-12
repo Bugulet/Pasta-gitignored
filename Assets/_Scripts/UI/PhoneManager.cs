@@ -40,6 +40,8 @@ public class PhoneManager : MonoBehaviour
     private FMOD.Studio.EventInstance _messageSend;
 
     private bool _messageSent = false;
+
+    [HideInInspector] public bool phoneOpen = false;
     
     
     void Start()
@@ -102,6 +104,7 @@ public class PhoneManager : MonoBehaviour
         //close phone
         if (PhoneImage.enabled)
         {
+            phoneOpen = true;
             _memoImage.enabled = false;
             switchingInstructions.SetActive(true);
             
@@ -110,6 +113,7 @@ public class PhoneManager : MonoBehaviour
             //close phone
             if (Input.GetKeyDown(KeyCode.E) && keyPressed == false)
             {
+                phoneOpen = false;
                 //enable movement with closed phone
                 PlayerPrefab.transform.GetChild(0).GetComponent<LookatMouse>().sensitivity = 2;
                 PlayerPrefab.GetComponent<PlayerMovement>().enabled = true;
@@ -167,6 +171,7 @@ public class PhoneManager : MonoBehaviour
                 _memoImage.enabled = false;
                 memoUI.SetActive(false);
                 switchingInstructions.SetActive(false);
+                phoneOpen = true;
             }
 
             if (Input.GetKeyDown(KeyCode.A))
