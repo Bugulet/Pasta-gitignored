@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 301544360692506002}
   m_Layer: 0
   m_Name: TV News
-  m_TagString: Bad Memory
+  m_TagString: Interractible
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -60,7 +60,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -8896051167825165466, guid: 5206b35fc57249f4ca8cac935b8ee6e2, type: 3}
+  - {fileID: 2100000, guid: e71313705e72ea04086cab20680b75c1, type: 2}
   - {fileID: -2460739269835614042, guid: 5206b35fc57249f4ca8cac935b8ee6e2, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0

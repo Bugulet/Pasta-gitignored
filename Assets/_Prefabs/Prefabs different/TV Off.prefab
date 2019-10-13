@@ -61,7 +61,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -8896051167825165466, guid: 851eef452defa474a82992101f275cd8, type: 3}
+  - {fileID: 2100000, guid: e71313705e72ea04086cab20680b75c1, type: 2}
   - {fileID: -2609809028551464901, guid: 851eef452defa474a82992101f275cd8, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
@@ -129,98 +129,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6688374437387112200}
     m_Modifications:
-    - target: {fileID: 543432990169252079, guid: e2232815da2d7be4bb63974bb608447a,
-        type: 3}
-      propertyPath: m_Name
-      value: Text Trigger_TV_Permanently_Off
-      objectReference: {fileID: 0}
-    - target: {fileID: 543432990169252079, guid: e2232815da2d7be4bb63974bb608447a,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1537554872757748995, guid: e2232815da2d7be4bb63974bb608447a,
-        type: 3}
-      propertyPath: m_textInfo.characterCount
-      value: 41
-      objectReference: {fileID: 0}
-    - target: {fileID: 1537554872757748995, guid: e2232815da2d7be4bb63974bb608447a,
-        type: 3}
-      propertyPath: m_textInfo.spaceCount
-      value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 1537554872757748995, guid: e2232815da2d7be4bb63974bb608447a,
-        type: 3}
-      propertyPath: m_textInfo.wordCount
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 1537554872757748995, guid: e2232815da2d7be4bb63974bb608447a,
-        type: 3}
-      propertyPath: m_textInfo.lineCount
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1537554872757748995, guid: e2232815da2d7be4bb63974bb608447a,
-        type: 3}
-      propertyPath: m_textInfo.pageCount
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1537554872757748995, guid: e2232815da2d7be4bb63974bb608447a,
-        type: 3}
-      propertyPath: m_sharedMaterial
-      value: 
-      objectReference: {fileID: -8048699020417979237, guid: 4b4ea13935bcd794babf93d68837c408,
-        type: 2}
-    - target: {fileID: 1537554872757748995, guid: e2232815da2d7be4bb63974bb608447a,
-        type: 3}
-      propertyPath: m_text
-      value: No, I'm not turning that on anytime soon.
-      objectReference: {fileID: 0}
-    - target: {fileID: 1537554872757748995, guid: e2232815da2d7be4bb63974bb608447a,
-        type: 3}
-      propertyPath: m_fontColor32.rgba
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 1537554872757748995, guid: e2232815da2d7be4bb63974bb608447a,
-        type: 3}
-      propertyPath: m_firstOverflowCharacterIndex
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1537554872757748995, guid: e2232815da2d7be4bb63974bb608447a,
-        type: 3}
-      propertyPath: m_textInfo.materialCount
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1537554872757748995, guid: e2232815da2d7be4bb63974bb608447a,
-        type: 3}
-      propertyPath: m_subTextObjects.Array.data[1]
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 1537554872757748995, guid: e2232815da2d7be4bb63974bb608447a,
-        type: 3}
-      propertyPath: m_fontSize
-      value: 1.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1537554872757748995, guid: e2232815da2d7be4bb63974bb608447a,
-        type: 3}
-      propertyPath: m_fontSizeBase
-      value: 1.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1537554872757748995, guid: e2232815da2d7be4bb63974bb608447a,
-        type: 3}
-      propertyPath: m_hasFontAssetChanged
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 28005198246820569, guid: e2232815da2d7be4bb63974bb608447a,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 109156942810752590, guid: e2232815da2d7be4bb63974bb608447a,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: -8048699020417979237, guid: 4b4ea13935bcd794babf93d68837c408,
-        type: 2}
     - target: {fileID: 8085705742089244542, guid: e2232815da2d7be4bb63974bb608447a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -341,6 +249,98 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 100
       objectReference: {fileID: 0}
+    - target: {fileID: 543432990169252079, guid: e2232815da2d7be4bb63974bb608447a,
+        type: 3}
+      propertyPath: m_Name
+      value: Text Trigger_TV_Permanently_Off
+      objectReference: {fileID: 0}
+    - target: {fileID: 543432990169252079, guid: e2232815da2d7be4bb63974bb608447a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1537554872757748995, guid: e2232815da2d7be4bb63974bb608447a,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 41
+      objectReference: {fileID: 0}
+    - target: {fileID: 1537554872757748995, guid: e2232815da2d7be4bb63974bb608447a,
+        type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1537554872757748995, guid: e2232815da2d7be4bb63974bb608447a,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1537554872757748995, guid: e2232815da2d7be4bb63974bb608447a,
+        type: 3}
+      propertyPath: m_textInfo.lineCount
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1537554872757748995, guid: e2232815da2d7be4bb63974bb608447a,
+        type: 3}
+      propertyPath: m_textInfo.pageCount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1537554872757748995, guid: e2232815da2d7be4bb63974bb608447a,
+        type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -8048699020417979237, guid: 4b4ea13935bcd794babf93d68837c408,
+        type: 2}
+    - target: {fileID: 1537554872757748995, guid: e2232815da2d7be4bb63974bb608447a,
+        type: 3}
+      propertyPath: m_text
+      value: No, I'm not turning that on anytime soon.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1537554872757748995, guid: e2232815da2d7be4bb63974bb608447a,
+        type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1537554872757748995, guid: e2232815da2d7be4bb63974bb608447a,
+        type: 3}
+      propertyPath: m_firstOverflowCharacterIndex
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1537554872757748995, guid: e2232815da2d7be4bb63974bb608447a,
+        type: 3}
+      propertyPath: m_textInfo.materialCount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1537554872757748995, guid: e2232815da2d7be4bb63974bb608447a,
+        type: 3}
+      propertyPath: m_subTextObjects.Array.data[1]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1537554872757748995, guid: e2232815da2d7be4bb63974bb608447a,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1537554872757748995, guid: e2232815da2d7be4bb63974bb608447a,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1537554872757748995, guid: e2232815da2d7be4bb63974bb608447a,
+        type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 28005198246820569, guid: e2232815da2d7be4bb63974bb608447a,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 109156942810752590, guid: e2232815da2d7be4bb63974bb608447a,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: -8048699020417979237, guid: 4b4ea13935bcd794babf93d68837c408,
+        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e2232815da2d7be4bb63974bb608447a, type: 3}
 --- !u!224 &6849231148091697693 stripped
