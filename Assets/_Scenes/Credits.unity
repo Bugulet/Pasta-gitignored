@@ -178,7 +178,7 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 12800000, guid: e2a3a32a70df7c04b90a6f7e30eb0b4e, type: 3}
+    m_Font: {fileID: 12800000, guid: ee466d1284054cb41b81ddb3aff449fd, type: 3}
     m_FontSize: 48
     m_FontStyle: 0
     m_BestFit: 0
@@ -196,9 +196,9 @@ MonoBehaviour:
     Eusebiu\r</size>\nGameplay Engineer\r\nScripter\r\nUI Engineer\r\n\r\n<size=64>Michela
     Paulucci\r</size>\nConcept Artist\r\n3D Modeller\r\nEnvironmental Artist\r\nLighting
     Artist\r\n\r\n<size=64>Avery Pereira\r</size>\nGame Designer\r\nSound Designer\r\nAudio
-    Engineer\r\nVoice Actress\r\nUI Engineer\r\nQuality Assurance\r\nCo-Scrum Master\r\n\r\n<size=64>Linde
-    van Weerd\r</size>\nGame designer\r\nNarrative Designer\r\nUI Engineer\r\nGame
-    Writer\r\nUI Polisher\r\nQuality Assurance \r\nScrum Master\r\n\r\n<size=96>Special
+    Engineer\r\nVoice Actress\r\nUI Engineer\nScripter\r\nQuality Assurance\r\nCo-Scrum
+    Master\r\n\r\n<size=64>Linde van Weerd\r</size>\nGame designer\r\nNarrative Designer\r\nUI
+    Engineer\r\nGame Writer\r\nUI Polisher\r\nQuality Assurance \r\nScrum Master\r\n\r\n<size=96>Special
     thanks\r</size>\nJade Davelaar - Video Actress\r\nAmber van Weerd - Voice Actress\r"
 --- !u!222 &83516508
 CanvasRenderer:
@@ -443,7 +443,7 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 8bf8a01c9732957418b200274f41278c, type: 3}
+    m_Font: {fileID: 12800000, guid: ee466d1284054cb41b81ddb3aff449fd, type: 3}
     m_FontSize: 48
     m_FontStyle: 0
     m_BestFit: 0
