@@ -190,16 +190,17 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "<size=96>Credits:\r</size>\n<size=64>Nero Bongers\r</size>\nLead Artist\r\n3D
-    Concept Artist\r\n3D Modeller\r\nEnvironmental Artist\r\n\r\n<size=64>Jasmijn
-    Davelaar\r</size>\nUI/UX Design\r\nVideo Writer\r\nVideo Director\r\nVideo Editor\r\n\r\n<size=64>Buga
-    Eusebiu\r</size>\nGameplay Engineer\r\nScripter\r\nUI Engineer\r\n\r\n<size=64>Michela
-    Paulucci\r</size>\nConcept Artist\r\n3D Modeller\r\nEnvironmental Artist\r\nLighting
-    Artist\r\n\r\n<size=64>Avery Pereira\r</size>\nGame Designer\r\nSound Designer\r\nAudio
+  m_Text: "<size=96>Credits:\r</size>\n<size=64>Jasmijn Davelaar\r</size>\nUI/UX Design\r\nVideo
+    Writer\r\nVideo Director\r\nVideo Editor\r\n\n\r<size=64>Michela Paulucci\r</size>\nConcept
+    Artist\r\n3D Modeller\r\nEnvironmental Artist\r\nLighting Artist\r\n\r\n<size=64>Nero
+    Bongers\r</size>\nLead Artist\r\n3D Concept Artist\r\n3D Modeller\r\nEnvironmental
+    Artist\r\n\r\n<size=64>Buga Eusebiu\r</size>\nGameplay Engineer\r\nScripter\r\nUI
+    Engineer\r\n\r\n<size=64>Linde van Weerd\r</size>\nGame designer\r\nNarrative
+    Designer\r\nUI Engineer\r\nGame Writer\r\nUI Polisher\r\nQuality Assurance \r\nScrum
+    Master\r\n\r\n<size=64>Avery Pereira\r</size>\nGame Designer\r\nSound Designer\r\nAudio
     Engineer\r\nVoice Actress\r\nUI Engineer\nScripter\r\nQuality Assurance\r\nCo-Scrum
-    Master\r\n\r\n<size=64>Linde van Weerd\r</size>\nGame designer\r\nNarrative Designer\r\nUI
-    Engineer\r\nGame Writer\r\nUI Polisher\r\nQuality Assurance \r\nScrum Master\r\n\r\n<size=96>Special
-    thanks\r</size>\nJade Davelaar - Video Actress\r\nAmber van Weerd - Voice Actress\r"
+    Master\r\n\r\n<size=96>Special thanks\r</size>\nJade Davelaar - Video Actress\r\nAmber
+    van Weerd - Voice Actress\r"
 --- !u!222 &83516508
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -237,7 +238,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e81c859dd5689043be0230dc5b1a8c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waitUntilLeave: 27
+  waitUntilLeave: 20
 --- !u!4 &463308523
 Transform:
   m_ObjectHideFlags: 0
