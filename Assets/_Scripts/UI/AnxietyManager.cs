@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using UnityEngine.SceneManagement;
 using UnityEngine;
 using UnityEngine.PostProcessing;
+using UnityEngine.UI;
 
 public class AnxietyManager : MonoBehaviour
 {
@@ -22,6 +23,16 @@ public class AnxietyManager : MonoBehaviour
     private void Start()
     {
         _masterBus = FMODUnity.RuntimeManager.GetBus("Bus:/");
+    }
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            SceneManager.LoadScene("_main_menu");
+            _masterBus.stopAllEvents(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+        }
+
     }
 
     private void SetEffects()

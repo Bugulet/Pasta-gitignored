@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using TMPro;
 
@@ -9,13 +10,16 @@ public class EnableText : MonoBehaviour
 
     [SerializeField] private int waitTime = 3;
     [SerializeField] private TextMeshPro hintText;
-
+    
     private string message;
     private bool textStarted;
     private int messageIterator = 1;
 
+    private int _debugMessageInt;
+
     private void Start()
     {
+        _debugMessageInt = hintText.text.Length;
         if (hintText != null)
         {
             message = hintText.text;
@@ -54,8 +58,11 @@ public class EnableText : MonoBehaviour
         {
             if (textStarted)
             {
-                if (message.Equals(hintText.text))
+                if (messageIterator >= _debugMessageInt) //message.Equals(hintText.text) //message == hintText.text
                 {
+                    StartCoroutine(DeleteText());
+                    
+                    /*
                     if (totalTime >= waitTime)
                     {
                         DeleteHint();
@@ -64,6 +71,7 @@ public class EnableText : MonoBehaviour
                     {
                         totalTime += Time.deltaTime;
                     }
+                    */
                 }
                 else
                 {
@@ -74,12 +82,16 @@ public class EnableText : MonoBehaviour
             {
                 if (hintText.text.Length > 0)
                 {
-                    messageIterator--;
-                    hintText.SetText(message.Substring(0, messageIterator));
+                    //--messageIterator;
+                    hintText.SetText(message.Substring(0, messageIterator--));
                 }
             }
         }
-
     }
 
+    private IEnumerator DeleteText()
+    {
+        yield return new WaitForSeconds(waitTime);
+        DeleteHint();
+    }
 }
