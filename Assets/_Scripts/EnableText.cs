@@ -46,6 +46,7 @@ public class EnableText : MonoBehaviour
     {
         textStarted = false;
         totalTime = 0;
+        hintText.enabled = false;
     }
 
 
@@ -78,6 +79,7 @@ public class EnableText : MonoBehaviour
                     hintText.SetText(message.Substring(0, messageIterator++));
                 }
             }
+            /*
             else
             {
                 if (hintText.text.Length > 0)
@@ -86,6 +88,7 @@ public class EnableText : MonoBehaviour
                     hintText.SetText(message.Substring(0, messageIterator--));
                 }
             }
+            */
         }
     }
 
