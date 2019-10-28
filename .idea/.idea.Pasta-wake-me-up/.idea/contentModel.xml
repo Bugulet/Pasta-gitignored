@@ -44,6 +44,7 @@
             <e p="BreathingExercise.cs" t="Include" />
             <e p="disableTutorial.cs" t="Include" />
             <e p="MainUIManager.cs" t="Include" />
+            <e p="Pausing.cs" t="Include" />
             <e p="PhoneEnable.cs" t="Include" />
             <e p="PhoneManager.cs" t="Include" />
             <e p="Time.cs" t="Include" />

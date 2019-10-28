@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3c117c2-93b2-4d8c-8900-9460467a81ec" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/FMODStudioCache.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FMODStudioCache.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/New Post-Processing Profile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/New Post-Processing Profile.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Prefabs different/Bed Made.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefabs/Prefabs different/Bed Made.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Prefabs different/Postcard Back.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefabs/Prefabs different/Postcard Back.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Prefabs different/Postcard Front.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefabs/Prefabs different/Postcard Front.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Prefabs different/TV Off.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefabs/Prefabs different/TV Off.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Pasta-wake-me-up/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Pasta-wake-me-up/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Scenes/_Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/_Game.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/UI/AnxietyManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/UI/AnxietyManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fmod_editor.log" beforeDir="false" afterPath="$PROJECT_DIR$/fmod_editor.log" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -71,11 +62,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/_Scripts/UI/AnxietyManager.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-210">
-              <caret line="46" column="12" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="12" />
+            <state relative-caret-position="450">
+              <caret line="90" column="44" selection-start-line="90" selection-start-column="44" selection-end-line="90" selection-end-column="44" />
               <folding>
                 <marker date="1572265654277" expanded="true" signature="6:183" ph="..." />
                 <marker date="1572265654277" expanded="true" signature="228:4027" ph="{...}" />
@@ -100,6 +91,26 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/_Scripts/UI/Pausing.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="29" column="43" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
+              <folding>
+                <marker date="1572268330798" expanded="true" signature="6:127" ph="..." />
+                <marker date="1572268330798" expanded="true" signature="165:1693" ph="{...}" />
+                <marker date="1572268330798" expanded="true" signature="391:710" ph="{...}" />
+                <marker date="1572268330798" expanded="true" signature="428:530" ph="{...}" />
+                <marker date="1572268330798" expanded="true" signature="737:937" ph="{...}" />
+                <marker date="1572268330798" expanded="true" signature="971:1188" ph="{...}" />
+                <marker date="1572268330798" expanded="true" signature="1221:1440" ph="{...}" />
+                <marker date="1572268330798" expanded="true" signature="1468:1624" ph="{...}" />
+                <marker date="1572268330798" expanded="true" signature="1652:1691" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
@@ -118,6 +129,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/UI/AnxietyCounter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/UI/Time.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/_TaskManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/UI/Pausing.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/SwitchModel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/ChangeModelNoInteraction.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/EnableText.cs" root0="FORCE_HIGHLIGHTING" />
@@ -157,6 +169,7 @@
         <option value="$PROJECT_DIR$/Assets/_Scripts/EnableText.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/UI/AnxietyCounter.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/UI/AnxietyManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/UI/Pausing.cs" />
       </list>
     </option>
   </component>
@@ -251,12 +264,12 @@
       <workItem from="1570809069785" duration="8528000" />
       <workItem from="1570877171082" duration="2791000" />
       <workItem from="1571150719619" duration="8809000" />
-      <workItem from="1572261594262" duration="4060000" />
+      <workItem from="1572261594262" duration="6735000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37467000" />
+    <option name="totallyTimeSpent" value="40142000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -637,8 +650,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/_Scripts/UI/AnxietyManager.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-210">
-          <caret line="46" column="12" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="12" />
+        <state relative-caret-position="450">
+          <caret line="90" column="44" selection-start-line="90" selection-start-column="44" selection-end-line="90" selection-end-column="44" />
           <folding>
             <marker date="1572265654277" expanded="true" signature="6:183" ph="..." />
             <marker date="1572265654277" expanded="true" signature="228:4027" ph="{...}" />
@@ -658,6 +671,24 @@
             <marker date="1572265654277" expanded="true" signature="3657:4025" ph="{...}" />
             <marker date="1572265654277" expanded="true" signature="3718:4019" ph="{...}" />
             <marker date="1572265654277" expanded="true" signature="3765:3968" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/_Scripts/UI/Pausing.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="29" column="43" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
+          <folding>
+            <marker date="1572268330798" expanded="true" signature="6:127" ph="..." />
+            <marker date="1572268330798" expanded="true" signature="165:1693" ph="{...}" />
+            <marker date="1572268330798" expanded="true" signature="391:710" ph="{...}" />
+            <marker date="1572268330798" expanded="true" signature="428:530" ph="{...}" />
+            <marker date="1572268330798" expanded="true" signature="737:937" ph="{...}" />
+            <marker date="1572268330798" expanded="true" signature="971:1188" ph="{...}" />
+            <marker date="1572268330798" expanded="true" signature="1221:1440" ph="{...}" />
+            <marker date="1572268330798" expanded="true" signature="1468:1624" ph="{...}" />
+            <marker date="1572268330798" expanded="true" signature="1652:1691" ph="{...}" />
           </folding>
         </state>
       </provider>
