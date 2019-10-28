@@ -13,6 +13,7 @@ public class AnxietyManager : MonoBehaviour
     [SerializeField] private PostProcessingProfile postProcProf;
     [SerializeField] BreathingExercise exercise;
 
+    private float _chromaIntense;
     /// <summary>
     /// at what percentage does the exercise start
     /// </summary>
@@ -23,27 +24,53 @@ public class AnxietyManager : MonoBehaviour
     private void Start()
     {
         _masterBus = FMODUnity.RuntimeManager.GetBus("Bus:/");
-    }
-
-    private void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.Escape))
-        {
-            SceneManager.LoadScene("_main_menu");
-            _masterBus.stopAllEvents(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
-        }
-
+        _chromaIntense = 0;
     }
 
     private void SetEffects()
     {
-        var vignette = postProcProf.vignette.settings;
-        var bloom = postProcProf.bloom.settings;
+        var chroma = postProcProf.chromaticAberration.settings;
+        var grain = postProcProf.grain.settings;
         var grayScale = postProcProf.colorGrading.settings;
 
         grayScale.basic.saturation = 1 - (AnxietyMeter / 100f);
+        if (AnxietyMeter < 25)
+        {
+            chroma.intensity = 0f;
+            grain.intensity = 0f;
+            grain.luminanceContribution = 1.0f;
+        }
+
+        if (AnxietyMeter >= 25)
+        {
+            _chromaIntense = 0.50f;
+            StartCoroutine(ResetChroma());
+            chroma.intensity = _chromaIntense;
+            grain.intensity = 0.212f;
+            grain.luminanceContribution = 0.8f;
+        }
+
+        if (AnxietyMeter >= 50)
+        {
+            _chromaIntense = 1.14f;
+            StartCoroutine(ResetChroma());
+            chroma.intensity = _chromaIntense;
+            grain.intensity = 0.212f;
+            grain.luminanceContribution = 0.45f;
+        }
+
+        if (AnxietyMeter >= 70)
+        {
+            _chromaIntense = 1.77f;
+            StartCoroutine(ResetChroma());
+            chroma.intensity = _chromaIntense;
+            grain.intensity = 0.212f;
+            grain.luminanceContribution = 0.1f;
+        }
 
         postProcProf.colorGrading.settings = grayScale;
+        postProcProf.chromaticAberration.settings = chroma;
+        postProcProf.grain.settings = grain;
     }
     
     //reset the values to default, at least one of them
@@ -51,7 +78,29 @@ public class AnxietyManager : MonoBehaviour
     {
         var grayScale = postProcProf.colorGrading.settings;
         grayScale.basic.saturation = 1;
+        
+        var chroma = postProcProf.chromaticAberration.settings;
+        chroma.intensity = 0;
+
+        var grain = postProcProf.grain.settings;
+        grain.intensity = 0;
+        grain.luminanceContribution = 1;
+        
         postProcProf.colorGrading.settings = grayScale;
+        postProcProf.chromaticAberration.settings = chroma;
+        postProcProf.grain.settings = grain;
+    }
+
+    private IEnumerator ResetChroma()
+    {
+        var chroma = postProcProf.chromaticAberration.settings;
+        yield return new WaitForSeconds(5.0f);
+        for (float i = _chromaIntense; i > 0; i -= 0.05f)
+        {
+            _chromaIntense = i;
+            chroma.intensity = _chromaIntense;
+            postProcProf.chromaticAberration.settings = chroma;
+        }
     }
 
     public void IncreaseAnxiety(int level)
