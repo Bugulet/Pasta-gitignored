@@ -10606,6 +10606,12 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1334201321}
   m_Mesh: {fileID: -4414193237490186710, guid: f5266f83482a4664fb0417962d1fdccb, type: 3}
+--- !u!1 &1334237733 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3115640410499670647, guid: bfe4ede99769a434b865761876bf0704,
+    type: 3}
+  m_PrefabInstance: {fileID: 1619034605}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1363521617
 GameObject:
   m_ObjectHideFlags: 0
@@ -10967,7 +10973,7 @@ MonoBehaviour:
     type: 3}
   m_PrefabInstance: {fileID: 1619034605}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1334237733}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d644ca33d844c28499f53cc996646299, type: 3}
@@ -14650,7 +14656,7 @@ MonoBehaviour:
     type: 3}
   m_PrefabInstance: {fileID: 1619034605}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1334237733}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 681a8a935d50ce6479fcb18b1a135aca, type: 3}
@@ -20825,8 +20831,8 @@ GameObject:
   m_Component:
   - component: {fileID: 3115640411840588126}
   - component: {fileID: 3115640411840588127}
-  - component: {fileID: 3115640411840588125}
   - component: {fileID: 1729407506440857800}
+  - component: {fileID: 3115640411840588123}
   m_Layer: 0
   m_Name: PlayerCamera
   m_TagString: Untagged
@@ -20834,7 +20840,7 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &3115640411840588125
+--- !u!114 &3115640411840588123
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20843,12 +20849,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 3115640411840588122}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d644ca33d844c28499f53cc996646299, type: 3}
+  m_Script: {fileID: 11500000, guid: 8282cb1c6ae075d479ac92df8ef7075b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sensitivity: 2
-  smoothing: 2
-  Player: {fileID: 3115640409795173245}
+  playerCam: {fileID: 1334237733}
+  fireCam: {fileID: 3115640411840588122}
 --- !u!4 &3115640411840588126
 Transform:
   m_ObjectHideFlags: 0
