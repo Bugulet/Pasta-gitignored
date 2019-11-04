@@ -649,10 +649,10 @@ PlayerSettings:
   facebookXfbml: 0
   facebookFrictionlessRequests: 1
   apiCompatibilityLevel: 6
-  cloudProjectId: 50dd64f2-7d96-4577-88ef-c16091fba4ef
+  cloudProjectId: 34b6983d-d793-4417-a786-fa7365b00120
   framebufferDepthMemorylessMode: 0
   projectName: Rise and Shine
-  organizationId: averyhugger
+  organizationId: linde-van-weerd
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0

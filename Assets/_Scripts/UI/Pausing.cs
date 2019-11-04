@@ -12,6 +12,7 @@ public class Pausing : MonoBehaviour
 
     [SerializeField] private PlayerMovement mover;
     [SerializeField] private LookatMouse seer;
+    [SerializeField] private LookatMouse dupeSeer;
     
     private void Start()
     {
@@ -42,6 +43,7 @@ public class Pausing : MonoBehaviour
         Cursor.lockState = CursorLockMode.None;
         mover.enabled = false;
         seer.enabled = false;
+        dupeSeer.enabled = false;
     }
 
     private void DisablePause()
@@ -52,6 +54,7 @@ public class Pausing : MonoBehaviour
         Cursor.lockState = CursorLockMode.Locked;
         mover.enabled = true;
         seer.enabled = true;
+        dupeSeer.enabled = true;
     }
 
     public void GoToMain()

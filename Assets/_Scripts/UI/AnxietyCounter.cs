@@ -14,7 +14,7 @@ public class AnxietyCounter : MonoBehaviour
 
     [Header("Other data")]
     [Tooltip("How many minutess are added per second")]
-    [SerializeField] private int UpdateRate = 1;
+    [SerializeField] private float UpdateRate = 1;
     
     private GameTime time;
     private PhoneManager phoneManager;
