@@ -9,7 +9,7 @@ public class PlayerMovement : MonoBehaviour
     [FormerlySerializedAs("Player")] 
     [SerializeField] private GameObject player;
 
-    [SerializeField] private float speed;
+    public float speed;
 
     private float _moveHor;
     private float _moveVer;

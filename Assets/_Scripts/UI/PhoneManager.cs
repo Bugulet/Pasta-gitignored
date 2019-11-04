@@ -116,8 +116,8 @@ public class PhoneManager : MonoBehaviour
                 phoneOpen = false;
                 //enable movement with closed phone
                 PlayerPrefab.transform.GetChild(0).GetComponent<LookatMouse>().sensitivity = 2;
-                PlayerPrefab.GetComponent<PlayerMovement>().enabled = true;
-                dupePlayer.transform.GetChild(0).GetComponent<LookatMouse>().sensitivity = 2;
+                PlayerPrefab.GetComponent<PlayerMovement>().speed = 5;
+                //dupePlayer.transform.GetChild(0).GetComponent<LookatMouse>().sensitivity = 2;
 
                 keyPressed = true;
                 InstructionText.enabled = false;
@@ -163,8 +163,8 @@ public class PhoneManager : MonoBehaviour
             {
                 //enable movement with closed phone
                 PlayerPrefab.transform.GetChild(0).GetComponent<LookatMouse>().sensitivity = 2;
-                PlayerPrefab.GetComponent<PlayerMovement>().enabled = true;
-                dupePlayer.transform.GetChild(0).GetComponent<LookatMouse>().sensitivity = 2;
+                PlayerPrefab.GetComponent<PlayerMovement>().speed = 5;
+                //dupePlayer.transform.GetChild(0).GetComponent<LookatMouse>().sensitivity = 2;
                 
                 keyPressed = true;
                 InstructionText.enabled = false;
@@ -187,8 +187,8 @@ public class PhoneManager : MonoBehaviour
         {
             //disable movement with open phone
             PlayerPrefab.transform.GetChild(0).GetComponent<LookatMouse>().sensitivity = 0; 
-            PlayerPrefab.GetComponent<PlayerMovement>().enabled = false;
-            dupePlayer.transform.GetChild(0).GetComponent<LookatMouse>().sensitivity = 0;
+            PlayerPrefab.GetComponent<PlayerMovement>().speed = 0;
+            // dupePlayer.transform.GetChild(0).GetComponent<LookatMouse>().sensitivity = 0;
 
             PhoneImage.enabled = true;
 

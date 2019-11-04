@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3c117c2-93b2-4d8c-8900-9460467a81ec" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Pasta-wake-me-up/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Pasta-wake-me-up/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Pasta-wake-me-up/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Pasta-wake-me-up/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Pasta-wake-me-up/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Pasta-wake-me-up/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/PlayerMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/UI/PhoneManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/UI/PhoneManager.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,15 +62,15 @@
         <option value="$PROJECT_DIR$/Assets/_Scripts/_TaskObject.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/UI/BreathingExercise.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/_TaskManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Scripts/UI/PhoneManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Audio Scripts/Footsteps.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/RaycastInterract.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Scripts/PlayerMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/EnableText.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/UI/AnxietyCounter.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/UI/AnxietyManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/UI/Pausing.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/CopyCamera.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/PlayerMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/UI/PhoneManager.cs" />
       </list>
     </option>
   </component>
@@ -151,7 +151,8 @@
       <workItem from="1570877171082" duration="2791000" />
       <workItem from="1571150719619" duration="8809000" />
       <workItem from="1572261594262" duration="6735000" />
-      <workItem from="1572872527844" duration="348000" />
+      <workItem from="1572872527844" duration="469000" />
+      <workItem from="1572877077749" duration="745000" />
     </task>
     <servers />
   </component>
@@ -165,7 +166,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
